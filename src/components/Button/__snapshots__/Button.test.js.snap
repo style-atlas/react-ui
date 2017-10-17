@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`true is true 1`] = `
+exports[`Button should render as snapshot defines 1`] = `
 <Button>
   <button>
     Wow!
