@@ -16,7 +16,7 @@ exports[`Button should render as snapshot defines 1`] = `
       }
       sheet={
         StyleSheet {
-          "0.9459018538468669": null,
+          "0.42": null,
           "attached": true,
           "classes": Object {
             "button": "button-0-0",

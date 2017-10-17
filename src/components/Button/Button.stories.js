@@ -13,4 +13,3 @@ const sharedProps = {
 storiesOf('Button', module)
   .add('with text', () => <Button {...sharedProps}>Hello Button</Button>)
   .add('with multiline text', () => <Button {...sharedProps}>Hello<br/>Button</Button>)
-  .add('with some emoji', () => <Button {...sharedProps}>😀 😎 👍 💯</Button>);
