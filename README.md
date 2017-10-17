@@ -15,3 +15,9 @@ Components can be evaluated visually using React Storybook
 ```shell
 yarn run storybook
 ```
+
+The package can be built with (useful for `yarn link`)
+
+```shell
+yarn prepare
+```

@@ -2,15 +2,22 @@
   "name": "@trioxis/ui",
   "version": "0.1.0",
   "description": "Trioxis UI components",
-  "main": "index.js",
-  "author": "Trioxis <hello@trioxis.com>",
+  "main": "lib/index.js",
+  "author": {
+    "email": "hello@trioxis.com",
+    "name": "Trioxis",
+    "url": "http://trioxis.com"
+  },
+  "homepage": "https://github.com/Trioxis/trioxis-ui",
+  "bugs": "https://github.com/Trioxis/trioxis-ui/issues",
   "license": "MIT",
   "private": true,
   "scripts": {
     "cmd": "",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prepare": "babel -s inline -d lib src --ignore __tests__,test.js,stories.js"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
