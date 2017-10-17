@@ -2,8 +2,11 @@ import React from 'react';
 
 export function Button(props){
   const {
-    children
+    children,
+    ...remainingProps
   } = props;
 
-  return <button>{children}</button>
+  return <button {...remainingProps}>
+    {children}
+  </button>
 }
