@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fonts should be as snapshot defines 1`] = `
+Object {
+  "body": Array [
+    "Open Sans",
+    "sans-serif",
+  ],
+  "header": Array [
+    "Roboto Slab",
+    "serif",
+  ],
+}
+`;
