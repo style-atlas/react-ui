@@ -2,8 +2,8 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import classNames from 'classnames';
 import { compose, defaultProps } from 'recompose';
-import { body } from '../../theme/fonts';
-import * as colors from '../../theme/colors';
+import { body } from '../theme/fonts';
+import * as colors from '../theme/colors';
 
 const strokeColor = colors.C300
 
