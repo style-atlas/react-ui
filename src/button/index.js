@@ -5,23 +5,22 @@ import { compose, defaultProps } from 'recompose';
 import { body } from '../theme/fonts';
 import * as colors from '../theme/colors';
 
-const strokeColor = colors.C300
-
 const styles = {
   button: {
+    fontSize: 14,
+    padding: [9, 51],
+    letterSpacing: 2,
+    fontWeight: 700,
+    fontFamily: body,
+
     display: 'inline-block',
     textDecoration: 'none',
     textTransform: 'uppercase',
-    background:'rgba(0,0,0,0)',
-    fontSize: 14,
-    padding: [14, 54],
+    background: 'rgba(0,0,0,0)',
     borderRadius: 500,
-    border: [3, 'solid', strokeColor],
-    color:strokeColor,
-    fontWeight: 700,
-    fontFamily: body,
-    letterSpacing: 1.5,
-    lineHeight:1.5,
+    border: [3, 'solid', colors.C300],
+    color: colors.C300,
+    lineHeight: 1.5,
     cursor: 'pointer',
 
     transition: 'all 0.25s',
