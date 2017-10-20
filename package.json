@@ -17,8 +17,8 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepare": "babel -s inline -d lib src --ignore __tests__,test.js,stories.js && cp ./package.json ./lib/package.json",
-    "dist":"yarn prepare && cd ./lib && yarn publish --ignore-scripts"
+    "prepare": "./scripts/prepare.sh",
+    "dist": "yarn prepare && cd ./lib && yarn publish --ignore-scripts"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
