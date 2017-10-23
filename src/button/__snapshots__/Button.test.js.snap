@@ -133,6 +133,7 @@ exports[`Button should render as snapshot defines 1`] = `
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
             </style>,
@@ -163,6 +164,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
             ],
             "map": Object {
@@ -181,6 +183,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
               "button": Object {
                 "background": "rgba(0,0,0,0)",
@@ -197,6 +200,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
             },
             "options": Object {
@@ -313,6 +317,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 ],
                 "textDecoration": "none",
                 "textTransform": "uppercase",
+                "transitionDuration": "0.2s",
               },
             },
           },
