@@ -5,7 +5,7 @@ import { compose, defaultProps } from 'recompose';
 import { body } from '../theme/fonts';
 import * as colors from '../theme/colors';
 
-const strokeColor = colors.C300
+const strokeColor = colors.N0
 
 const styles = {
   button: {
@@ -14,15 +14,16 @@ const styles = {
     textTransform: 'uppercase',
     background:'rgba(0,0,0,0)',
     fontSize: 14,
-    padding: [14, 54],
+    padding: [18, 54],
     borderRadius: 500,
     border: [3, 'solid', strokeColor],
     color:strokeColor,
     fontWeight: 700,
     fontFamily: body,
-    letterSpacing: 1.5,
+    letterSpacing: 2,
     lineHeight:1.5,
     cursor: 'pointer',
+    transitionDuration: '0.2s',
   },
 };
 
