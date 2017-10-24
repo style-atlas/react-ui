@@ -2,31 +2,49 @@
 
 exports[`Button should render as snapshot defines 1`] = `
 <defaultProps(Jss(_Button))
-  Component="button"
+  component="button"
 >
   <Jss(_Button)
-    Component="button"
+    component="button"
   >
     <_Button
-      Component="button"
       classes={
         Object {
+          ".button-0-0:hover": "button-0-0:hover",
+          ".disabled-0-3:hover": "disabled-0-3:hover",
+          ".primary-0-1:hover": "primary-0-1:hover",
           "button": "button-0-0",
+          "disabled": "disabled-0-3",
+          "primary": "primary-0-1",
+          "secondary": "secondary-0-2",
         }
       }
+      component="button"
       sheet={
         StyleSheet {
           "0.42": null,
           "attached": true,
           "classes": Object {
+            ".button-0-0:hover": "button-0-0:hover",
+            ".disabled-0-3:hover": "disabled-0-3:hover",
+            ".primary-0-1:hover": "primary-0-1:hover",
             "button": "button-0-0",
+            "disabled": "disabled-0-3",
+            "primary": "primary-0-1",
+            "secondary": "secondary-0-2",
           },
           "deployed": true,
           "linked": false,
           "options": Object {
             "Renderer": [Function],
             "classes": Object {
+              ".button-0-0:hover": "button-0-0:hover",
+              ".disabled-0-3:hover": "disabled-0-3:hover",
+              ".primary-0-1:hover": "primary-0-1:hover",
               "button": "button-0-0",
+              "disabled": "disabled-0-3",
+              "primary": "primary-0-1",
+              "secondary": "secondary-0-2",
             },
             "generateClassName": [Function],
             "index": -100000,
@@ -120,19 +138,47 @@ exports[`Button should render as snapshot defines 1`] = `
               
 .button-0-0 {
   color: #00868C;
-  border: 3px solid #00868C;
   cursor: pointer;
+  border: 3px solid #00868C;
   display: inline-block;
-  padding: 14px 54px;
+  padding: 9px 51px;
   font-size: 14px;
+  transition: all 0.25s;
+  box-sizing: border-box;
   background: rgba(0,0,0,0);
-  font-weight: 700;
   font-family: Open Sans,sans-serif;
   line-height: 1.5;
+  font-weight: 700;
   border-radius: 500px;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
+  letter-spacing: 2px;
   text-decoration: none;
+}
+.button-0-0:hover {
+  color: #FFFFFF;
+  border-color: #006266;
+  background-color: #006266;
+}
+.primary-0-1 {
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 54px;
+  background-color: #00868C;
+}
+.primary-0-1:hover {
+  color: #FFFFFF;
+  background-color: #006266;
+}
+.disabled-0-3 {
+  color: #98AFB0;
+  cursor: initial;
+  padding: 12px 54px;
+  border-style: none;
+  background-color: #DFE6E6;
+}
+.disabled-0-3:hover {
+  color: #98AFB0;
+  background-color: #DFE6E6;
 }
 
             </style>,
@@ -145,24 +191,59 @@ exports[`Button should render as snapshot defines 1`] = `
           },
           "rules": RuleList {
             "classes": Object {
+              ".button-0-0:hover": "button-0-0:hover",
+              ".disabled-0-3:hover": "disabled-0-3:hover",
+              ".primary-0-1:hover": "primary-0-1:hover",
               "button": "button-0-0",
+              "disabled": "disabled-0-3",
+              "primary": "primary-0-1",
+              "secondary": "secondary-0-2",
             },
             "index": Array [
               Object {
                 "background": "rgba(0,0,0,0)",
                 "border": "3px solid #00868C",
                 "border-radius": "500px",
+                "box-sizing": "border-box",
                 "color": "#00868C",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "9px 51px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition": "all 0.25s",
+              },
+              Object {
+                "background-color": "#006266",
+                "border-color": "#006266",
+                "color": "#FFFFFF",
+              },
+              Object {
+                "background-color": "#00868C",
+                "border": "none",
+                "color": "#FFFFFF",
+                "padding": "12px 54px",
+              },
+              Object {
+                "background-color": "#006266",
+                "color": "#FFFFFF",
+              },
+              Object {},
+              Object {
+                "background-color": "#DFE6E6",
+                "border-style": "none",
+                "color": "#98AFB0",
+                "cursor": "initial",
+                "padding": "12px 54px",
+              },
+              Object {
+                "background-color": "#DFE6E6",
+                "color": "#98AFB0",
               },
             ],
             "map": Object {
@@ -170,39 +251,90 @@ exports[`Button should render as snapshot defines 1`] = `
                 "background": "rgba(0,0,0,0)",
                 "border": "3px solid #00868C",
                 "border-radius": "500px",
+                "box-sizing": "border-box",
                 "color": "#00868C",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "9px 51px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition": "all 0.25s",
               },
+              ".button-0-0:hover": Object {
+                "background-color": "#006266",
+                "border-color": "#006266",
+                "color": "#FFFFFF",
+              },
+              ".disabled-0-3": Object {
+                "background-color": "#DFE6E6",
+                "border-style": "none",
+                "color": "#98AFB0",
+                "cursor": "initial",
+                "padding": "12px 54px",
+              },
+              ".disabled-0-3:hover": Object {
+                "background-color": "#DFE6E6",
+                "color": "#98AFB0",
+              },
+              ".primary-0-1": Object {
+                "background-color": "#00868C",
+                "border": "none",
+                "color": "#FFFFFF",
+                "padding": "12px 54px",
+              },
+              ".primary-0-1:hover": Object {
+                "background-color": "#006266",
+                "color": "#FFFFFF",
+              },
+              ".secondary-0-2": Object {},
               "button": Object {
                 "background": "rgba(0,0,0,0)",
                 "border": "3px solid #00868C",
                 "border-radius": "500px",
+                "box-sizing": "border-box",
                 "color": "#00868C",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "9px 51px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition": "all 0.25s",
               },
+              "disabled": Object {
+                "background-color": "#DFE6E6",
+                "border-style": "none",
+                "color": "#98AFB0",
+                "cursor": "initial",
+                "padding": "12px 54px",
+              },
+              "primary": Object {
+                "background-color": "#00868C",
+                "border": "none",
+                "color": "#FFFFFF",
+                "padding": "12px 54px",
+              },
+              "secondary": Object {},
             },
             "options": Object {
               "Renderer": [Function],
               "classes": Object {
+                ".button-0-0:hover": "button-0-0:hover",
+                ".disabled-0-3:hover": "disabled-0-3:hover",
+                ".primary-0-1:hover": "primary-0-1:hover",
                 "button": "button-0-0",
+                "disabled": "disabled-0-3",
+                "primary": "primary-0-1",
+                "secondary": "secondary-0-2",
               },
               "generateClassName": [Function],
               "index": -100000,
@@ -288,7 +420,25 @@ exports[`Button should render as snapshot defines 1`] = `
               "sheet": [Circular],
             },
             "raw": Object {
+              ".button-0-0:hover": Object {
+                "backgroundColor": "#006266",
+                "borderColor": "#006266",
+                "color": "#FFFFFF",
+              },
+              ".disabled-0-3:hover": Object {
+                "backgroundColor": "#DFE6E6",
+                "color": "#98AFB0",
+              },
+              ".primary-0-1:hover": Object {
+                "backgroundColor": "#006266",
+                "color": "#FFFFFF",
+              },
               "button": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#006266",
+                  "borderColor": "#006266",
+                  "color": "#FFFFFF",
+                },
                 "background": "rgba(0,0,0,0)",
                 "border": Array [
                   3,
@@ -296,6 +446,7 @@ exports[`Button should render as snapshot defines 1`] = `
                   "#00868C",
                 ],
                 "borderRadius": 500,
+                "boxSizing": "border-box",
                 "color": "#00868C",
                 "cursor": "pointer",
                 "display": "inline-block",
@@ -305,15 +456,44 @@ exports[`Button should render as snapshot defines 1`] = `
                 ],
                 "fontSize": 14,
                 "fontWeight": 700,
-                "letterSpacing": 1.5,
+                "letterSpacing": 2,
                 "lineHeight": 1.5,
                 "padding": Array [
-                  14,
-                  54,
+                  9,
+                  51,
                 ],
                 "textDecoration": "none",
                 "textTransform": "uppercase",
+                "transition": "all 0.25s",
               },
+              "disabled": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#DFE6E6",
+                  "color": "#98AFB0",
+                },
+                "backgroundColor": "#DFE6E6",
+                "borderStyle": "none",
+                "color": "#98AFB0",
+                "cursor": "initial",
+                "padding": Array [
+                  12,
+                  54,
+                ],
+              },
+              "primary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#006266",
+                  "color": "#FFFFFF",
+                },
+                "backgroundColor": "#00868C",
+                "border": "none",
+                "color": "#FFFFFF",
+                "padding": Array [
+                  12,
+                  54,
+                ],
+              },
+              "secondary": Object {},
             },
           },
         }
@@ -321,6 +501,7 @@ exports[`Button should render as snapshot defines 1`] = `
     >
       <button
         className="button-0-0"
+        disabled={undefined}
       >
         Wow!
       </button>

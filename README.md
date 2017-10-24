@@ -48,6 +48,6 @@ yarn link @trioxis/ui
 
 The package will be built into the `./lib` directory and published from there. Simply use:
 
-```
+```shell
 yarn dist
 ```
