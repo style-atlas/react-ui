@@ -49,6 +49,17 @@ const styles = {
     // a secondary button is a normal button
   },
 
+  secondaryLight: {
+    color: colors.N0,
+    borderColor: colors.N0,
+
+    '&:hover': {
+      color: colors.N900,
+      backgroundColor: colors.N0,
+      borderColor: colors.N0,
+    }
+  },
+
   disabled: {
     cursor: 'initial',
     padding: [12, 54],
@@ -72,6 +83,7 @@ function _Button (props) {
     sheet,
     primary,
     secondary,
+    secondaryLight,
     disabled,
     ...remainingProps
   } = props;
@@ -82,6 +94,7 @@ function _Button (props) {
         classes.button,
         primary ? classes.primary : null,
         secondary ? classes.secondary : null,
+        secondaryLight ? classes.secondaryLight : null,
         disabled ? classes.disabled : null,
         className,
       )}
