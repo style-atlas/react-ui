@@ -2,7 +2,7 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import PropTypes from 'prop-types';
 import * as colors from '../theme/colors';
-import {defaultProps, setPropTypes, compose, setStatic} from 'recompose'
+import {defaultProps, setPropTypes, compose, setStatic, withProps} from 'recompose'
 
 const types = {
   GreenBlue: 'GreenBlue',
@@ -32,7 +32,8 @@ const Logo = ({
   width,
   height,
   className,
-  classes
+  classes,
+  _randomId
 }) => {
   return (
     <svg
@@ -47,7 +48,7 @@ const Logo = ({
       </title>
       <defs>
         <linearGradient
-          id="trx-logo-gradient"
+          id={`trx-logo-gradient-${_randomId}`}
           x1="18.97" y1="-87.11" x2="485.24" y2="-553.38"
           gradientTransform="matrix(1 0 0 -1 0 -29.8)"
           gradientUnits="userSpaceOnUse"
@@ -57,7 +58,7 @@ const Logo = ({
         </linearGradient>
       </defs>
       <path
-        style={{fill: 'url(#trx-logo-gradient)'}}
+        style={{fill: `url(#trx-logo-gradient-${_randomId})`}}
         d="M423.32 0L213.44 363.63H78.66L288.54 0zM0 500h345.46l-67.59-116.6H67.19zm500 0L328.46 203.56l-67.19 116.6L365.22 500zM76.28 0l94.86 164 67.19-116.6L211.07 0z"
       />
     </svg>
@@ -75,5 +76,6 @@ export const TrioxisLogo = compose(
   defaultProps({
     type: types.GreenBlue
   }),
+  withProps(() => ({_randomId: Math.random()})),
   injectSheet(styles),
 )(Logo);
