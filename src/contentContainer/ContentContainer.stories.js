@@ -21,7 +21,7 @@ storiesOf('ContentContainer', module)
   .add('ContentContainer', () => <ContentContainer >
                                   <div style={style}>
                                     This whole box is a child of ContentContainer.<br/>
-                                    Children of ContentContainer are constrained to a maximum of 1200px.<br/>
+                                    Children of ContentContainer are constrained to a maximum width of 1200px.<br/>
                                     It's important to give children boundaries.
                                   </div>
                                  </ContentContainer>)

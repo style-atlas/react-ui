@@ -10,11 +10,11 @@ const style = {
   width: '100%',
   backgroundColor: 'lightseagreen',
   color: 'white',
-  height: 100,
   padding: 24,
   textAlign: 'center',
   fontSize: 24,
   borderRadius: 6,
+  boxSizing: 'border-box',
 }
 
 const background = {
