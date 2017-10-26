@@ -250,6 +250,7 @@ exports[`Section should render as snapshot defines 1`] = `
   >
     <div
       className="wrapper-0-0"
+      style={undefined}
     >
       <Jss(_ContentContainer)>
         <_ContentContainer
