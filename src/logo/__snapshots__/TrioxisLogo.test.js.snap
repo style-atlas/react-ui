@@ -1,167 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Logo should render as snapshot defines 1`] = `
-<defaultProps(Jss(Logo))
+<defaultProps(withProps(Jss(Logo)))
   type="GreenBlue"
 >
-  <Jss(Logo)
+  <withProps(Jss(Logo))
     type="GreenBlue"
   >
-    <Logo
-      classes={
-        Object {
-          "stop0": "stop0-0-2 stop0-0-0",
-          "stop1": "stop1-0-3 stop1-0-1",
-        }
-      }
-      sheet={
-        StyleSheet {
-          "attached": true,
-          "classes": Object {
+    <Jss(Logo)
+      _randomId={0.44}
+      type="GreenBlue"
+    >
+      <Logo
+        _randomId={0.44}
+        classes={
+          Object {
             "stop0": "stop0-0-2 stop0-0-0",
             "stop1": "stop1-0-3 stop1-0-1",
-          },
-          "deployed": true,
-          "linked": true,
-          "options": Object {
-            "Renderer": [Function],
+          }
+        }
+        sheet={
+          StyleSheet {
+            "attached": true,
             "classes": Object {
               "stop0": "stop0-0-2 stop0-0-0",
               "stop1": "stop1-0-3 stop1-0-1",
             },
-            "generateClassName": [Function],
-            "index": -100000,
-            "insertionPoint": undefined,
-            "jss": Jss {
-              "generateClassName": [Function],
-              "options": Object {
-                "Renderer": [Function],
-                "createGenerateClassName": [Function],
-                "plugins": Array [
-                  Object {
-                    "onCreateRule": [Function],
-                    "onProcessRule": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onChangeValue": [Function],
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onChangeValue": [Function],
-                    "onProcessRule": [Function],
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                ],
-              },
-              "plugins": PluginsRegistry {
-                "hooks": Object {
-                  "onChangeValue": Array [
-                    [Function],
-                    [Function],
-                  ],
-                  "onCreateRule": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                  "onProcessRule": Array [
-                    [Function],
-                    [Function],
-                  ],
-                  "onProcessSheet": Array [],
-                  "onProcessStyle": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                },
-              },
-              "version": "8.1.0",
-            },
-            "link": true,
-            "meta": "Jss(Logo), Unthemed, Dynamic",
-            "parent": [Circular],
-            "sheet": [Circular],
-          },
-          "renderer": DomRenderer {
-            "element": <style
-              data-jss=""
-              data-meta="Jss(Logo), Unthemed, Dynamic"
-              type="text/css"
-            >
-              
-.stop0-0-2 {
-  stop-color: #2EE677;
-}
-.stop1-0-3 {
-  stop-color: #00C8FF;
-}
-
-            </style>,
-            "getSelector": [Function],
-            "getStyle": [Function],
-            "hasInsertedRules": false,
-            "setSelector": [Function],
-            "setStyle": [Function],
-            "sheet": [Circular],
-          },
-          "rules": RuleList {
-            "classes": Object {
-              "stop0": "stop0-0-2 stop0-0-0",
-              "stop1": "stop1-0-3 stop1-0-1",
-            },
-            "index": Array [
-              Object {
-                "stop-color": "#2EE677",
-              },
-              Object {
-                "stop-color": "#00C8FF",
-              },
-            ],
-            "map": Object {
-              ".stop0-0-2": Object {
-                "stop-color": "#2EE677",
-              },
-              ".stop1-0-3": Object {
-                "stop-color": "#00C8FF",
-              },
-              "stop0": Object {
-                "stop-color": "#2EE677",
-              },
-              "stop1": Object {
-                "stop-color": "#00C8FF",
-              },
-            },
+            "deployed": true,
+            "linked": true,
             "options": Object {
               "Renderer": [Function],
               "classes": Object {
@@ -252,61 +118,201 @@ exports[`Logo should render as snapshot defines 1`] = `
               "parent": [Circular],
               "sheet": [Circular],
             },
-            "raw": Object {
-              "stop0": Object {
-                "composes": "stop0-0-0",
-                "stopColor": [Function],
+            "renderer": DomRenderer {
+              "element": <style
+                data-jss=""
+                data-meta="Jss(Logo), Unthemed, Dynamic"
+                type="text/css"
+              >
+                
+.stop0-0-2 {
+  stop-color: #2EE677;
+}
+.stop1-0-3 {
+  stop-color: #00C8FF;
+}
+
+              </style>,
+              "getSelector": [Function],
+              "getStyle": [Function],
+              "hasInsertedRules": false,
+              "setSelector": [Function],
+              "setStyle": [Function],
+              "sheet": [Circular],
+            },
+            "rules": RuleList {
+              "classes": Object {
+                "stop0": "stop0-0-2 stop0-0-0",
+                "stop1": "stop1-0-3 stop1-0-1",
               },
-              "stop1": Object {
-                "composes": "stop1-0-1",
-                "stopColor": [Function],
+              "index": Array [
+                Object {
+                  "stop-color": "#2EE677",
+                },
+                Object {
+                  "stop-color": "#00C8FF",
+                },
+              ],
+              "map": Object {
+                ".stop0-0-2": Object {
+                  "stop-color": "#2EE677",
+                },
+                ".stop1-0-3": Object {
+                  "stop-color": "#00C8FF",
+                },
+                "stop0": Object {
+                  "stop-color": "#2EE677",
+                },
+                "stop1": Object {
+                  "stop-color": "#00C8FF",
+                },
+              },
+              "options": Object {
+                "Renderer": [Function],
+                "classes": Object {
+                  "stop0": "stop0-0-2 stop0-0-0",
+                  "stop1": "stop1-0-3 stop1-0-1",
+                },
+                "generateClassName": [Function],
+                "index": -100000,
+                "insertionPoint": undefined,
+                "jss": Jss {
+                  "generateClassName": [Function],
+                  "options": Object {
+                    "Renderer": [Function],
+                    "createGenerateClassName": [Function],
+                    "plugins": Array [
+                      Object {
+                        "onCreateRule": [Function],
+                        "onProcessRule": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessRule": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                    ],
+                  },
+                  "plugins": PluginsRegistry {
+                    "hooks": Object {
+                      "onChangeValue": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onCreateRule": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessRule": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessSheet": Array [],
+                      "onProcessStyle": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                    },
+                  },
+                  "version": "8.1.0",
+                },
+                "link": true,
+                "meta": "Jss(Logo), Unthemed, Dynamic",
+                "parent": [Circular],
+                "sheet": [Circular],
+              },
+              "raw": Object {
+                "stop0": Object {
+                  "composes": "stop0-0-0",
+                  "stopColor": [Function],
+                },
+                "stop1": Object {
+                  "composes": "stop1-0-1",
+                  "stopColor": [Function],
+                },
               },
             },
-          },
-        }
-      }
-      type="GreenBlue"
-    >
-      <svg
-        className={undefined}
-        height={undefined}
-        viewBox="0 0 500 500"
-        width={undefined}
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <title>
-          Trioxis Logo
-        </title>
-        <defs>
-          <linearGradient
-            gradientTransform="matrix(1 0 0 -1 0 -29.8)"
-            gradientUnits="userSpaceOnUse"
-            id="trx-logo-gradient"
-            x1="18.97"
-            x2="485.24"
-            y1="-87.11"
-            y2="-553.38"
-          >
-            <stop
-              className="stop0-0-2 stop0-0-0"
-              offset="0"
-            />
-            <stop
-              className="stop1-0-3 stop1-0-1"
-              offset="1"
-            />
-          </linearGradient>
-        </defs>
-        <path
-          d="M423.32 0L213.44 363.63H78.66L288.54 0zM0 500h345.46l-67.59-116.6H67.19zm500 0L328.46 203.56l-67.19 116.6L365.22 500zM76.28 0l94.86 164 67.19-116.6L211.07 0z"
-          style={
-            Object {
-              "fill": "url(#trx-logo-gradient)",
-            }
           }
-        />
-      </svg>
-    </Logo>
-  </Jss(Logo)>
-</defaultProps(Jss(Logo))>
+        }
+        type="GreenBlue"
+      >
+        <svg
+          className={undefined}
+          height={undefined}
+          viewBox="0 0 500 500"
+          width={undefined}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>
+            Trioxis Logo
+          </title>
+          <defs>
+            <linearGradient
+              gradientTransform="matrix(1 0 0 -1 0 -29.8)"
+              gradientUnits="userSpaceOnUse"
+              id="trx-logo-gradient-0.44"
+              x1="18.97"
+              x2="485.24"
+              y1="-87.11"
+              y2="-553.38"
+            >
+              <stop
+                className="stop0-0-2 stop0-0-0"
+                offset="0"
+              />
+              <stop
+                className="stop1-0-3 stop1-0-1"
+                offset="1"
+              />
+            </linearGradient>
+          </defs>
+          <path
+            d="M423.32 0L213.44 363.63H78.66L288.54 0zM0 500h345.46l-67.59-116.6H67.19zm500 0L328.46 203.56l-67.19 116.6L365.22 500zM76.28 0l94.86 164 67.19-116.6L211.07 0z"
+            style={
+              Object {
+                "fill": "url(#trx-logo-gradient-0.44)",
+              }
+            }
+          />
+        </svg>
+      </Logo>
+    </Jss(Logo)>
+  </withProps(Jss(Logo))>
+</defaultProps(withProps(Jss(Logo)))>
 `;
