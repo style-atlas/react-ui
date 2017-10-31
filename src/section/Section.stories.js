@@ -22,7 +22,7 @@ const background = {
 }
 
 storiesOf('Section', module)
-  .add('Section', () => <Section style={background}>
+  .add('Section', () => <Section bgColor='gainsboro'>
                           <div style={style}>
                             This is a section. Section's have a ContentContainer nested within them; meaning all children are constrained to a width of 1200px
                             while the Section itself spans the width of the screen (see the grey background?).<br/>

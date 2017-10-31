@@ -19,13 +19,12 @@ function _Section (props) {
     classes,
     className,
     children,
-    style,
     bgColor,
     ...remainingProps
   } = props;
 
   return (
-    <div className={classNames(classes.wrapper, className)} style={style}>
+    <div className={classNames(classes.wrapper, className)}>
       <ContentContainer>
         {children}
       </ContentContainer>

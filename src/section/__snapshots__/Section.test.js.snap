@@ -5,22 +5,21 @@ exports[`Section should render as snapshot defines 1`] = `
   <_Section
     classes={
       Object {
-        "wrapper": "wrapper-0-0",
+        "wrapper": "wrapper-0-1 wrapper-0-0",
       }
     }
     sheet={
       StyleSheet {
-        "0.42": null,
         "attached": true,
         "classes": Object {
-          "wrapper": "wrapper-0-0",
+          "wrapper": "wrapper-0-1 wrapper-0-0",
         },
         "deployed": true,
-        "linked": false,
+        "linked": true,
         "options": Object {
           "Renderer": [Function],
           "classes": Object {
-            "wrapper": "wrapper-0-0",
+            "wrapper": "wrapper-0-1 wrapper-0-0",
           },
           "generateClassName": [Function],
           "index": -99999,
@@ -101,20 +100,19 @@ exports[`Section should render as snapshot defines 1`] = `
             },
             "version": "8.1.0",
           },
-          "meta": "Jss(_Section), Unthemed, Static",
+          "link": true,
+          "meta": "Jss(_Section), Unthemed, Dynamic",
           "parent": [Circular],
           "sheet": [Circular],
         },
         "renderer": DomRenderer {
           "element": <style
             data-jss=""
-            data-meta="Jss(_Section), Unthemed, Static"
+            data-meta="Jss(_Section), Unthemed, Dynamic"
             type="text/css"
           >
             
-.wrapper-0-0 {
-  width: 100%;
-  padding-bottom: 3em;
+.wrapper-0-1 {
   background-color: #FBFCFC;
 }
 
@@ -128,31 +126,25 @@ exports[`Section should render as snapshot defines 1`] = `
         },
         "rules": RuleList {
           "classes": Object {
-            "wrapper": "wrapper-0-0",
+            "wrapper": "wrapper-0-1 wrapper-0-0",
           },
           "index": Array [
             Object {
               "background-color": "#FBFCFC",
-              "padding-bottom": "3em",
-              "width": "100%",
             },
           ],
           "map": Object {
-            ".wrapper-0-0": Object {
+            ".wrapper-0-1": Object {
               "background-color": "#FBFCFC",
-              "padding-bottom": "3em",
-              "width": "100%",
             },
             "wrapper": Object {
               "background-color": "#FBFCFC",
-              "padding-bottom": "3em",
-              "width": "100%",
             },
           },
           "options": Object {
             "Renderer": [Function],
             "classes": Object {
-              "wrapper": "wrapper-0-0",
+              "wrapper": "wrapper-0-1 wrapper-0-0",
             },
             "generateClassName": [Function],
             "index": -99999,
@@ -233,15 +225,15 @@ exports[`Section should render as snapshot defines 1`] = `
               },
               "version": "8.1.0",
             },
-            "meta": "Jss(_Section), Unthemed, Static",
+            "link": true,
+            "meta": "Jss(_Section), Unthemed, Dynamic",
             "parent": [Circular],
             "sheet": [Circular],
           },
           "raw": Object {
             "wrapper": Object {
-              "backgroundColor": "#FBFCFC",
-              "paddingBottom": "3em",
-              "width": "100%",
+              "backgroundColor": [Function],
+              "composes": "wrapper-0-0",
             },
           },
         },
@@ -249,14 +241,13 @@ exports[`Section should render as snapshot defines 1`] = `
     }
   >
     <div
-      className="wrapper-0-0"
-      style={undefined}
+      className="wrapper-0-1 wrapper-0-0"
     >
       <Jss(_ContentContainer)>
         <_ContentContainer
           classes={
             Object {
-              "app": "app-0-1",
+              "app": "app-0-2",
             }
           }
           sheet={
@@ -264,14 +255,14 @@ exports[`Section should render as snapshot defines 1`] = `
               "0.42": null,
               "attached": true,
               "classes": Object {
-                "app": "app-0-1",
+                "app": "app-0-2",
               },
               "deployed": true,
               "linked": false,
               "options": Object {
                 "Renderer": [Function],
                 "classes": Object {
-                  "app": "app-0-1",
+                  "app": "app-0-2",
                 },
                 "generateClassName": [Function],
                 "index": -100000,
@@ -363,7 +354,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   type="text/css"
                 >
                   
-.app-0-1 {
+.app-0-2 {
   margin: auto;
   max-width: 1200px;
 }
@@ -378,7 +369,7 @@ exports[`Section should render as snapshot defines 1`] = `
               },
               "rules": RuleList {
                 "classes": Object {
-                  "app": "app-0-1",
+                  "app": "app-0-2",
                 },
                 "index": Array [
                   Object {
@@ -387,7 +378,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   },
                 ],
                 "map": Object {
-                  ".app-0-1": Object {
+                  ".app-0-2": Object {
                     "margin": "auto",
                     "max-width": "1200px",
                   },
@@ -399,7 +390,7 @@ exports[`Section should render as snapshot defines 1`] = `
                 "options": Object {
                   "Renderer": [Function],
                   "classes": Object {
-                    "app": "app-0-1",
+                    "app": "app-0-2",
                   },
                   "generateClassName": [Function],
                   "index": -100000,
@@ -495,7 +486,7 @@ exports[`Section should render as snapshot defines 1`] = `
           }
         >
           <div
-            className="app-0-1"
+            className="app-0-2"
           />
         </_ContentContainer>
       </Jss(_ContentContainer)>
