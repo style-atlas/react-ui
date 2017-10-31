@@ -10,7 +10,7 @@ const styles = {
   wrapper: {
     paddingBottom: '3em',
     width: '100%',
-    backgroundColor: ({bgColor})=> (bgColor || colors.N10),
+    background: ({bgColor})=> (bgColor || colors.N10),
   }
 };
 

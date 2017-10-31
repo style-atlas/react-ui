@@ -113,7 +113,7 @@ exports[`Section should render as snapshot defines 1`] = `
           >
             
 .wrapper-0-1 {
-  background-color: #FBFCFC;
+  background: #FBFCFC;
 }
 
           </style>,
@@ -130,15 +130,15 @@ exports[`Section should render as snapshot defines 1`] = `
           },
           "index": Array [
             Object {
-              "background-color": "#FBFCFC",
+              "background": "#FBFCFC",
             },
           ],
           "map": Object {
             ".wrapper-0-1": Object {
-              "background-color": "#FBFCFC",
+              "background": "#FBFCFC",
             },
             "wrapper": Object {
-              "background-color": "#FBFCFC",
+              "background": "#FBFCFC",
             },
           },
           "options": Object {
@@ -232,7 +232,7 @@ exports[`Section should render as snapshot defines 1`] = `
           },
           "raw": Object {
             "wrapper": Object {
-              "backgroundColor": [Function],
+              "background": [Function],
               "composes": "wrapper-0-0",
             },
           },
