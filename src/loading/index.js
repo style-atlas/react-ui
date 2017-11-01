@@ -20,8 +20,8 @@ const styles = {
     color: 'rgba(0,0,0,0)',
     textDecoration: 'none',
     borderRadius: '4px',
-    height: ({height})=>(height || 50),
-    width: ({width})=>(width || 200),
+    height: 50,
+    width: 200,
   },
 };
 
@@ -31,13 +31,13 @@ function _Loading (props) {
     className,
     height,
     width,
+    style,
     ...remainingProps
   } = props;
 
   return (
     <div className={classNames(className, classes.shimmer)}
-         height={height}
-         width={width}
+         style={style}
     >
       loading
     </div>

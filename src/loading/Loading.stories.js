@@ -11,6 +11,6 @@ storiesOf('Loading', module)
                           <Loading />
                           <p style={{fontSize: 18}}>
                             Welcome to the Loading Component. Use this component as a placeholder for another that is loading in.
-                            Use the height and width props to set how big it is.
+                            Use inline style to set the width and height.
                           </p>
                         </div>)
