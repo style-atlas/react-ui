@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render as snapshot defines 1`] = `
+<Jss(_Loading)>
+  <_Loading
+    classes={
+      Object {
+        "0%": "0%-0-2 %",
+        "100%": "100%-0-6 00%",
+        "35%": "35%-0-3 5%",
+        "50%": "50%-0-4 0%",
+        "65%": "65%-0-5 5%",
+        "shimmer": "shimmer-0-1 shimmer-0-0",
+      }
+    }
+    sheet={
+      StyleSheet {
+        "attached": true,
+        "classes": Object {
+          "0%": "0%-0-2 %",
+          "100%": "100%-0-6 00%",
+          "35%": "35%-0-3 5%",
+          "50%": "50%-0-4 0%",
+          "65%": "65%-0-5 5%",
+          "shimmer": "shimmer-0-1 shimmer-0-0",
+        },
+        "deployed": true,
+        "linked": true,
+        "options": Object {
+          "Renderer": [Function],
+          "classes": Object {
+            "0%": "0%-0-2 %",
+            "100%": "100%-0-6 00%",
+            "35%": "35%-0-3 5%",
+            "50%": "50%-0-4 0%",
+            "65%": "65%-0-5 5%",
+            "shimmer": "shimmer-0-1 shimmer-0-0",
+          },
+          "generateClassName": [Function],
+          "index": -100000,
+          "insertionPoint": undefined,
+          "jss": Jss {
+            "generateClassName": [Function],
+            "options": Object {
+              "Renderer": [Function],
+              "createGenerateClassName": [Function],
+              "plugins": Array [
+                Object {
+                  "onCreateRule": [Function],
+                  "onProcessRule": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onChangeValue": [Function],
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onChangeValue": [Function],
+                  "onProcessRule": [Function],
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+              ],
+            },
+            "plugins": PluginsRegistry {
+              "hooks": Object {
+                "onChangeValue": Array [
+                  [Function],
+                  [Function],
+                ],
+                "onCreateRule": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "onProcessRule": Array [
+                  [Function],
+                  [Function],
+                ],
+                "onProcessSheet": Array [],
+                "onProcessStyle": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+              },
+            },
+            "version": "8.1.0",
+          },
+          "link": true,
+          "meta": "Jss(_Loading), Unthemed, Dynamic",
+          "parent": [Circular],
+          "sheet": [Circular],
+        },
+        "renderer": DomRenderer {
+          "element": <style
+            data-jss=""
+            data-meta="Jss(_Loading), Unthemed, Dynamic"
+            type="text/css"
+          >
+            
+.shimmer-0-1 {
+  width: 200px;
+  height: 50px;
+}
+
+          </style>,
+          "getSelector": [Function],
+          "getStyle": [Function],
+          "hasInsertedRules": false,
+          "setSelector": [Function],
+          "setStyle": [Function],
+          "sheet": [Circular],
+        },
+        "rules": RuleList {
+          "classes": Object {
+            "0%": "0%-0-2 %",
+            "100%": "100%-0-6 00%",
+            "35%": "35%-0-3 5%",
+            "50%": "50%-0-4 0%",
+            "65%": "65%-0-5 5%",
+            "shimmer": "shimmer-0-1 shimmer-0-0",
+          },
+          "index": Array [
+            Object {
+              "height": "50px",
+              "width": "200px",
+            },
+            Object {},
+            Object {},
+            Object {},
+            Object {},
+            Object {},
+          ],
+          "map": Object {
+            ".0%-0-2": Object {},
+            ".100%-0-6": Object {},
+            ".35%-0-3": Object {},
+            ".50%-0-4": Object {},
+            ".65%-0-5": Object {},
+            ".shimmer-0-1": Object {
+              "height": "50px",
+              "width": "200px",
+            },
+            "0%": Object {},
+            "100%": Object {},
+            "35%": Object {},
+            "50%": Object {},
+            "65%": Object {},
+            "shimmer": Object {
+              "height": "50px",
+              "width": "200px",
+            },
+          },
+          "options": Object {
+            "Renderer": [Function],
+            "classes": Object {
+              "0%": "0%-0-2 %",
+              "100%": "100%-0-6 00%",
+              "35%": "35%-0-3 5%",
+              "50%": "50%-0-4 0%",
+              "65%": "65%-0-5 5%",
+              "shimmer": "shimmer-0-1 shimmer-0-0",
+            },
+            "generateClassName": [Function],
+            "index": -100000,
+            "insertionPoint": undefined,
+            "jss": Jss {
+              "generateClassName": [Function],
+              "options": Object {
+                "Renderer": [Function],
+                "createGenerateClassName": [Function],
+                "plugins": Array [
+                  Object {
+                    "onCreateRule": [Function],
+                    "onProcessRule": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onChangeValue": [Function],
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onChangeValue": [Function],
+                    "onProcessRule": [Function],
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                ],
+              },
+              "plugins": PluginsRegistry {
+                "hooks": Object {
+                  "onChangeValue": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "onCreateRule": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "onProcessRule": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "onProcessSheet": Array [],
+                  "onProcessStyle": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                },
+              },
+              "version": "8.1.0",
+            },
+            "link": true,
+            "meta": "Jss(_Loading), Unthemed, Dynamic",
+            "parent": [Circular],
+            "sheet": [Circular],
+          },
+          "raw": Object {
+            "0%": Object {
+              "composes": "%",
+            },
+            "100%": Object {
+              "composes": "00%",
+            },
+            "35%": Object {
+              "composes": "5%",
+            },
+            "50%": Object {
+              "composes": "0%",
+            },
+            "65%": Object {
+              "composes": "5%",
+            },
+            "shimmer": Object {
+              "composes": "shimmer-0-0",
+              "height": [Function],
+              "width": [Function],
+            },
+          },
+        },
+      }
+    }
+  >
+    <div
+      className="shimmer-0-1 shimmer-0-0"
+      height={undefined}
+      width={undefined}
+    >
+      loading
+    </div>
+  </_Loading>
+</Jss(_Loading)>
+`;
