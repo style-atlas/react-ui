@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading should render as snapshot defines 1`] = `
-<Jss(_Loading)>
-  <_Loading
+exports[`Placeholder should render as snapshot defines 1`] = `
+<Jss(_Placeholder)>
+  <_Placeholder
     classes={
       Object {
         "0%": "%",
@@ -116,14 +116,14 @@ exports[`Loading should render as snapshot defines 1`] = `
             },
             "version": "8.1.0",
           },
-          "meta": "Jss(_Loading), Unthemed, Static",
+          "meta": "Jss(_Placeholder), Unthemed, Static",
           "parent": [Circular],
           "sheet": [Circular],
         },
         "renderer": DomRenderer {
           "element": <style
             data-jss=""
-            data-meta="Jss(_Loading), Unthemed, Static"
+            data-meta="Jss(_Placeholder), Unthemed, Static"
             type="text/css"
           >
             
@@ -146,8 +146,6 @@ exports[`Loading should render as snapshot defines 1`] = `
 }
 .shimmer-0-0 {
   color: rgba(0,0,0,0);
-  width: 200px;
-  height: 50px;
   border-radius: 4px;
   animation-name: placeHolderShimmer;
   text-decoration: none;
@@ -427,9 +425,7 @@ exports[`Loading should render as snapshot defines 1`] = `
               "animation-timing-function": "linear",
               "border-radius": "4px",
               "color": "rgba(0,0,0,0)",
-              "height": "50px",
               "text-decoration": "none",
-              "width": "200px",
             },
           ],
           "map": Object {
@@ -440,9 +436,7 @@ exports[`Loading should render as snapshot defines 1`] = `
               "animation-timing-function": "linear",
               "border-radius": "4px",
               "color": "rgba(0,0,0,0)",
-              "height": "50px",
               "text-decoration": "none",
-              "width": "200px",
             },
             "@keyframes placeHolderShimmer": KeyframesRule {
               "isProcessed": true,
@@ -697,9 +691,7 @@ exports[`Loading should render as snapshot defines 1`] = `
               "animation-timing-function": "linear",
               "border-radius": "4px",
               "color": "rgba(0,0,0,0)",
-              "height": "50px",
               "text-decoration": "none",
-              "width": "200px",
             },
           },
           "options": Object {
@@ -791,7 +783,7 @@ exports[`Loading should render as snapshot defines 1`] = `
               },
               "version": "8.1.0",
             },
-            "meta": "Jss(_Loading), Unthemed, Static",
+            "meta": "Jss(_Placeholder), Unthemed, Static",
             "parent": [Circular],
             "sheet": [Circular],
           },
@@ -820,9 +812,7 @@ exports[`Loading should render as snapshot defines 1`] = `
               "animationTimingFunction": "linear",
               "borderRadius": "4px",
               "color": "rgba(0,0,0,0)",
-              "height": 50,
               "textDecoration": "none",
-              "width": 200,
             },
           },
         },
@@ -833,8 +823,8 @@ exports[`Loading should render as snapshot defines 1`] = `
       className="shimmer-0-0"
       style={undefined}
     >
-      loading
+      Wow!
     </div>
-  </_Loading>
-</Jss(_Loading)>
+  </_Placeholder>
+</Jss(_Placeholder)>
 `;

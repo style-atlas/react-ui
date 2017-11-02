@@ -2,7 +2,6 @@ import React from 'react';
 import injectSheet from 'react-jss';
 import { compose } from 'recompose';
 import classNames from 'classnames';
-import * as colors from '../theme/colors';
 
 const styles = {
   '@keyframes placeHolderShimmer': {
@@ -20,30 +19,26 @@ const styles = {
     color: 'rgba(0,0,0,0)',
     textDecoration: 'none',
     borderRadius: '4px',
-    height: 50,
-    width: 200,
   },
 };
 
-function _Loading (props) {
+function _Placeholder (props) {
   const {
     classes,
     className,
-    height,
-    width,
     style,
-    ...remainingProps
+    children,
   } = props;
 
   return (
     <div className={classNames(className, classes.shimmer)}
          style={style}
     >
-      loading
+      {children}
     </div>
   );
 };
 
-export const Loading = compose(
+export const Placeholder = compose(
   injectSheet(styles),
-)(_Loading);
+)(_Placeholder);
