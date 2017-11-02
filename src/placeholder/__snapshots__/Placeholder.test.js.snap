@@ -1,0 +1,830 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Placeholder should render as snapshot defines 1`] = `
+<Jss(_Placeholder)>
+  <_Placeholder
+    classes={
+      Object {
+        "0%": "%",
+        "100%": "00%",
+        "35%": "5%",
+        "50%": "0%",
+        "65%": "5%",
+        "shimmer": "shimmer-0-0",
+      }
+    }
+    sheet={
+      StyleSheet {
+        "0.42": null,
+        "attached": true,
+        "classes": Object {
+          "0%": "%",
+          "100%": "00%",
+          "35%": "5%",
+          "50%": "0%",
+          "65%": "5%",
+          "shimmer": "shimmer-0-0",
+        },
+        "deployed": true,
+        "linked": false,
+        "options": Object {
+          "Renderer": [Function],
+          "classes": Object {
+            "0%": "%",
+            "100%": "00%",
+            "35%": "5%",
+            "50%": "0%",
+            "65%": "5%",
+            "shimmer": "shimmer-0-0",
+          },
+          "generateClassName": [Function],
+          "index": -100000,
+          "insertionPoint": undefined,
+          "jss": Jss {
+            "generateClassName": [Function],
+            "options": Object {
+              "Renderer": [Function],
+              "createGenerateClassName": [Function],
+              "plugins": Array [
+                Object {
+                  "onCreateRule": [Function],
+                  "onProcessRule": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onChangeValue": [Function],
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onChangeValue": [Function],
+                  "onProcessRule": [Function],
+                  "onProcessStyle": [Function],
+                },
+                Object {
+                  "onProcessStyle": [Function],
+                },
+              ],
+            },
+            "plugins": PluginsRegistry {
+              "hooks": Object {
+                "onChangeValue": Array [
+                  [Function],
+                  [Function],
+                ],
+                "onCreateRule": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+                "onProcessRule": Array [
+                  [Function],
+                  [Function],
+                ],
+                "onProcessSheet": Array [],
+                "onProcessStyle": Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ],
+              },
+            },
+            "version": "8.1.0",
+          },
+          "meta": "Jss(_Placeholder), Unthemed, Static",
+          "parent": [Circular],
+          "sheet": [Circular],
+        },
+        "renderer": DomRenderer {
+          "element": <style
+            data-jss=""
+            data-meta="Jss(_Placeholder), Unthemed, Static"
+            type="text/css"
+          >
+            
+@keyframes placeHolderShimmer {
+  0% {
+    background-color: #dddddd;
+  }
+  35% {
+    background-color: #dddddd;
+  }
+  50% {
+    background-color: #eeeeee;
+  }
+  65% {
+    background-color: #dddddd;
+  }
+  100% {
+    background-color: #dddddd;
+  }
+}
+.shimmer-0-0 {
+  color: rgba(0,0,0,0);
+  border-radius: 4px;
+  animation-name: placeHolderShimmer;
+  text-decoration: none;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+          </style>,
+          "getSelector": [Function],
+          "getStyle": [Function],
+          "hasInsertedRules": false,
+          "setSelector": [Function],
+          "setStyle": [Function],
+          "sheet": [Circular],
+        },
+        "rules": RuleList {
+          "classes": Object {
+            "0%": "%",
+            "100%": "00%",
+            "35%": "5%",
+            "50%": "0%",
+            "65%": "5%",
+            "shimmer": "shimmer-0-0",
+          },
+          "index": Array [
+            KeyframesRule {
+              "isProcessed": true,
+              "key": "@keyframes placeHolderShimmer",
+              "options": Object {
+                "Renderer": [Function],
+                "classes": Object {
+                  "0%": "%",
+                  "100%": "00%",
+                  "35%": "5%",
+                  "50%": "0%",
+                  "65%": "5%",
+                  "shimmer": "shimmer-0-0",
+                },
+                "generateClassName": [Function],
+                "jss": Jss {
+                  "generateClassName": [Function],
+                  "options": Object {
+                    "Renderer": [Function],
+                    "createGenerateClassName": [Function],
+                    "plugins": Array [
+                      Object {
+                        "onCreateRule": [Function],
+                        "onProcessRule": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessRule": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                    ],
+                  },
+                  "plugins": PluginsRegistry {
+                    "hooks": Object {
+                      "onChangeValue": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onCreateRule": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessRule": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessSheet": Array [],
+                      "onProcessStyle": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                    },
+                  },
+                  "version": "8.1.0",
+                },
+                "parent": [Circular],
+                "sheet": [Circular],
+              },
+              "rules": RuleList {
+                "classes": Object {
+                  "0%": "%",
+                  "100%": "00%",
+                  "35%": "5%",
+                  "50%": "0%",
+                  "65%": "5%",
+                  "shimmer": "shimmer-0-0",
+                },
+                "index": Array [
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#eeeeee",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                ],
+                "map": Object {
+                  "0%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "100%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "35%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "50%": Object {
+                    "background-color": "#eeeeee",
+                  },
+                  "65%": Object {
+                    "background-color": "#dddddd",
+                  },
+                },
+                "options": Object {
+                  "Renderer": [Function],
+                  "classes": Object {
+                    "0%": "%",
+                    "100%": "00%",
+                    "35%": "5%",
+                    "50%": "0%",
+                    "65%": "5%",
+                    "shimmer": "shimmer-0-0",
+                  },
+                  "generateClassName": [Function],
+                  "jss": Jss {
+                    "generateClassName": [Function],
+                    "options": Object {
+                      "Renderer": [Function],
+                      "createGenerateClassName": [Function],
+                      "plugins": Array [
+                        Object {
+                          "onCreateRule": [Function],
+                          "onProcessRule": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onChangeValue": [Function],
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onChangeValue": [Function],
+                          "onProcessRule": [Function],
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                      ],
+                    },
+                    "plugins": PluginsRegistry {
+                      "hooks": Object {
+                        "onChangeValue": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "onCreateRule": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "onProcessRule": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "onProcessSheet": Array [],
+                        "onProcessStyle": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                      },
+                    },
+                    "version": "8.1.0",
+                  },
+                  "parent": [Circular],
+                  "sheet": [Circular],
+                },
+                "raw": Object {
+                  "0%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "100%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "35%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "50%": Object {
+                    "backgroundColor": "#eeeeee",
+                  },
+                  "65%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                },
+              },
+              "type": "keyframes",
+            },
+            Object {
+              "animation-duration": "1.5s",
+              "animation-iteration-count": "infinite",
+              "animation-name": "placeHolderShimmer",
+              "animation-timing-function": "linear",
+              "border-radius": "4px",
+              "color": "rgba(0,0,0,0)",
+              "text-decoration": "none",
+            },
+          ],
+          "map": Object {
+            ".shimmer-0-0": Object {
+              "animation-duration": "1.5s",
+              "animation-iteration-count": "infinite",
+              "animation-name": "placeHolderShimmer",
+              "animation-timing-function": "linear",
+              "border-radius": "4px",
+              "color": "rgba(0,0,0,0)",
+              "text-decoration": "none",
+            },
+            "@keyframes placeHolderShimmer": KeyframesRule {
+              "isProcessed": true,
+              "key": "@keyframes placeHolderShimmer",
+              "options": Object {
+                "Renderer": [Function],
+                "classes": Object {
+                  "0%": "%",
+                  "100%": "00%",
+                  "35%": "5%",
+                  "50%": "0%",
+                  "65%": "5%",
+                  "shimmer": "shimmer-0-0",
+                },
+                "generateClassName": [Function],
+                "jss": Jss {
+                  "generateClassName": [Function],
+                  "options": Object {
+                    "Renderer": [Function],
+                    "createGenerateClassName": [Function],
+                    "plugins": Array [
+                      Object {
+                        "onCreateRule": [Function],
+                        "onProcessRule": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onChangeValue": [Function],
+                        "onProcessRule": [Function],
+                        "onProcessStyle": [Function],
+                      },
+                      Object {
+                        "onProcessStyle": [Function],
+                      },
+                    ],
+                  },
+                  "plugins": PluginsRegistry {
+                    "hooks": Object {
+                      "onChangeValue": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onCreateRule": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessRule": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "onProcessSheet": Array [],
+                      "onProcessStyle": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                    },
+                  },
+                  "version": "8.1.0",
+                },
+                "parent": [Circular],
+                "sheet": [Circular],
+              },
+              "rules": RuleList {
+                "classes": Object {
+                  "0%": "%",
+                  "100%": "00%",
+                  "35%": "5%",
+                  "50%": "0%",
+                  "65%": "5%",
+                  "shimmer": "shimmer-0-0",
+                },
+                "index": Array [
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#eeeeee",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                  Object {
+                    "background-color": "#dddddd",
+                  },
+                ],
+                "map": Object {
+                  "0%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "100%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "35%": Object {
+                    "background-color": "#dddddd",
+                  },
+                  "50%": Object {
+                    "background-color": "#eeeeee",
+                  },
+                  "65%": Object {
+                    "background-color": "#dddddd",
+                  },
+                },
+                "options": Object {
+                  "Renderer": [Function],
+                  "classes": Object {
+                    "0%": "%",
+                    "100%": "00%",
+                    "35%": "5%",
+                    "50%": "0%",
+                    "65%": "5%",
+                    "shimmer": "shimmer-0-0",
+                  },
+                  "generateClassName": [Function],
+                  "jss": Jss {
+                    "generateClassName": [Function],
+                    "options": Object {
+                      "Renderer": [Function],
+                      "createGenerateClassName": [Function],
+                      "plugins": Array [
+                        Object {
+                          "onCreateRule": [Function],
+                          "onProcessRule": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onChangeValue": [Function],
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onChangeValue": [Function],
+                          "onProcessRule": [Function],
+                          "onProcessStyle": [Function],
+                        },
+                        Object {
+                          "onProcessStyle": [Function],
+                        },
+                      ],
+                    },
+                    "plugins": PluginsRegistry {
+                      "hooks": Object {
+                        "onChangeValue": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "onCreateRule": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "onProcessRule": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "onProcessSheet": Array [],
+                        "onProcessStyle": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                      },
+                    },
+                    "version": "8.1.0",
+                  },
+                  "parent": [Circular],
+                  "sheet": [Circular],
+                },
+                "raw": Object {
+                  "0%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "100%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "35%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                  "50%": Object {
+                    "backgroundColor": "#eeeeee",
+                  },
+                  "65%": Object {
+                    "backgroundColor": "#dddddd",
+                  },
+                },
+              },
+              "type": "keyframes",
+            },
+            "shimmer": Object {
+              "animation-duration": "1.5s",
+              "animation-iteration-count": "infinite",
+              "animation-name": "placeHolderShimmer",
+              "animation-timing-function": "linear",
+              "border-radius": "4px",
+              "color": "rgba(0,0,0,0)",
+              "text-decoration": "none",
+            },
+          },
+          "options": Object {
+            "Renderer": [Function],
+            "classes": Object {
+              "0%": "%",
+              "100%": "00%",
+              "35%": "5%",
+              "50%": "0%",
+              "65%": "5%",
+              "shimmer": "shimmer-0-0",
+            },
+            "generateClassName": [Function],
+            "index": -100000,
+            "insertionPoint": undefined,
+            "jss": Jss {
+              "generateClassName": [Function],
+              "options": Object {
+                "Renderer": [Function],
+                "createGenerateClassName": [Function],
+                "plugins": Array [
+                  Object {
+                    "onCreateRule": [Function],
+                    "onProcessRule": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onChangeValue": [Function],
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onChangeValue": [Function],
+                    "onProcessRule": [Function],
+                    "onProcessStyle": [Function],
+                  },
+                  Object {
+                    "onProcessStyle": [Function],
+                  },
+                ],
+              },
+              "plugins": PluginsRegistry {
+                "hooks": Object {
+                  "onChangeValue": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "onCreateRule": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                  "onProcessRule": Array [
+                    [Function],
+                    [Function],
+                  ],
+                  "onProcessSheet": Array [],
+                  "onProcessStyle": Array [
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                    [Function],
+                  ],
+                },
+              },
+              "version": "8.1.0",
+            },
+            "meta": "Jss(_Placeholder), Unthemed, Static",
+            "parent": [Circular],
+            "sheet": [Circular],
+          },
+          "raw": Object {
+            "@keyframes placeHolderShimmer": Object {
+              "0%": Object {
+                "backgroundColor": "#dddddd",
+              },
+              "100%": Object {
+                "backgroundColor": "#dddddd",
+              },
+              "35%": Object {
+                "backgroundColor": "#dddddd",
+              },
+              "50%": Object {
+                "backgroundColor": "#eeeeee",
+              },
+              "65%": Object {
+                "backgroundColor": "#dddddd",
+              },
+            },
+            "shimmer": Object {
+              "animationDuration": "1.5s",
+              "animationIterationCount": "infinite",
+              "animationName": "placeHolderShimmer",
+              "animationTimingFunction": "linear",
+              "borderRadius": "4px",
+              "color": "rgba(0,0,0,0)",
+              "textDecoration": "none",
+            },
+          },
+        },
+      }
+    }
+  >
+    <div
+      className="shimmer-0-0"
+      style={undefined}
+    >
+      Wow!
+    </div>
+  </_Placeholder>
+</Jss(_Placeholder)>
+`;
