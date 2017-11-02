@@ -3,6 +3,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import { body } from '../theme/fonts';
 
 import { ContentContainer } from './';
 
@@ -15,6 +16,7 @@ const style = {
   fontSize: 24,
   borderRadius: 6,
   boxSizing: 'border-box',
+  fontFamily: body,
 }
 
 storiesOf('ContentContainer', module)
