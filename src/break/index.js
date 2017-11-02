@@ -1,7 +1,6 @@
 import React from 'react';
 import injectSheet from 'react-jss';
 import { setPropTypes, compose } from 'recompose';
-import PropTypes from 'prop-types';
 
 import {Section} from '../section';
 
@@ -26,7 +25,7 @@ function _Break (props) {
   const {
     children,
     classes,
-    className
+    className,
   } = props;
 
   return (
@@ -42,11 +41,5 @@ function _Break (props) {
 }
 
 export const Break = compose(
-  setPropTypes({
-    className: PropTypes.object,
-    fontColor: PropTypes.string,
-    gradientOne: PropTypes.string,
-    gradientTwo: PropTypes.string
-  }),
   injectSheet(styles)
 )(_Break);
