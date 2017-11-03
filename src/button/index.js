@@ -18,8 +18,8 @@ const styles = {
     textTransform: 'uppercase',
     background: 'rgba(0,0,0,0)',
     borderRadius: 500,
-    border: [3, 'solid', colors.C300],
-    color: colors.C300,
+    border: [3, 'solid', colors.C400],
+    color: colors.C400,
     lineHeight: 1.5,
     cursor: 'pointer',
 
@@ -28,8 +28,8 @@ const styles = {
 
     '&:hover': {
       color: colors.N0,
-      borderColor: colors.C400,
-      backgroundColor: colors.C400
+      borderColor: colors.C500,
+      backgroundColor: colors.C500
     }
   },
 
@@ -37,11 +37,11 @@ const styles = {
     padding: [12, 54],
     border: 'none',
     color: colors.N0,
-    backgroundColor: colors.C300,
+    backgroundColor: colors.C400,
 
     '&:hover': {
       color: colors.N0,
-      backgroundColor: colors.C400,
+      backgroundColor: colors.C500,
     }
   },
 

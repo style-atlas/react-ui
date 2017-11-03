@@ -143,9 +143,9 @@ exports[`Button should render as snapshot defines 1`] = `
             >
               
 .button-0-0 {
-  color: #00868C;
+  color: #006266;
   cursor: pointer;
-  border: 3px solid #00868C;
+  border: 3px solid #006266;
   display: inline-block;
   padding: 9px 51px;
   font-size: 14px;
@@ -162,18 +162,18 @@ exports[`Button should render as snapshot defines 1`] = `
 }
 .button-0-0:hover {
   color: #FFFFFF;
-  border-color: #006266;
-  background-color: #006266;
+  border-color: #00494D;
+  background-color: #00494D;
 }
 .primary-0-1 {
   color: #FFFFFF;
   border: none;
   padding: 12px 54px;
-  background-color: #00868C;
+  background-color: #006266;
 }
 .primary-0-1:hover {
   color: #FFFFFF;
-  background-color: #006266;
+  background-color: #00494D;
 }
 .secondaryLight-0-3 {
   color: #FFFFFF;
@@ -219,10 +219,10 @@ exports[`Button should render as snapshot defines 1`] = `
             "index": Array [
               Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #006266",
                 "border-radius": "500px",
                 "box-sizing": "border-box",
-                "color": "#00868C",
+                "color": "#006266",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
@@ -236,18 +236,18 @@ exports[`Button should render as snapshot defines 1`] = `
                 "transition": "all 0.25s",
               },
               Object {
-                "background-color": "#006266",
-                "border-color": "#006266",
+                "background-color": "#00494D",
+                "border-color": "#00494D",
                 "color": "#FFFFFF",
               },
               Object {
-                "background-color": "#00868C",
+                "background-color": "#006266",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": "12px 54px",
               },
               Object {
-                "background-color": "#006266",
+                "background-color": "#00494D",
                 "color": "#FFFFFF",
               },
               Object {},
@@ -275,10 +275,10 @@ exports[`Button should render as snapshot defines 1`] = `
             "map": Object {
               ".button-0-0": Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #006266",
                 "border-radius": "500px",
                 "box-sizing": "border-box",
-                "color": "#00868C",
+                "color": "#006266",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
@@ -292,8 +292,8 @@ exports[`Button should render as snapshot defines 1`] = `
                 "transition": "all 0.25s",
               },
               ".button-0-0:hover": Object {
-                "background-color": "#006266",
-                "border-color": "#006266",
+                "background-color": "#00494D",
+                "border-color": "#00494D",
                 "color": "#FFFFFF",
               },
               ".disabled-0-4": Object {
@@ -308,13 +308,13 @@ exports[`Button should render as snapshot defines 1`] = `
                 "color": "#98AFB0",
               },
               ".primary-0-1": Object {
-                "background-color": "#00868C",
+                "background-color": "#006266",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": "12px 54px",
               },
               ".primary-0-1:hover": Object {
-                "background-color": "#006266",
+                "background-color": "#00494D",
                 "color": "#FFFFFF",
               },
               ".secondary-0-2": Object {},
@@ -329,10 +329,10 @@ exports[`Button should render as snapshot defines 1`] = `
               },
               "button": Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #006266",
                 "border-radius": "500px",
                 "box-sizing": "border-box",
-                "color": "#00868C",
+                "color": "#006266",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
@@ -353,7 +353,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "padding": "12px 54px",
               },
               "primary": Object {
-                "background-color": "#00868C",
+                "background-color": "#006266",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": "12px 54px",
@@ -462,8 +462,8 @@ exports[`Button should render as snapshot defines 1`] = `
             },
             "raw": Object {
               ".button-0-0:hover": Object {
-                "backgroundColor": "#006266",
-                "borderColor": "#006266",
+                "backgroundColor": "#00494D",
+                "borderColor": "#00494D",
                 "color": "#FFFFFF",
               },
               ".disabled-0-4:hover": Object {
@@ -471,7 +471,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "color": "#98AFB0",
               },
               ".primary-0-1:hover": Object {
-                "backgroundColor": "#006266",
+                "backgroundColor": "#00494D",
                 "color": "#FFFFFF",
               },
               ".secondaryLight-0-3:hover": Object {
@@ -481,19 +481,19 @@ exports[`Button should render as snapshot defines 1`] = `
               },
               "button": Object {
                 "&:hover": Object {
-                  "backgroundColor": "#006266",
-                  "borderColor": "#006266",
+                  "backgroundColor": "#00494D",
+                  "borderColor": "#00494D",
                   "color": "#FFFFFF",
                 },
                 "background": "rgba(0,0,0,0)",
                 "border": Array [
                   3,
                   "solid",
-                  "#00868C",
+                  "#006266",
                 ],
                 "borderRadius": 500,
                 "boxSizing": "border-box",
-                "color": "#00868C",
+                "color": "#006266",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "fontFamily": Array [
@@ -528,10 +528,10 @@ exports[`Button should render as snapshot defines 1`] = `
               },
               "primary": Object {
                 "&:hover": Object {
-                  "backgroundColor": "#006266",
+                  "backgroundColor": "#00494D",
                   "color": "#FFFFFF",
                 },
-                "backgroundColor": "#00868C",
+                "backgroundColor": "#006266",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": Array [
