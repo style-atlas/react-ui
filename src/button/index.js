@@ -33,7 +33,7 @@ const styles = {
     }
   },
 
-  buttonPrimary: {
+  primary: {
     padding: [12, 54],
     border: 'none',
     color: colors.N0,
@@ -45,11 +45,11 @@ const styles = {
     }
   },
 
-  buttonSecondary: {
+  secondary: {
     // a secondary button is a normal button
   },
 
-  buttonSecondaryLight: {
+  secondaryLight: {
     color: colors.N0,
     borderColor: colors.N0,
 
@@ -60,7 +60,7 @@ const styles = {
     }
   },
 
-  buttonDisabled: {
+  disabled: {
     cursor: 'initial',
     padding: [12, 54],
     color: colors.N80,
@@ -92,10 +92,10 @@ function _Button (props) {
     <Component
       className={classNames(
         classes.button,
-        primary ? classes.buttonPrimary : null,
-        secondary ? classes.buttonSecondary : null,
-        secondaryLight ? classes.buttonSecondaryLight : null,
-        disabled ? classes.buttonDisabled : null,
+        primary ? classes.primary : null,
+        secondary ? classes.secondary : null,
+        secondaryLight ? classes.secondaryLight : null,
+        disabled ? classes.disabled : null,
         className,
       )}
       disabled={disabled}

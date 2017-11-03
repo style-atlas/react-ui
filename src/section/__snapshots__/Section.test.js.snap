@@ -249,14 +249,14 @@ exports[`Section should render as snapshot defines 1`] = `
     }
   >
     <div
-      className=""
+      className="section-0-0"
       style={undefined}
     >
       <Jss(_ContentContainer)>
         <_ContentContainer
           classes={
             Object {
-              "contentContainer": "contentContainer-0-1",
+              "container": "container-0-1",
             }
           }
           sheet={
@@ -264,14 +264,14 @@ exports[`Section should render as snapshot defines 1`] = `
               "0.42": null,
               "attached": true,
               "classes": Object {
-                "contentContainer": "contentContainer-0-1",
+                "container": "container-0-1",
               },
               "deployed": true,
               "linked": false,
               "options": Object {
                 "Renderer": [Function],
                 "classes": Object {
-                  "contentContainer": "contentContainer-0-1",
+                  "container": "container-0-1",
                 },
                 "generateClassName": [Function],
                 "index": -100000,
@@ -363,7 +363,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   type="text/css"
                 >
                   
-.contentContainer-0-1 {
+.container-0-1 {
   margin: auto;
   max-width: 1200px;
 }
@@ -378,7 +378,7 @@ exports[`Section should render as snapshot defines 1`] = `
               },
               "rules": RuleList {
                 "classes": Object {
-                  "contentContainer": "contentContainer-0-1",
+                  "container": "container-0-1",
                 },
                 "index": Array [
                   Object {
@@ -387,11 +387,11 @@ exports[`Section should render as snapshot defines 1`] = `
                   },
                 ],
                 "map": Object {
-                  ".contentContainer-0-1": Object {
+                  ".container-0-1": Object {
                     "margin": "auto",
                     "max-width": "1200px",
                   },
-                  "contentContainer": Object {
+                  "container": Object {
                     "margin": "auto",
                     "max-width": "1200px",
                   },
@@ -399,7 +399,7 @@ exports[`Section should render as snapshot defines 1`] = `
                 "options": Object {
                   "Renderer": [Function],
                   "classes": Object {
-                    "contentContainer": "contentContainer-0-1",
+                    "container": "container-0-1",
                   },
                   "generateClassName": [Function],
                   "index": -100000,
@@ -485,7 +485,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   "sheet": [Circular],
                 },
                 "raw": Object {
-                  "contentContainer": Object {
+                  "container": Object {
                     "margin": "auto",
                     "maxWidth": "1200px",
                   },
@@ -495,7 +495,7 @@ exports[`Section should render as snapshot defines 1`] = `
           }
         >
           <div
-            className="contentContainer-0-1"
+            className="container-0-1"
           />
         </_ContentContainer>
       </Jss(_ContentContainer)>

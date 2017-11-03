@@ -24,7 +24,7 @@ function _Section (props) {
   } = props;
 
   return (
-    <div className={classNames(classes.wrapper, className)} style={style}>
+    <div className={classNames(classes.section, className)} style={style}>
       <ContentContainer>
         {children}
       </ContentContainer>

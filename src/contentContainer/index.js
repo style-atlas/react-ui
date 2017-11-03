@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { compose } from 'recompose';
 
 const styles = {
-  contentContainer: {
+  container: {
     maxWidth: '1200px',
     margin: 'auto',
   },
@@ -19,7 +19,7 @@ function _ContentContainer (props) {
   } = props;
 
   return (
-    <div className={classNames(classes.contentContainer, className)}>
+    <div className={classNames(classes.container, className)}>
       {children}
     </div>
   );
