@@ -11,14 +11,14 @@ exports[`Button should render as snapshot defines 1`] = `
       classes={
         Object {
           ".button-0-0:hover": "button-0-0:hover",
-          ".disabled-0-4:hover": "disabled-0-4:hover",
-          ".primary-0-1:hover": "primary-0-1:hover",
-          ".secondaryLight-0-3:hover": "secondaryLight-0-3:hover",
+          ".buttonDisabled-0-4:hover": "buttonDisabled-0-4:hover",
+          ".buttonPrimary-0-1:hover": "buttonPrimary-0-1:hover",
+          ".buttonSecondaryLight-0-3:hover": "buttonSecondaryLight-0-3:hover",
           "button": "button-0-0",
-          "disabled": "disabled-0-4",
-          "primary": "primary-0-1",
-          "secondary": "secondary-0-2",
-          "secondaryLight": "secondaryLight-0-3",
+          "buttonDisabled": "buttonDisabled-0-4",
+          "buttonPrimary": "buttonPrimary-0-1",
+          "buttonSecondary": "buttonSecondary-0-2",
+          "buttonSecondaryLight": "buttonSecondaryLight-0-3",
         }
       }
       component="button"
@@ -28,14 +28,14 @@ exports[`Button should render as snapshot defines 1`] = `
           "attached": true,
           "classes": Object {
             ".button-0-0:hover": "button-0-0:hover",
-            ".disabled-0-4:hover": "disabled-0-4:hover",
-            ".primary-0-1:hover": "primary-0-1:hover",
-            ".secondaryLight-0-3:hover": "secondaryLight-0-3:hover",
+            ".buttonDisabled-0-4:hover": "buttonDisabled-0-4:hover",
+            ".buttonPrimary-0-1:hover": "buttonPrimary-0-1:hover",
+            ".buttonSecondaryLight-0-3:hover": "buttonSecondaryLight-0-3:hover",
             "button": "button-0-0",
-            "disabled": "disabled-0-4",
-            "primary": "primary-0-1",
-            "secondary": "secondary-0-2",
-            "secondaryLight": "secondaryLight-0-3",
+            "buttonDisabled": "buttonDisabled-0-4",
+            "buttonPrimary": "buttonPrimary-0-1",
+            "buttonSecondary": "buttonSecondary-0-2",
+            "buttonSecondaryLight": "buttonSecondaryLight-0-3",
           },
           "deployed": true,
           "linked": false,
@@ -43,14 +43,14 @@ exports[`Button should render as snapshot defines 1`] = `
             "Renderer": [Function],
             "classes": Object {
               ".button-0-0:hover": "button-0-0:hover",
-              ".disabled-0-4:hover": "disabled-0-4:hover",
-              ".primary-0-1:hover": "primary-0-1:hover",
-              ".secondaryLight-0-3:hover": "secondaryLight-0-3:hover",
+              ".buttonDisabled-0-4:hover": "buttonDisabled-0-4:hover",
+              ".buttonPrimary-0-1:hover": "buttonPrimary-0-1:hover",
+              ".buttonSecondaryLight-0-3:hover": "buttonSecondaryLight-0-3:hover",
               "button": "button-0-0",
-              "disabled": "disabled-0-4",
-              "primary": "primary-0-1",
-              "secondary": "secondary-0-2",
-              "secondaryLight": "secondaryLight-0-3",
+              "buttonDisabled": "buttonDisabled-0-4",
+              "buttonPrimary": "buttonPrimary-0-1",
+              "buttonSecondary": "buttonSecondary-0-2",
+              "buttonSecondaryLight": "buttonSecondaryLight-0-3",
             },
             "generateClassName": [Function],
             "index": -100000,
@@ -165,33 +165,33 @@ exports[`Button should render as snapshot defines 1`] = `
   border-color: #006266;
   background-color: #006266;
 }
-.primary-0-1 {
+.buttonPrimary-0-1 {
   color: #FFFFFF;
   border: none;
   padding: 12px 54px;
   background-color: #00868C;
 }
-.primary-0-1:hover {
+.buttonPrimary-0-1:hover {
   color: #FFFFFF;
   background-color: #006266;
 }
-.secondaryLight-0-3 {
+.buttonSecondaryLight-0-3 {
   color: #FFFFFF;
   border-color: #FFFFFF;
 }
-.secondaryLight-0-3:hover {
+.buttonSecondaryLight-0-3:hover {
   color: #072838;
   border-color: #FFFFFF;
   background-color: #FFFFFF;
 }
-.disabled-0-4 {
+.buttonDisabled-0-4 {
   color: #98AFB0;
   cursor: initial;
   padding: 12px 54px;
   border-style: none;
   background-color: #DFE6E6;
 }
-.disabled-0-4:hover {
+.buttonDisabled-0-4:hover {
   color: #98AFB0;
   background-color: #DFE6E6;
 }
@@ -207,14 +207,14 @@ exports[`Button should render as snapshot defines 1`] = `
           "rules": RuleList {
             "classes": Object {
               ".button-0-0:hover": "button-0-0:hover",
-              ".disabled-0-4:hover": "disabled-0-4:hover",
-              ".primary-0-1:hover": "primary-0-1:hover",
-              ".secondaryLight-0-3:hover": "secondaryLight-0-3:hover",
+              ".buttonDisabled-0-4:hover": "buttonDisabled-0-4:hover",
+              ".buttonPrimary-0-1:hover": "buttonPrimary-0-1:hover",
+              ".buttonSecondaryLight-0-3:hover": "buttonSecondaryLight-0-3:hover",
               "button": "button-0-0",
-              "disabled": "disabled-0-4",
-              "primary": "primary-0-1",
-              "secondary": "secondary-0-2",
-              "secondaryLight": "secondaryLight-0-3",
+              "buttonDisabled": "buttonDisabled-0-4",
+              "buttonPrimary": "buttonPrimary-0-1",
+              "buttonSecondary": "buttonSecondary-0-2",
+              "buttonSecondaryLight": "buttonSecondaryLight-0-3",
             },
             "index": Array [
               Object {
@@ -296,33 +296,33 @@ exports[`Button should render as snapshot defines 1`] = `
                 "border-color": "#006266",
                 "color": "#FFFFFF",
               },
-              ".disabled-0-4": Object {
+              ".buttonDisabled-0-4": Object {
                 "background-color": "#DFE6E6",
                 "border-style": "none",
                 "color": "#98AFB0",
                 "cursor": "initial",
                 "padding": "12px 54px",
               },
-              ".disabled-0-4:hover": Object {
+              ".buttonDisabled-0-4:hover": Object {
                 "background-color": "#DFE6E6",
                 "color": "#98AFB0",
               },
-              ".primary-0-1": Object {
+              ".buttonPrimary-0-1": Object {
                 "background-color": "#00868C",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": "12px 54px",
               },
-              ".primary-0-1:hover": Object {
+              ".buttonPrimary-0-1:hover": Object {
                 "background-color": "#006266",
                 "color": "#FFFFFF",
               },
-              ".secondary-0-2": Object {},
-              ".secondaryLight-0-3": Object {
+              ".buttonSecondary-0-2": Object {},
+              ".buttonSecondaryLight-0-3": Object {
                 "border-color": "#FFFFFF",
                 "color": "#FFFFFF",
               },
-              ".secondaryLight-0-3:hover": Object {
+              ".buttonSecondaryLight-0-3:hover": Object {
                 "background-color": "#FFFFFF",
                 "border-color": "#FFFFFF",
                 "color": "#072838",
@@ -345,21 +345,21 @@ exports[`Button should render as snapshot defines 1`] = `
                 "text-transform": "uppercase",
                 "transition": "all 0.25s",
               },
-              "disabled": Object {
+              "buttonDisabled": Object {
                 "background-color": "#DFE6E6",
                 "border-style": "none",
                 "color": "#98AFB0",
                 "cursor": "initial",
                 "padding": "12px 54px",
               },
-              "primary": Object {
+              "buttonPrimary": Object {
                 "background-color": "#00868C",
                 "border": "none",
                 "color": "#FFFFFF",
                 "padding": "12px 54px",
               },
-              "secondary": Object {},
-              "secondaryLight": Object {
+              "buttonSecondary": Object {},
+              "buttonSecondaryLight": Object {
                 "border-color": "#FFFFFF",
                 "color": "#FFFFFF",
               },
@@ -368,14 +368,14 @@ exports[`Button should render as snapshot defines 1`] = `
               "Renderer": [Function],
               "classes": Object {
                 ".button-0-0:hover": "button-0-0:hover",
-                ".disabled-0-4:hover": "disabled-0-4:hover",
-                ".primary-0-1:hover": "primary-0-1:hover",
-                ".secondaryLight-0-3:hover": "secondaryLight-0-3:hover",
+                ".buttonDisabled-0-4:hover": "buttonDisabled-0-4:hover",
+                ".buttonPrimary-0-1:hover": "buttonPrimary-0-1:hover",
+                ".buttonSecondaryLight-0-3:hover": "buttonSecondaryLight-0-3:hover",
                 "button": "button-0-0",
-                "disabled": "disabled-0-4",
-                "primary": "primary-0-1",
-                "secondary": "secondary-0-2",
-                "secondaryLight": "secondaryLight-0-3",
+                "buttonDisabled": "buttonDisabled-0-4",
+                "buttonPrimary": "buttonPrimary-0-1",
+                "buttonSecondary": "buttonSecondary-0-2",
+                "buttonSecondaryLight": "buttonSecondaryLight-0-3",
               },
               "generateClassName": [Function],
               "index": -100000,
@@ -466,15 +466,15 @@ exports[`Button should render as snapshot defines 1`] = `
                 "borderColor": "#006266",
                 "color": "#FFFFFF",
               },
-              ".disabled-0-4:hover": Object {
+              ".buttonDisabled-0-4:hover": Object {
                 "backgroundColor": "#DFE6E6",
                 "color": "#98AFB0",
               },
-              ".primary-0-1:hover": Object {
+              ".buttonPrimary-0-1:hover": Object {
                 "backgroundColor": "#006266",
                 "color": "#FFFFFF",
               },
-              ".secondaryLight-0-3:hover": Object {
+              ".buttonSecondaryLight-0-3:hover": Object {
                 "backgroundColor": "#FFFFFF",
                 "borderColor": "#FFFFFF",
                 "color": "#072838",
@@ -512,7 +512,7 @@ exports[`Button should render as snapshot defines 1`] = `
                 "textTransform": "uppercase",
                 "transition": "all 0.25s",
               },
-              "disabled": Object {
+              "buttonDisabled": Object {
                 "&:hover": Object {
                   "backgroundColor": "#DFE6E6",
                   "color": "#98AFB0",
@@ -526,7 +526,7 @@ exports[`Button should render as snapshot defines 1`] = `
                   54,
                 ],
               },
-              "primary": Object {
+              "buttonPrimary": Object {
                 "&:hover": Object {
                   "backgroundColor": "#006266",
                   "color": "#FFFFFF",
@@ -539,8 +539,8 @@ exports[`Button should render as snapshot defines 1`] = `
                   54,
                 ],
               },
-              "secondary": Object {},
-              "secondaryLight": Object {
+              "buttonSecondary": Object {},
+              "buttonSecondaryLight": Object {
                 "&:hover": Object {
                   "backgroundColor": "#FFFFFF",
                   "borderColor": "#FFFFFF",
