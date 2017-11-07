@@ -19,16 +19,15 @@ function _Section (props) {
     classes,
     className,
     children,
-    style,
     ...remainingProps
   } = props;
 
   return (
-    <div className={classNames(classes.section, className)} style={style}>
+    <section {...remainingProps} className={classNames(classes.section, className)}>
       <ContentContainer>
         {children}
       </ContentContainer>
-    </div>
+    </section>
   );
 };
 

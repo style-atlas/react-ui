@@ -28,12 +28,11 @@ function _Placeholder (props) {
     className,
     style,
     children,
+    ...remainingProps
   } = props;
 
   return (
-    <div className={classNames(className, classes.shimmer)}
-         style={style}
-    >
+    <div {...remainingProps} className={classNames(className, classes.shimmer)}>
       {children}
     </div>
   );

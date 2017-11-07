@@ -19,7 +19,7 @@ function _ContentContainer (props) {
   } = props;
 
   return (
-    <div className={classNames(classes.container, className)}>
+    <div {...remainingProps} className={classNames(classes.container, className)}>
       {children}
     </div>
   );
