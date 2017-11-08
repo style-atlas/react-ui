@@ -5,7 +5,7 @@ exports[`Section should render as snapshot defines 1`] = `
   <_Section
     classes={
       Object {
-        "wrapper": "wrapper-0-0",
+        "section": "section-0-0",
       }
     }
     sheet={
@@ -13,14 +13,14 @@ exports[`Section should render as snapshot defines 1`] = `
         "0.42": null,
         "attached": true,
         "classes": Object {
-          "wrapper": "wrapper-0-0",
+          "section": "section-0-0",
         },
         "deployed": true,
         "linked": false,
         "options": Object {
           "Renderer": [Function],
           "classes": Object {
-            "wrapper": "wrapper-0-0",
+            "section": "section-0-0",
           },
           "generateClassName": [Function],
           "index": -99999,
@@ -112,7 +112,7 @@ exports[`Section should render as snapshot defines 1`] = `
             type="text/css"
           >
             
-.wrapper-0-0 {
+.section-0-0 {
   width: 100%;
   padding-bottom: 3em;
   background-color: #FBFCFC;
@@ -128,7 +128,7 @@ exports[`Section should render as snapshot defines 1`] = `
         },
         "rules": RuleList {
           "classes": Object {
-            "wrapper": "wrapper-0-0",
+            "section": "section-0-0",
           },
           "index": Array [
             Object {
@@ -138,12 +138,12 @@ exports[`Section should render as snapshot defines 1`] = `
             },
           ],
           "map": Object {
-            ".wrapper-0-0": Object {
+            ".section-0-0": Object {
               "background-color": "#FBFCFC",
               "padding-bottom": "3em",
               "width": "100%",
             },
-            "wrapper": Object {
+            "section": Object {
               "background-color": "#FBFCFC",
               "padding-bottom": "3em",
               "width": "100%",
@@ -152,7 +152,7 @@ exports[`Section should render as snapshot defines 1`] = `
           "options": Object {
             "Renderer": [Function],
             "classes": Object {
-              "wrapper": "wrapper-0-0",
+              "section": "section-0-0",
             },
             "generateClassName": [Function],
             "index": -99999,
@@ -238,7 +238,7 @@ exports[`Section should render as snapshot defines 1`] = `
             "sheet": [Circular],
           },
           "raw": Object {
-            "wrapper": Object {
+            "section": Object {
               "backgroundColor": "#FBFCFC",
               "paddingBottom": "3em",
               "width": "100%",
@@ -249,252 +249,13 @@ exports[`Section should render as snapshot defines 1`] = `
     }
   >
     <section
-      className="wrapper-0-0"
-      sheet={
-        StyleSheet {
-          "0.42": null,
-          "attached": true,
-          "classes": Object {
-            "wrapper": "wrapper-0-0",
-          },
-          "deployed": true,
-          "linked": false,
-          "options": Object {
-            "Renderer": [Function],
-            "classes": Object {
-              "wrapper": "wrapper-0-0",
-            },
-            "generateClassName": [Function],
-            "index": -99999,
-            "insertionPoint": undefined,
-            "jss": Jss {
-              "generateClassName": [Function],
-              "options": Object {
-                "Renderer": [Function],
-                "createGenerateClassName": [Function],
-                "plugins": Array [
-                  Object {
-                    "onCreateRule": [Function],
-                    "onProcessRule": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onChangeValue": [Function],
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onChangeValue": [Function],
-                    "onProcessRule": [Function],
-                    "onProcessStyle": [Function],
-                  },
-                  Object {
-                    "onProcessStyle": [Function],
-                  },
-                ],
-              },
-              "plugins": PluginsRegistry {
-                "hooks": Object {
-                  "onChangeValue": Array [
-                    [Function],
-                    [Function],
-                  ],
-                  "onCreateRule": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                  "onProcessRule": Array [
-                    [Function],
-                    [Function],
-                  ],
-                  "onProcessSheet": Array [],
-                  "onProcessStyle": Array [
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                    [Function],
-                  ],
-                },
-              },
-              "version": "8.1.0",
-            },
-            "meta": "Jss(_Section), Unthemed, Static",
-            "parent": [Circular],
-            "sheet": [Circular],
-          },
-          "renderer": DomRenderer {
-            "element": <style
-              data-jss=""
-              data-meta="Jss(_Section), Unthemed, Static"
-              type="text/css"
-            >
-              
-.wrapper-0-0 {
-  width: 100%;
-  padding-bottom: 3em;
-  background-color: #FBFCFC;
-}
-
-            </style>,
-            "getSelector": [Function],
-            "getStyle": [Function],
-            "hasInsertedRules": false,
-            "setSelector": [Function],
-            "setStyle": [Function],
-            "sheet": [Circular],
-          },
-          "rules": RuleList {
-            "classes": Object {
-              "wrapper": "wrapper-0-0",
-            },
-            "index": Array [
-              Object {
-                "background-color": "#FBFCFC",
-                "padding-bottom": "3em",
-                "width": "100%",
-              },
-            ],
-            "map": Object {
-              ".wrapper-0-0": Object {
-                "background-color": "#FBFCFC",
-                "padding-bottom": "3em",
-                "width": "100%",
-              },
-              "wrapper": Object {
-                "background-color": "#FBFCFC",
-                "padding-bottom": "3em",
-                "width": "100%",
-              },
-            },
-            "options": Object {
-              "Renderer": [Function],
-              "classes": Object {
-                "wrapper": "wrapper-0-0",
-              },
-              "generateClassName": [Function],
-              "index": -99999,
-              "insertionPoint": undefined,
-              "jss": Jss {
-                "generateClassName": [Function],
-                "options": Object {
-                  "Renderer": [Function],
-                  "createGenerateClassName": [Function],
-                  "plugins": Array [
-                    Object {
-                      "onCreateRule": [Function],
-                      "onProcessRule": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onChangeValue": [Function],
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onChangeValue": [Function],
-                      "onProcessRule": [Function],
-                      "onProcessStyle": [Function],
-                    },
-                    Object {
-                      "onProcessStyle": [Function],
-                    },
-                  ],
-                },
-                "plugins": PluginsRegistry {
-                  "hooks": Object {
-                    "onChangeValue": Array [
-                      [Function],
-                      [Function],
-                    ],
-                    "onCreateRule": Array [
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                    ],
-                    "onProcessRule": Array [
-                      [Function],
-                      [Function],
-                    ],
-                    "onProcessSheet": Array [],
-                    "onProcessStyle": Array [
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                      [Function],
-                    ],
-                  },
-                },
-                "version": "8.1.0",
-              },
-              "meta": "Jss(_Section), Unthemed, Static",
-              "parent": [Circular],
-              "sheet": [Circular],
-            },
-            "raw": Object {
-              "wrapper": Object {
-                "backgroundColor": "#FBFCFC",
-                "paddingBottom": "3em",
-                "width": "100%",
-              },
-            },
-          },
-        }
-      }
+      className="section-0-0"
     >
       <Jss(_ContentContainer)>
         <_ContentContainer
           classes={
             Object {
-              "app": "app-0-1",
+              "container": "container-0-1",
             }
           }
           sheet={
@@ -502,14 +263,14 @@ exports[`Section should render as snapshot defines 1`] = `
               "0.42": null,
               "attached": true,
               "classes": Object {
-                "app": "app-0-1",
+                "container": "container-0-1",
               },
               "deployed": true,
               "linked": false,
               "options": Object {
                 "Renderer": [Function],
                 "classes": Object {
-                  "app": "app-0-1",
+                  "container": "container-0-1",
                 },
                 "generateClassName": [Function],
                 "index": -100000,
@@ -601,7 +362,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   type="text/css"
                 >
                   
-.app-0-1 {
+.container-0-1 {
   margin: auto;
   max-width: 1200px;
 }
@@ -616,7 +377,7 @@ exports[`Section should render as snapshot defines 1`] = `
               },
               "rules": RuleList {
                 "classes": Object {
-                  "app": "app-0-1",
+                  "container": "container-0-1",
                 },
                 "index": Array [
                   Object {
@@ -625,11 +386,11 @@ exports[`Section should render as snapshot defines 1`] = `
                   },
                 ],
                 "map": Object {
-                  ".app-0-1": Object {
+                  ".container-0-1": Object {
                     "margin": "auto",
                     "max-width": "1200px",
                   },
-                  "app": Object {
+                  "container": Object {
                     "margin": "auto",
                     "max-width": "1200px",
                   },
@@ -637,7 +398,7 @@ exports[`Section should render as snapshot defines 1`] = `
                 "options": Object {
                   "Renderer": [Function],
                   "classes": Object {
-                    "app": "app-0-1",
+                    "container": "container-0-1",
                   },
                   "generateClassName": [Function],
                   "index": -100000,
@@ -723,7 +484,7 @@ exports[`Section should render as snapshot defines 1`] = `
                   "sheet": [Circular],
                 },
                 "raw": Object {
-                  "app": Object {
+                  "container": Object {
                     "margin": "auto",
                     "maxWidth": "1200px",
                   },
@@ -733,241 +494,7 @@ exports[`Section should render as snapshot defines 1`] = `
           }
         >
           <div
-            className="app-0-1"
-            sheet={
-              StyleSheet {
-                "0.42": null,
-                "attached": true,
-                "classes": Object {
-                  "app": "app-0-1",
-                },
-                "deployed": true,
-                "linked": false,
-                "options": Object {
-                  "Renderer": [Function],
-                  "classes": Object {
-                    "app": "app-0-1",
-                  },
-                  "generateClassName": [Function],
-                  "index": -100000,
-                  "insertionPoint": undefined,
-                  "jss": Jss {
-                    "generateClassName": [Function],
-                    "options": Object {
-                      "Renderer": [Function],
-                      "createGenerateClassName": [Function],
-                      "plugins": Array [
-                        Object {
-                          "onCreateRule": [Function],
-                          "onProcessRule": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onChangeValue": [Function],
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onChangeValue": [Function],
-                          "onProcessRule": [Function],
-                          "onProcessStyle": [Function],
-                        },
-                        Object {
-                          "onProcessStyle": [Function],
-                        },
-                      ],
-                    },
-                    "plugins": PluginsRegistry {
-                      "hooks": Object {
-                        "onChangeValue": Array [
-                          [Function],
-                          [Function],
-                        ],
-                        "onCreateRule": Array [
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                        ],
-                        "onProcessRule": Array [
-                          [Function],
-                          [Function],
-                        ],
-                        "onProcessSheet": Array [],
-                        "onProcessStyle": Array [
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                          [Function],
-                        ],
-                      },
-                    },
-                    "version": "8.1.0",
-                  },
-                  "meta": "Jss(_ContentContainer), Unthemed, Static",
-                  "parent": [Circular],
-                  "sheet": [Circular],
-                },
-                "renderer": DomRenderer {
-                  "element": <style
-                    data-jss=""
-                    data-meta="Jss(_ContentContainer), Unthemed, Static"
-                    type="text/css"
-                  >
-                    
-.app-0-1 {
-  margin: auto;
-  max-width: 1200px;
-}
-
-                  </style>,
-                  "getSelector": [Function],
-                  "getStyle": [Function],
-                  "hasInsertedRules": false,
-                  "setSelector": [Function],
-                  "setStyle": [Function],
-                  "sheet": [Circular],
-                },
-                "rules": RuleList {
-                  "classes": Object {
-                    "app": "app-0-1",
-                  },
-                  "index": Array [
-                    Object {
-                      "margin": "auto",
-                      "max-width": "1200px",
-                    },
-                  ],
-                  "map": Object {
-                    ".app-0-1": Object {
-                      "margin": "auto",
-                      "max-width": "1200px",
-                    },
-                    "app": Object {
-                      "margin": "auto",
-                      "max-width": "1200px",
-                    },
-                  },
-                  "options": Object {
-                    "Renderer": [Function],
-                    "classes": Object {
-                      "app": "app-0-1",
-                    },
-                    "generateClassName": [Function],
-                    "index": -100000,
-                    "insertionPoint": undefined,
-                    "jss": Jss {
-                      "generateClassName": [Function],
-                      "options": Object {
-                        "Renderer": [Function],
-                        "createGenerateClassName": [Function],
-                        "plugins": Array [
-                          Object {
-                            "onCreateRule": [Function],
-                            "onProcessRule": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onChangeValue": [Function],
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onChangeValue": [Function],
-                            "onProcessRule": [Function],
-                            "onProcessStyle": [Function],
-                          },
-                          Object {
-                            "onProcessStyle": [Function],
-                          },
-                        ],
-                      },
-                      "plugins": PluginsRegistry {
-                        "hooks": Object {
-                          "onChangeValue": Array [
-                            [Function],
-                            [Function],
-                          ],
-                          "onCreateRule": Array [
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                          ],
-                          "onProcessRule": Array [
-                            [Function],
-                            [Function],
-                          ],
-                          "onProcessSheet": Array [],
-                          "onProcessStyle": Array [
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                            [Function],
-                          ],
-                        },
-                      },
-                      "version": "8.1.0",
-                    },
-                    "meta": "Jss(_ContentContainer), Unthemed, Static",
-                    "parent": [Circular],
-                    "sheet": [Circular],
-                  },
-                  "raw": Object {
-                    "app": Object {
-                      "margin": "auto",
-                      "maxWidth": "1200px",
-                    },
-                  },
-                },
-              }
-            }
+            className="container-0-1"
           />
         </_ContentContainer>
       </Jss(_ContentContainer)>

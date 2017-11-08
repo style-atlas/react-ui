@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { compose } from 'recompose';
 
 const styles = {
-  app: {
+  container: {
     maxWidth: '1200px',
     margin: 'auto',
   },
@@ -15,11 +15,12 @@ function _ContentContainer (props) {
     classes,
     className,
     children,
+    sheet,
     ...remainingProps
   } = props;
 
   return (
-    <div {...remainingProps} className={classNames(classes.app, className)}>
+    <div {...remainingProps} className={classNames(classes.container, className)}>
       {children}
     </div>
   );
