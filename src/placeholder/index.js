@@ -27,6 +27,7 @@ function _Placeholder (props) {
     classes,
     className,
     children,
+    sheet,
     ...remainingProps,
   } = props;
 
