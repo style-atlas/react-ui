@@ -1,4 +1,4 @@
-# Trioxis User Interface
+# Trioxis User Interface &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Trioxis/trioxis-ui/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@trioxis/ui.svg?style=flat)](https://www.npmjs.com/package/@trioxis/ui) [![CircleCI Status](https://circleci.com/gh/Trioxis/trioxis-ui.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/Trioxis/trioxis-ui) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Trioxis/trioxis-ui/pulls)
 
 Beautifully crafted user interface components of Trioxis
 
