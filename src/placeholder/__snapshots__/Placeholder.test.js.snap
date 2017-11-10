@@ -819,11 +819,11 @@ exports[`Placeholder should render as snapshot defines 1`] = `
       }
     }
   >
-    <div
+    <span
       className="shimmer-0-0"
     >
       Wow!
-    </div>
+    </span>
   </_Placeholder>
 </Jss(_Placeholder)>
 `;
