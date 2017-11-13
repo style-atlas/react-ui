@@ -115,7 +115,6 @@ exports[`Section should render as snapshot defines 1`] = `
 .section-0-0 {
   width: 100%;
   padding-bottom: 3em;
-  background-color: #FBFCFC;
 }
 
           </style>,
@@ -132,19 +131,16 @@ exports[`Section should render as snapshot defines 1`] = `
           },
           "index": Array [
             Object {
-              "background-color": "#FBFCFC",
               "padding-bottom": "3em",
               "width": "100%",
             },
           ],
           "map": Object {
             ".section-0-0": Object {
-              "background-color": "#FBFCFC",
               "padding-bottom": "3em",
               "width": "100%",
             },
             "section": Object {
-              "background-color": "#FBFCFC",
               "padding-bottom": "3em",
               "width": "100%",
             },
@@ -239,7 +235,6 @@ exports[`Section should render as snapshot defines 1`] = `
           },
           "raw": Object {
             "section": Object {
-              "backgroundColor": "#FBFCFC",
               "paddingBottom": "3em",
               "width": "100%",
             },

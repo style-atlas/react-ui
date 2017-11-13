@@ -10,7 +10,6 @@ const styles = {
   section: {
     paddingBottom: '3em',
     width: '100%',
-    backgroundColor: colors.N10,
   }
 };
 
