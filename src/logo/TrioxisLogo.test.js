@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import {TrioxisLogo} from './';
+import {StyleAtlasLogo} from './';
 
 jest.mock('react-jss', () => {
   let increment = 0.42
@@ -10,15 +10,15 @@ jest.mock('react-jss', () => {
 
 describe('Logo', () => {
   it('should render as snapshot defines', () => {
-    const tree = mount(<TrioxisLogo />)
+    const tree = mount(<StyleAtlasLogo />)
     expect(tree).toMatchSnapshot()
   });
 
   it('should render unique gradient ids to prevent clashes if there are multiple on the page', () => {
     const tree = mount(
       <div>
-        <TrioxisLogo />
-        <TrioxisLogo type={TrioxisLogo.Types.YellowRed} />
+        <StyleAtlasLogo />
+        <StyleAtlasLogo type={StyleAtlasLogo.Types.YellowRed} />
       </div>
     )
 

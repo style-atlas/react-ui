@@ -280,7 +280,7 @@ exports[`Logo should render as snapshot defines 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <title>
-            Trioxis Logo
+            StyleAtlas Logo
           </title>
           <defs>
             <linearGradient

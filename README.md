@@ -1,6 +1,11 @@
-# Trioxis User Interface &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Trioxis/trioxis-ui/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@trioxis/ui.svg?style=flat)](https://www.npmjs.com/package/@trioxis/ui) [![CircleCI Status](https://circleci.com/gh/Trioxis/trioxis-ui.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/Trioxis/trioxis-ui) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Trioxis/trioxis-ui/pulls)
+# Style Atlas User Interface &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StyleAtlas/styleatlas-ui/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@styleatlas/ui.svg?style=flat)](https://www.npmjs.com/package/@styleatlas/ui) [![CircleCI Status](https://circleci.com/gh/StyleAtlas/styleatlas-ui.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/StyleAtlas/styleatlas-ui) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/StyleAtlas/styleatlas-ui/pulls)
 
-Beautifully crafted user interface components of Trioxis
+Beautifully crafted user interface components of Style Atlas.
+
+```sh
+# Install like so
+yarn add @styleatlas/react-ui
+```
 
 ## Development
 
@@ -41,7 +46,7 @@ cd -
 Then in another project
 
 ```shell
-yarn link @trioxis/ui
+yarn link @styleatlas/react-ui
 ```
 
 ### Publishing
