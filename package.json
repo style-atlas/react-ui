@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-info": "^3.3.8",
     "@storybook/addon-links": "^3.2.12",
     "@storybook/cli": "^3.2.12",
     "@storybook/react": "^3.2.12",
@@ -42,7 +43,9 @@
     "react-test-renderer": "^16.0.0"
   },
   "dependencies": {
-    "@storybook/addon-info": "^3.3.8",
+    "@fortawesome/fontawesome": "^1.1.2",
+    "@fortawesome/fontawesome-free-solid": "^5.0.4",
+    "@fortawesome/react-fontawesome": "^0.0.17",
     "classnames": "^2.2.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DesignIcon should match snapshot 1`] = `
+<DesignIcon>
+  <FontAwesomeIcon$1
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={
+      Object {
+        "icon": Array [
+          512,
+          512,
+          Array [],
+          "f03e",
+          "M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z",
+        ],
+        "iconName": "image",
+        "prefix": "fas",
+      }
+    }
+    listItem={false}
+    mask={null}
+    name=""
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    symbol={false}
+    transform={null}
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-image fa-w-16 "
+      data-fa-processed=""
+      data-icon="image"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </FontAwesomeIcon$1>
+</DesignIcon>
+`;
+
+exports[`InspirationIcon should match snapshot 1`] = `
+<InspirationIcon>
+  <FontAwesomeIcon$1
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={
+      Object {
+        "icon": Array [
+          384,
+          512,
+          Array [],
+          "f0eb",
+          "M272 428v28c0 10.449-6.68 19.334-16 22.629V488c0 13.255-10.745 24-24 24h-80c-13.255 0-24-10.745-24-24v-9.371c-9.32-3.295-16-12.18-16-22.629v-28c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12zm-143.107-44c-9.907 0-18.826-6.078-22.376-15.327C67.697 267.541 16 277.731 16 176 16 78.803 94.805 0 192 0s176 78.803 176 176c0 101.731-51.697 91.541-90.516 192.673-3.55 9.249-12.47 15.327-22.376 15.327H128.893zM112 176c0-44.112 35.888-80 80-80 8.837 0 16-7.164 16-16s-7.163-16-16-16c-61.757 0-112 50.243-112 112 0 8.836 7.164 16 16 16s16-7.164 16-16z",
+        ],
+        "iconName": "lightbulb",
+        "prefix": "fas",
+      }
+    }
+    listItem={false}
+    mask={null}
+    name=""
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    symbol={false}
+    transform={null}
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-lightbulb fa-w-12 "
+      data-fa-processed=""
+      data-icon="lightbulb"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 384 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M272 428v28c0 10.449-6.68 19.334-16 22.629V488c0 13.255-10.745 24-24 24h-80c-13.255 0-24-10.745-24-24v-9.371c-9.32-3.295-16-12.18-16-22.629v-28c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12zm-143.107-44c-9.907 0-18.826-6.078-22.376-15.327C67.697 267.541 16 277.731 16 176 16 78.803 94.805 0 192 0s176 78.803 176 176c0 101.731-51.697 91.541-90.516 192.673-3.55 9.249-12.47 15.327-22.376 15.327H128.893zM112 176c0-44.112 35.888-80 80-80 8.837 0 16-7.164 16-16s-7.163-16-16-16c-61.757 0-112 50.243-112 112 0 8.836 7.164 16 16 16s16-7.164 16-16z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </FontAwesomeIcon$1>
+</InspirationIcon>
+`;
+
+exports[`RangeIcon should match snapshot 1`] = `
+<RangeIcon>
+  <FontAwesomeIcon$1
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={
+      Object {
+        "icon": Array [
+          448,
+          512,
+          Array [],
+          "f073",
+          "M436 160H12c-6.6 0-12-5.4-12-12v-36c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48v36c0 6.6-5.4 12-12 12zM12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm116 204c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40z",
+        ],
+        "iconName": "calendar-alt",
+        "prefix": "fas",
+      }
+    }
+    listItem={false}
+    mask={null}
+    name=""
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    symbol={false}
+    transform={null}
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-calendar-alt fa-w-14 "
+      data-fa-processed=""
+      data-icon="calendar-alt"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M436 160H12c-6.6 0-12-5.4-12-12v-36c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48v36c0 6.6-5.4 12-12 12zM12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm116 204c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12H76c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm128 128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40zm0-128c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12v-40z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </FontAwesomeIcon$1>
+</RangeIcon>
+`;
+
+exports[`SlotIcon should match snapshot 1`] = `
+<SlotIcon>
+  <FontAwesomeIcon$1
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={
+      Object {
+        "icon": Array [
+          384,
+          512,
+          Array [],
+          "f15c",
+          "M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z",
+        ],
+        "iconName": "file-alt",
+        "prefix": "fas",
+      }
+    }
+    listItem={false}
+    mask={null}
+    name=""
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    symbol={false}
+    transform={null}
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-file-alt fa-w-12 "
+      data-fa-processed=""
+      data-icon="file-alt"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 384 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </FontAwesomeIcon$1>
+</SlotIcon>
+`;
+
+exports[`StyleIcon should match snapshot 1`] = `
+<StyleIcon>
+  <FontAwesomeIcon$1
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={
+      Object {
+        "icon": Array [
+          512,
+          512,
+          Array [],
+          "f0b1",
+          "M320 288h192v144c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V288h192v20c0 6.627 5.373 12 12 12h104c6.627 0 12-5.373 12-12v-20zm192-112v80H0v-80c0-26.51 21.49-48 48-48h80V80c0-26.51 21.49-48 48-48h160c26.51 0 48 21.49 48 48v48h80c26.51 0 48 21.49 48 48zM320 96H192v32h128V96z",
+        ],
+        "iconName": "briefcase",
+        "prefix": "fas",
+      }
+    }
+    listItem={false}
+    mask={null}
+    name=""
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    symbol={false}
+    transform={null}
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-briefcase fa-w-16 "
+      data-fa-processed=""
+      data-icon="briefcase"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M320 288h192v144c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V288h192v20c0 6.627 5.373 12 12 12h104c6.627 0 12-5.373 12-12v-20zm192-112v80H0v-80c0-26.51 21.49-48 48-48h80V80c0-26.51 21.49-48 48-48h160c26.51 0 48 21.49 48 48v48h80c26.51 0 48 21.49 48 48zM320 96H192v32h128V96z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+  </FontAwesomeIcon$1>
+</StyleIcon>
+`;
