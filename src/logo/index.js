@@ -1,15 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {
-  setPropTypes,
-  compose
-} from "recompose";
+import { setPropTypes, compose } from "recompose";
 
-const Logo = ({
-  width,
-  height,
-  className,
-}) => {
+const Logo = ({ width, height, className }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
