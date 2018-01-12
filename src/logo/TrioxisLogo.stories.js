@@ -7,6 +7,5 @@ import { linkTo } from '@storybook/addon-links';
 import { StyleAtlasLogo } from './';
 
 storiesOf('StyleAtlasLogo', module)
-  .add('default (GreenBlue)', () => <StyleAtlasLogo width={200} height={200}/>)
-  .add('YellowRed', () => <StyleAtlasLogo type={StyleAtlasLogo.Types.YellowRed} width={200} height={200}/>)
-  .add('Neutral', () => <StyleAtlasLogo type={StyleAtlasLogo.Types.Neutral} width={200} height={200}/>)
+  .add('200x200', () => <StyleAtlasLogo width={200}/>)
+  .add('800x800', () => <StyleAtlasLogo width={800}/>)

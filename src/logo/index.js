@@ -1,45 +1,14 @@
 import React from "react";
-import injectSheet from "react-jss";
 import PropTypes from "prop-types";
-import * as colors from "../theme/colors";
 import {
-  defaultProps,
   setPropTypes,
-  compose,
-  setStatic,
-  withProps
+  compose
 } from "recompose";
 
-const types = {
-  GreenBlue: "GreenBlue",
-  YellowRed: "YellowRed",
-  Neutral: "Neutral"
-};
-
-const Gradients = {
-  GreenBlue: [colors.G200, colors.B200],
-  YellowRed: [colors.Y200, colors.R200],
-  Neutral: [colors.N10, colors.N30]
-};
-
-const styles = {
-  stop0: {
-    stopColor: ({ type }) => Gradients[type][0],
-    transition: "0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s"
-  },
-  stop1: {
-    stopColor: ({ type }) => Gradients[type][1],
-    transition: "0.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.2s"
-  }
-};
-
 const Logo = ({
-  type = "GB",
   width,
   height,
   className,
-  classes,
-  _randomId
 }) => {
   return (
     <svg
@@ -71,13 +40,6 @@ const Logo = ({
 export const StyleAtlasLogo = compose(
   setPropTypes({
     width: PropTypes.number,
-    height: PropTypes.number,
-    type: PropTypes.oneOf(Object.keys(types))
-  }),
-  setStatic("Types", types),
-  defaultProps({
-    type: types.GreenBlue
-  }),
-  withProps(() => ({ _randomId: Math.random() })),
-  injectSheet(styles)
+    height: PropTypes.number
+  })
 )(Logo);
