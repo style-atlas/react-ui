@@ -18,7 +18,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "./scripts/prepare.sh",
-    "dist": "yarn prepare && cd ./lib && yarn publish --ignore-scripts"
+    "dist": "yarn prepare && cd ./lib && yarn publish --ignore-scripts",
+    "format":"prettier --write ./src/**/*.js"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.12",
@@ -41,6 +42,7 @@
     "react-test-renderer": "^16.0.0"
   },
   "dependencies": {
+    "@storybook/addon-info": "^3.3.8",
     "classnames": "^2.2.5",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
