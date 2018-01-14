@@ -8,3 +8,4 @@ cp ./package.json ./lib/package.json
 cp ./README.md ./lib/README.md
 cp ./LICENSE ./lib/LICENSE
 touch ./lib/.npmignore
+touch ./lib/.yarnignore
