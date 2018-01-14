@@ -1,6 +1,6 @@
 {
   "name": "@styleatlas/react-ui",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.1",
   "description": "Style Atlas ReactJS UI Components",
   "main": "lib/index.js",
   "author": {
