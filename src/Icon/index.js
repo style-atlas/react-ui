@@ -1,15 +1,26 @@
 import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import SvgIcon from 'material-ui/SvgIcon';
+import {nest} from 'recompose';
+
 import {
   faCalendarAlt,
   faLightbulb,
   faFileAlt,
   faImage,
-  faBriefcase
+  faBriefcase,
+  faBuilding,
+  faFolder,
+  faCaretRight
 } from '@fortawesome/fontawesome-free-solid'
 
-export const RangeIcon = (props)=><FontAwesomeIcon {...props} icon={faCalendarAlt} />
-export const InspirationIcon = (props)=><FontAwesomeIcon {...props} icon={faLightbulb} />
-export const SlotIcon = (props)=><FontAwesomeIcon {...props} icon={faFileAlt} />
-export const DesignIcon = (props)=><FontAwesomeIcon {...props} icon={faImage} />
-export const StyleIcon = (props)=><FontAwesomeIcon {...props} icon={faBriefcase} />
+const Icon = nest(FontAwesomeIcon)
+
+export const RangeIcon = (props)=><Icon {...props} icon={faCalendarAlt} />
+export const InspirationIcon = (props)=><Icon {...props} icon={faLightbulb} />
+export const SlotIcon = (props)=><Icon {...props} icon={faFileAlt} />
+export const DesignIcon = (props)=><Icon {...props} icon={faImage} />
+export const StyleIcon = (props)=><Icon {...props} icon={faBriefcase} />
+export const LabelIcon = (props)=><Icon {...props} icon={faFolder} />
+export const CompanyIcon = (props)=><Icon {...props} icon={faBuilding} />
+export const SelectedIcon = (props)=><Icon {...props} icon={faCaretRight} />
