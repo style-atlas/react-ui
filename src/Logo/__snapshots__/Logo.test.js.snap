@@ -3,7 +3,10 @@
 exports[`Logo should render as snapshot defines 1`] = `
 <Logo>
   <svg
+    className={undefined}
+    height={undefined}
     viewBox="0 0 640 480"
+    width={undefined}
     xmlns="http://www.w3.org/2000/svg"
   >
     <title>
