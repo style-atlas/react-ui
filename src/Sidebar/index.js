@@ -3,8 +3,9 @@ import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import { withStyles } from 'material-ui/styles';
-import { N900, N10 } from '../Theme/colors'
 import {nest} from 'recompose';
+import { N900, N10 } from '../Theme/colors'
+import {SelectedIcon} from '../Icon';
 
 const sidebarStyle = theme=>({
   sidebarText:{
@@ -39,14 +40,26 @@ export default Sidebar;
 
 export const SidebarItem = withStyles(sidebarStyle)
 (
-  ({text,classes,icon,...props})=>(
-  <ListItem button>
+  ({text,classes,selected,icon,...props})=>(
+  <ListItem button {...props}>
+    {
+      icon && 
+      <ListItemIcon
+      classes={{root:classes.sidebarIcon}}
+      children={icon}
+      />
+    }
+    
     <ListItemText
     classes={{
       text:classes.sidebarText
     }}
     primary={text}
     />
+    {
+      selected && 
+      <SelectedIcon className={classes.sidebarIcon}/>
+    }
   </ListItem>
   )
 )
@@ -55,7 +68,14 @@ export const SidebarSegment = withStyles(sidebarStyle)
 (
   ({text,icon,classes,...props})=>(
   <Fragment>
-    <ListItem button>
+    <ListItem button {...props}>
+      {
+        icon && 
+        <ListItemIcon
+        classes={{root:classes.sidebarIcon}}
+        children={icon}
+        />
+      }
       <ListItemText
       classes={{
         text:classes.sidebarText
