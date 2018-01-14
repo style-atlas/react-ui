@@ -3,7 +3,7 @@ import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import { withStyles } from 'material-ui/styles';
-import {nest} from 'recompose';
+import {nest,compose,setDisplayName} from 'recompose';
 import { N900, N10 } from '../Theme/colors'
 import {SelectedIcon} from '../Icon';
 
@@ -23,8 +23,10 @@ const sidebarStyle = theme=>({
   }
 })
 
-export const Sidebar = withStyles(sidebarStyle)
-(
+export const Sidebar = compose(
+  setDisplayName('Sidebar'),
+  withStyles(sidebarStyle)
+)(
   ({children,classes,...props})=><Drawer
     type="permanent"
     anchor='left'
@@ -38,8 +40,10 @@ export const Sidebar = withStyles(sidebarStyle)
 
 export default Sidebar;
 
-export const SidebarItem = withStyles(sidebarStyle)
-(
+export const SidebarItem = compose(
+  setDisplayName('SidebarItem'),
+  withStyles(sidebarStyle)
+)(
   ({text,classes,selected,icon,...props})=>(
   <ListItem button {...props}>
     {
@@ -64,8 +68,10 @@ export const SidebarItem = withStyles(sidebarStyle)
   )
 )
 
-export const SidebarSegment = withStyles(sidebarStyle)
-(
+export const SidebarSegment = compose(
+  setDisplayName('SidebarSegment'),
+  withStyles(sidebarStyle)
+)(
   ({text,icon,classes,...props})=>(
   <Fragment>
     <ListItem button {...props}>
