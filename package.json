@@ -41,8 +41,6 @@
     "jest-enzyme": "^4.0.1",
     "prettier": "^1.10.2",
     "react-test-renderer": "^16.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "react-jss": "^7.2.0",
     "recompose": "^0.26.0"
   },

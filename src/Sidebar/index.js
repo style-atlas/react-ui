@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
@@ -27,13 +27,10 @@ export const Sidebar = compose(
   setDisplayName('Sidebar'),
   withStyles(sidebarStyle)
 )(
-  ({children,classes,...props})=><Drawer
-    type="permanent"
-    anchor='left'
+  ({classes,...props})=><List
     classes={{
-      paper:classes.sidebarRoot
+      root:classes.sidebarRoot
     }}
-    children={<List children={children} />}
     {...props}
   />
 )
@@ -73,7 +70,7 @@ export const SidebarSegment = compose(
   withStyles(sidebarStyle)
 )(
   ({text,icon,classes,...props})=>(
-  <Fragment>
+  <div>
     <ListItem button {...props}>
       {
         icon && 
@@ -94,6 +91,6 @@ export const SidebarSegment = compose(
       root:classes.divider
     }}
     />
-  </Fragment>
+  </div>
   )
 )
