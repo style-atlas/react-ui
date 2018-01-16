@@ -53,7 +53,7 @@ export const SidebarItem = compose(
     
     <ListItemText
     classes={{
-      text:classes.sidebarText
+      primary:classes.sidebarText
     }}
     primary={text}
     />
@@ -81,7 +81,7 @@ export const SidebarSegment = compose(
       }
       <ListItemText
       classes={{
-        text:classes.sidebarText
+        primary:classes.sidebarText
       }}
       primary={text}
       />
