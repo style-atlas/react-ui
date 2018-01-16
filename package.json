@@ -29,7 +29,7 @@
     "@storybook/react": "^3.2.12",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-jest": "^21.2.0",
+    "babel-jest": "^22.1.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
@@ -37,11 +37,10 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "enzyme-to-json": "^3.1.2",
-    "jest": "^21.2.1",
+    "jest": "^22.1.1",
     "jest-enzyme": "^4.0.1",
     "prettier": "^1.10.2",
     "react-test-renderer": "^16.0.0",
-    "react-jss": "^7.2.0",
     "recompose": "^0.26.0"
   },
   "dependencies": {
@@ -49,11 +48,11 @@
     "@fortawesome/fontawesome-free-solid": "^5.0.4",
     "@fortawesome/react-fontawesome": "^0.0.17",
     "classnames": "^2.2.5",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-jss": "^7.2.0",
-    "recompose": "^0.26.0",
-    "material-ui": "^1.0.0-beta.27"
+    "material-ui": "^1.0.0-beta.29",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-jss": "^8.2.1",
+    "recompose": "^0.26.0"
   },
   "jest": {
     "setupFiles": [
