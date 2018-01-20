@@ -9,7 +9,7 @@ import defaultTheme from './defaultTheme';
 const generateClassName = createGenerateClassName();
 const jss = create(jssPreset());
 
-export const createSATheme = (opts)=>createMuiTheme({
+export const createSATheme = (opts:{})=>createMuiTheme({
   ...defaultTheme,
   ...opts
 });
@@ -20,7 +20,7 @@ const Provider = ({children,theme})=>(
   generateClassName={generateClassName}
   >
     <MuiThemeProvider
-    theme={theme}
+    theme={theme || createSATheme()}
     children={children}
     />
   </JssProvider>
