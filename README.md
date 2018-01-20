@@ -1,4 +1,4 @@
-# Style Atlas User Interface &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StyleAtlas/styleatlas-ui/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@styleatlas/react-ui.svg?style=flat)](https://www.npmjs.com/package/@styleatlas/react-ui) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/StyleAtlas/styleatlas-ui/pulls)
+# Style Atlas User Interface &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/style-atlas/react-ui/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/@styleatlas/react-ui.svg?style=flat)](https://www.npmjs.com/package/@styleatlas/react-ui)
 
 Beautifully crafted user interface components of Style Atlas.
 
