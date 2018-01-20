@@ -4,22 +4,22 @@ import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import { withStyles } from 'material-ui/styles';
 import {nest,compose,setDisplayName} from 'recompose';
-import { N900, N10 } from '../Theme/colors'
+import { blueGrey } from '../Theme/colors'
 import {SelectedIcon} from '../Icon';
 
 const sidebarStyle = theme=>({
   sidebarText:{
-    color:N10
+    color:blueGrey[50]
   },
   sidebarRoot:{
-    backgroundColor:N900,
+    backgroundColor:blueGrey[900],
     minWidth:'200px'
   },
   divider:{
     backgroundColor:'rgba(255,255,255,0.3)'
   },
   sidebarIcon:{
-    color:N10    
+    color:blueGrey[50]
   }
 })
 
