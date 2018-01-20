@@ -1,30 +1,1000 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button should render as snapshot defines 1`] = `
-<defaultProps(Jss(_Button))
-  component="button"
->
-  <Jss(_Button)
-    component="button"
-  >
-    <_Button
+exports[`Should have a consistent API 1`] = `
+<div>
+  <WithStyles(Button)>
+    <Button
       classes={
         Object {
-          "button": "_Button-button-0-1-1",
-          "disabled": "_Button-disabled-0-1-5",
-          "primary": "_Button-primary-0-1-2",
-          "secondary": "_Button-secondary-0-1-3",
-          "secondaryLight": "_Button-secondaryLight-0-1-4",
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
         }
       }
-      component="button"
+      color="default"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
     >
-      <button
-        className="_Button-button-0-1-1"
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
       >
-        Wow!
-      </button>
-    </_Button>
-  </Jss(_Button)>
-</defaultProps(Jss(_Button))>
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Default
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="primary"
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="primary"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-flatPrimary-4"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-flatPrimary-4"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatPrimary-4"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Primary
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="accent"
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="accent"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-flatAccent-5"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-flatAccent-5"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatAccent-5"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Accent
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    color="contrast"
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="contrast"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-flatContrast-6"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-flatContrast-6"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatContrast-6"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Contrast
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    disabled={true}
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="default"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={true}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-disabled-13"
+        disableRipple={false}
+        disabled={true}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-disabled-13"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={true}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButtonBase-disabled-18 MuiButton-root-1 MuiButton-disabled-13"
+            disabled={true}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Disabled
+            </span>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    href="#flat-buttons"
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="default"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      href="#flat-buttons"
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        href="#flat-buttons"
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          href="#flat-buttons"
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <a
+            className="MuiButtonBase-root-17 MuiButton-root-1"
+            href="#flat-buttons"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Link
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </a>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    disabled={true}
+    href="/"
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="default"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={true}
+      fab={false}
+      fullWidth={false}
+      href="/"
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-disabled-13"
+        disableRipple={false}
+        disabled={true}
+        focusRipple={true}
+        href="/"
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-disabled-13"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={true}
+          focusRipple={true}
+          href="/"
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <a
+            className="MuiButtonBase-root-17 MuiButtonBase-disabled-18 MuiButton-root-1 MuiButton-disabled-13"
+            href="/"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={-1}
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Link disabled
+            </span>
+          </a>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    dense={true}
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="default"
+      dense={true}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1 MuiButton-dense-2"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1 MuiButton-dense-2"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-dense-2"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Dense
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+  <WithStyles(Button)
+    data-something="here I am"
+    onClick={[MockFunction]}
+  >
+    <Button
+      classes={
+        Object {
+          "colorInherit": "MuiButton-colorInherit-7",
+          "dense": "MuiButton-dense-2",
+          "disabled": "MuiButton-disabled-13",
+          "fab": "MuiButton-fab-14",
+          "flatAccent": "MuiButton-flatAccent-5",
+          "flatContrast": "MuiButton-flatContrast-6",
+          "flatPrimary": "MuiButton-flatPrimary-4",
+          "fullWidth": "MuiButton-fullWidth-16",
+          "keyboardFocused": "MuiButton-keyboardFocused-9",
+          "label": "MuiButton-label-3",
+          "mini": "MuiButton-mini-15",
+          "raised": "MuiButton-raised-8",
+          "raisedAccent": "MuiButton-raisedAccent-11",
+          "raisedContrast": "MuiButton-raisedContrast-12",
+          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "root": "MuiButton-root-1",
+        }
+      }
+      color="default"
+      data-something="here I am"
+      dense={false}
+      disableFocusRipple={false}
+      disableRipple={false}
+      disabled={false}
+      fab={false}
+      fullWidth={false}
+      mini={false}
+      onClick={[MockFunction]}
+      raised={false}
+      type="button"
+    >
+      <WithStyles(ButtonBase)
+        className="MuiButton-root-1"
+        data-something="here I am"
+        disableRipple={false}
+        disabled={false}
+        focusRipple={true}
+        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+        onClick={[MockFunction]}
+        type="button"
+      >
+        <ButtonBase
+          centerRipple={false}
+          className="MuiButton-root-1"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-18",
+              "root": "MuiButtonBase-root-17",
+            }
+          }
+          data-something="here I am"
+          disableRipple={false}
+          disabled={false}
+          focusRipple={true}
+          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
+          onClick={[MockFunction]}
+          tabIndex={0}
+          type="button"
+        >
+          <button
+            className="MuiButtonBase-root-17 MuiButton-root-1"
+            data-something="here I am"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[MockFunction]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label-3"
+            >
+              Does something
+            </span>
+            <WithStyles(TouchRipple)
+              center={false}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={false}
+                classes={
+                  Object {
+                    "ripple": "MuiTouchRipple-ripple-23",
+                    "rippleFast": "MuiTouchRipple-rippleFast-25",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "root": "MuiTouchRipple-root-19",
+                    "wrapper": "MuiTouchRipple-wrapper-20",
+                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
+                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </Button>
+  </WithStyles(Button)>
+</div>
 `;

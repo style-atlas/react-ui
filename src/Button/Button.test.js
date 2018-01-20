@@ -1,14 +1,36 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { mount } from "enzyme";
-import { Button } from "./";
+import Button from "./index";
 
-jest.mock("react-jss", () => {
-  jest.spyOn(global.Math, "random").mockImplementation(() => 0.42);
-  return jest.requireActual("react-jss");
-});
-
-test("Button should render as snapshot defines", () => {
-  const tree = mount(<Button>Wow!</Button>);
+test("Should have a consistent API", () => {
+  const doSomething = jest.fn()
+  const tree = mount(<div>
+    <Button>Default</Button>
+    <Button color="primary">
+      Primary
+    </Button>
+    <Button color="accent">
+      Accent
+    </Button>
+    <Button color="contrast">
+      Contrast
+    </Button>
+    <Button disabled>
+      Disabled
+    </Button>
+    <Button href="#flat-buttons">
+      Link
+    </Button>
+    <Button disabled href="/">
+      Link disabled
+    </Button>
+    <Button dense>
+      Dense
+    </Button>
+    <Button onClick={doSomething} data-something="here I am">
+      Does something
+    </Button>
+  </div>);
 
   expect(tree).toMatchSnapshot();
 });
