@@ -15,3 +15,14 @@ test("createSATheme API should be consistent", () => {
 
   expect(theme).toMatchSnapshot();
 });
+
+test("createSATheme should merge configuration", () => {
+  const configuredTheme = createSATheme({
+    typography:{
+      htmlFontSize: 10,
+    }
+  });
+  const basicTheme = createSATheme({});  
+
+  expect(basicTheme.typography.body1.fontFamily).toBe(configuredTheme.typography.body1.fontFamily);
+});
