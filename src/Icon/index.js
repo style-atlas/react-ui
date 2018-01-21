@@ -1,5 +1,6 @@
 import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
+import GraphIcon from './Graph';
 
 import {
   faCalendarAlt,
@@ -20,3 +21,8 @@ export const StyleIcon = (props)=><FontAwesomeIcon {...props} icon={faBriefcase}
 export const LabelIcon = (props)=><FontAwesomeIcon {...props} icon={faFolder} />
 export const CompanyIcon = (props)=><FontAwesomeIcon {...props} icon={faBuilding} />
 export const SelectedIcon = (props)=><FontAwesomeIcon {...props} icon={faCaretRight} />
+
+export { 
+  GraphIcon,
+  GraphIcon as DashboardIcon
+}
