@@ -2,6 +2,7 @@ import React from 'react'
 import FontAwesomeIcon from '@fortawesome/react-fontawesome'
 import GraphIcon from './Graph';
 import GridIcon from './Grid';
+import LibraryIcon from './Library';
 
 import {
   faCalendarAlt,
@@ -27,5 +28,7 @@ export {
   GraphIcon as DashboardIcon,
 
   GridIcon,
-  GridIcon as RangeIcon
+  GridIcon as RangeIcon,
+  
+  LibraryIcon
 }
