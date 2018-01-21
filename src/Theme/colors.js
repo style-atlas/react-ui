@@ -1,9 +1,3 @@
-import { red, lightBlue, blueGrey, orange } from 'material-ui/colors';
+import { red, lightBlue, blueGrey, orange } from "material-ui/colors";
 
-
-export {
-  red,
-  lightBlue,
-  blueGrey,
-  orange
-}
+export { red, lightBlue, blueGrey, orange };

@@ -1,12 +1,12 @@
-import { blueGrey,lightBlue,red,orange } from '../Theme/colors'
+import { blueGrey, lightBlue, red, orange } from "../Theme/colors";
 
 export default {
-  palette:{
-    primary:lightBlue,
-    secondary:orange,
-    error:red,
+  palette: {
+    primary: lightBlue,
+    secondary: orange,
+    error: red
   },
-  typography:{
-    fontFamily:'proxima-nova, Roboto, sans-serif'
+  typography: {
+    fontFamily: "proxima-nova, Roboto, sans-serif"
   }
-}
+};

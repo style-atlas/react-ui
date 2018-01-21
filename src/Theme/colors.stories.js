@@ -9,11 +9,9 @@ import * as colors from "./colors";
 storiesOf("Colors", module).add("all", () => <Colors />);
 
 function Colors() {
-  return (
-    Object.entries(colors).map(([key, val]) => (
-      <ColorGroup name={key} group={val} key={key}/>
-    ))
-  );
+  return Object.entries(colors).map(([key, val]) => (
+    <ColorGroup name={key} group={val} key={key} />
+  ));
 }
 
 function ColorBrick(props) {
@@ -30,13 +28,13 @@ function ColorBrick(props) {
   );
 }
 
-function ColorGroup({group,name}){
-  return <div style={{width:'150px',float:'left',margin:'6px'}}>
-    <h3>{name}</h3>
-    {
-      Object.entries(group).map(([key, val]) => (
-        <ColorBrick name={key} color={val} key={key}/>
-      ))
-    }
-  </div>
+function ColorGroup({ group, name }) {
+  return (
+    <div style={{ width: "150px", float: "left", margin: "6px" }}>
+      <h3>{name}</h3>
+      {Object.entries(group).map(([key, val]) => (
+        <ColorBrick name={key} color={val} key={key} />
+      ))}
+    </div>
+  );
 }
