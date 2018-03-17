@@ -6,41 +6,41 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
         className="MuiButton-root-1"
-        disableRipple={false}
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
@@ -48,19 +48,19 @@ exports[`Should have a consistent API 1`] = `
           className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -72,11 +72,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Default
             </span>
@@ -88,13 +88,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -122,61 +122,61 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="primary"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-flatPrimary-4"
-        disableRipple={false}
+        className="MuiButton-root-1 MuiButton-flatPrimary-3"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-flatPrimary-4"
+          className="MuiButton-root-1 MuiButton-flatPrimary-3"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatPrimary-4"
+            className="MuiButtonBase-root-16 MuiButton-root-1 MuiButton-flatPrimary-3"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -188,11 +188,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Primary
             </span>
@@ -204,13 +204,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -238,61 +238,61 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="accent"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-flatAccent-5"
-        disableRipple={false}
+        className="MuiButton-root-1"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-flatAccent-5"
+          className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatAccent-5"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -304,11 +304,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Accent
             </span>
@@ -320,13 +320,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -354,61 +354,61 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="contrast"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-flatContrast-6"
-        disableRipple={false}
+        className="MuiButton-root-1"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-flatContrast-6"
+          className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-flatContrast-6"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -420,11 +420,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Contrast
             </span>
@@ -436,13 +436,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -470,61 +470,61 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={true}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-disabled-13"
-        disableRipple={false}
+        className="MuiButton-root-1 MuiButton-disabled-10"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={true}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-disabled-13"
+          className="MuiButton-root-1 MuiButton-disabled-10"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={true}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButtonBase-disabled-18 MuiButton-root-1 MuiButton-disabled-13"
+            className="MuiButtonBase-root-16 MuiButtonBase-disabled-17 MuiButton-root-1 MuiButton-disabled-10"
             disabled={true}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -536,11 +536,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={-1}
+            tabIndex="-1"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Disabled
             </span>
@@ -555,43 +555,43 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       href="#flat-buttons"
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
         className="MuiButton-root-1"
-        disableRipple={false}
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={false}
         focusRipple={true}
         href="#flat-buttons"
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
@@ -599,20 +599,20 @@ exports[`Should have a consistent API 1`] = `
           className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={false}
           focusRipple={true}
           href="#flat-buttons"
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <a
-            className="MuiButtonBase-root-17 MuiButton-root-1"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
             href="#flat-buttons"
             onBlur={[Function]}
             onFocus={[Function]}
@@ -624,10 +624,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            role="button"
+            tabIndex="0"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Link
             </span>
@@ -639,13 +640,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -674,64 +675,64 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={true}
-      fab={false}
       fullWidth={false}
       href="/"
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-disabled-13"
-        disableRipple={false}
+        className="MuiButton-root-1 MuiButton-disabled-10"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         disabled={true}
         focusRipple={true}
         href="/"
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-disabled-13"
+          className="MuiButton-root-1 MuiButton-disabled-10"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           disableRipple={false}
           disabled={true}
           focusRipple={true}
           href="/"
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <a
-            className="MuiButtonBase-root-17 MuiButtonBase-disabled-18 MuiButton-root-1 MuiButton-disabled-13"
+            className="MuiButtonBase-root-16 MuiButtonBase-disabled-17 MuiButton-root-1 MuiButton-disabled-10"
             href="/"
             onBlur={[Function]}
             onFocus={[Function]}
@@ -743,10 +744,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={-1}
+            role="button"
+            tabIndex="-1"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Link disabled
             </span>
@@ -761,61 +763,65 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
       dense={true}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
-        className="MuiButton-root-1 MuiButton-dense-2"
-        disableRipple={false}
+        className="MuiButton-root-1"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
+        dense={true}
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         type="button"
       >
         <ButtonBase
           centerRipple={false}
-          className="MuiButton-root-1 MuiButton-dense-2"
+          className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
+          dense={true}
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1 MuiButton-dense-2"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
+            dense={true}
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -827,11 +833,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Dense
             </span>
@@ -843,13 +849,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >
@@ -878,44 +884,44 @@ exports[`Should have a consistent API 1`] = `
     <Button
       classes={
         Object {
-          "colorInherit": "MuiButton-colorInherit-7",
-          "dense": "MuiButton-dense-2",
-          "disabled": "MuiButton-disabled-13",
-          "fab": "MuiButton-fab-14",
-          "flatAccent": "MuiButton-flatAccent-5",
-          "flatContrast": "MuiButton-flatContrast-6",
-          "flatPrimary": "MuiButton-flatPrimary-4",
-          "fullWidth": "MuiButton-fullWidth-16",
-          "keyboardFocused": "MuiButton-keyboardFocused-9",
-          "label": "MuiButton-label-3",
-          "mini": "MuiButton-mini-15",
-          "raised": "MuiButton-raised-8",
-          "raisedAccent": "MuiButton-raisedAccent-11",
-          "raisedContrast": "MuiButton-raisedContrast-12",
-          "raisedPrimary": "MuiButton-raisedPrimary-10",
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
           "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
         }
       }
       color="default"
       data-something="here I am"
-      dense={false}
       disableFocusRipple={false}
-      disableRipple={false}
       disabled={false}
-      fab={false}
       fullWidth={false}
       mini={false}
       onClick={[MockFunction]}
-      raised={false}
+      size="medium"
       type="button"
+      variant="flat"
     >
       <WithStyles(ButtonBase)
         className="MuiButton-root-1"
+        classes={
+          Object {
+            "keyboardFocused": "MuiButton-keyboardFocused-7",
+          }
+        }
         data-something="here I am"
-        disableRipple={false}
         disabled={false}
         focusRipple={true}
-        keyboardFocusedClassName="MuiButton-keyboardFocused-9"
         onClick={[MockFunction]}
         type="button"
       >
@@ -924,21 +930,21 @@ exports[`Should have a consistent API 1`] = `
           className="MuiButton-root-1"
           classes={
             Object {
-              "disabled": "MuiButtonBase-disabled-18",
-              "root": "MuiButtonBase-root-17",
+              "disabled": "MuiButtonBase-disabled-17",
+              "keyboardFocused": "MuiButtonBase-keyboardFocused-18 MuiButton-keyboardFocused-7",
+              "root": "MuiButtonBase-root-16",
             }
           }
           data-something="here I am"
           disableRipple={false}
           disabled={false}
           focusRipple={true}
-          keyboardFocusedClassName="MuiButton-keyboardFocused-9"
           onClick={[MockFunction]}
-          tabIndex={0}
+          tabIndex="0"
           type="button"
         >
           <button
-            className="MuiButtonBase-root-17 MuiButton-root-1"
+            className="MuiButtonBase-root-16 MuiButton-root-1"
             data-something="here I am"
             disabled={false}
             onBlur={[Function]}
@@ -952,11 +958,11 @@ exports[`Should have a consistent API 1`] = `
             onTouchEnd={[Function]}
             onTouchMove={[Function]}
             onTouchStart={[Function]}
-            tabIndex={0}
+            tabIndex="0"
             type="button"
           >
             <span
-              className="MuiButton-label-3"
+              className="MuiButton-label-2"
             >
               Does something
             </span>
@@ -968,13 +974,13 @@ exports[`Should have a consistent API 1`] = `
                 center={false}
                 classes={
                   Object {
-                    "ripple": "MuiTouchRipple-ripple-23",
-                    "rippleFast": "MuiTouchRipple-rippleFast-25",
-                    "rippleVisible": "MuiTouchRipple-rippleVisible-24",
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
                     "root": "MuiTouchRipple-root-19",
-                    "wrapper": "MuiTouchRipple-wrapper-20",
-                    "wrapperLeaving": "MuiTouchRipple-wrapperLeaving-21",
-                    "wrapperPulsating": "MuiTouchRipple-wrapperPulsating-22",
                   }
                 }
               >

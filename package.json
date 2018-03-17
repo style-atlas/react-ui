@@ -22,11 +22,11 @@
     "format": "prettier --write ./src/**/*.js"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.12",
-    "@storybook/addon-info": "^3.3.8",
-    "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-actions": "^3.3.15",
+    "@storybook/addon-info": "^3.3.15",
+    "@storybook/addon-links": "^3.3.15",
     "@storybook/addon-storyshots": "^3.3.15",
-    "@storybook/cli": "^3.2.12",
+    "@storybook/cli": "^3.3.15",
     "@storybook/react": "^3.3.15",
     "@types/jest": "^22.2.0",
     "@types/react-dom": "^16.0.4",
@@ -35,31 +35,31 @@
     "awesome-typescript-loader": "^4.0.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-jest": "^22.1.0",
+    "babel-jest": "^23.0.0-alpha.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
-    "enzyme-to-json": "^3.1.2",
+    "enzyme-to-json": "^3.3.3",
     "jest": "^22.4.2",
-    "jest-enzyme": "^4.0.1",
-    "prettier": "^1.10.2",
+    "jest-enzyme": "^6.0.0",
+    "prettier": "^1.11.1",
     "react": "16.2.0",
     "react-dom": "^16.2.0",
-    "react-jss": "^8.2.1",
+    "react-jss": "^8.3.5",
     "react-test-renderer": "^16.2.0",
     "ts-jest": "^22.4.1",
     "typescript": "^2.7.2"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.2",
-    "@fortawesome/fontawesome-free-solid": "^5.0.4",
+    "@fortawesome/fontawesome": "^1.1.4",
+    "@fortawesome/fontawesome-free-solid": "^5.0.8",
     "@fortawesome/react-fontawesome": "^0.0.17",
     "classnames": "^2.2.5",
-    "lodash": "^4.17.4",
-    "material-ui": "^1.0.0-beta.29",
+    "lodash": "^4.17.5",
+    "material-ui": "^1.0.0-beta.38",
     "recompose": "^0.26.0"
   },
   "peerDependencies": {
@@ -68,13 +68,13 @@
     "react-jss": "^8.2.1"
   },
   "jest": {
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "transform": {
+      "^.+\\.(t|j)sx?$": "ts-jest"
+    },
     "setupFiles": [
       "./jest/setup.js"
     ],
-    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],

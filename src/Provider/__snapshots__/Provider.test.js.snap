@@ -56,6 +56,7 @@ exports[`Provider API should be consistent 1`] = `
               "onProcessStyle": [Function],
             },
             Object {
+              "onChangeValue": [Function],
               "onProcessStyle": [Function],
             },
             Object {
@@ -75,6 +76,7 @@ exports[`Provider API should be consistent 1`] = `
         "plugins": PluginsRegistry {
           "hooks": Object {
             "onChangeValue": Array [
+              [Function],
               [Function],
               [Function],
             ],
@@ -111,13 +113,11 @@ exports[`Provider API should be consistent 1`] = `
             ],
           },
         },
-        "version": "9.5.1",
+        "version": "9.8.0",
       }
     }
   >
     <MuiThemeProvider
-      disableStylesGeneration={false}
-      sheetsManager={null}
       theme={
         Object {
           "breakpoints": Object {
@@ -154,33 +154,25 @@ exports[`Provider API should be consistent 1`] = `
               "minHeight": 56,
             },
           },
+          "overrides": Object {},
           "palette": Object {
             "action": Object {
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
+              "disabledBackground": "rgba(0, 0, 0, 0.12)",
+              "hover": "rgba(0, 0, 0, 0.08)",
+              "selected": "rgba(0, 0, 0, 0.14)",
             },
             "background": Object {
-              "appBar": "#f5f5f5",
-              "avatar": "#bdbdbd",
-              "chip": "#e0e0e0",
-              "contentFrame": "#eeeeee",
               "default": "#fafafa",
               "paper": "#fff",
             },
             "common": Object {
               "black": "#000",
-              "darkBlack": "rgba(0, 0, 0, 0.87)",
-              "darkWhite": "rgba(255, 255, 255, 0.87)",
-              "faintBlack": "rgba(0, 0, 0, 0.12)",
-              "fullBlack": "rgba(0, 0, 0, 1)",
-              "fullWhite": "rgba(255, 255, 255, 1)",
-              "lightBlack": "rgba(0, 0, 0, 0.54)",
-              "lightWhite": "rgba(255, 255, 255, 0.54)",
-              "minBlack": "rgba(0, 0, 0, 0.26)",
-              "transparent": "rgba(0, 0, 0, 0)",
               "white": "#fff",
             },
             "contrastThreshold": 3,
+            "divider": "rgba(0, 0, 0, 0.12)",
             "error": Object {
               "100": "#ffcdd2",
               "200": "#ef9a9a",
@@ -196,6 +188,9 @@ exports[`Provider API should be consistent 1`] = `
               "A200": "#ff5252",
               "A400": "#ff1744",
               "A700": "#d50000",
+              "contrastText": "#fff",
+              "dark": "#d32f2f",
+              "light": "#e57373",
               "main": "#f44336",
             },
             "getContrastText": [Function],
@@ -214,16 +209,6 @@ exports[`Provider API should be consistent 1`] = `
               "A200": "#aaaaaa",
               "A400": "#303030",
               "A700": "#616161",
-            },
-            "input": Object {
-              "bottomLine": "rgba(0, 0, 0, 0.42)",
-              "disabled": "rgba(0, 0, 0, 0.42)",
-              "helperText": "rgba(0, 0, 0, 0.54)",
-              "inputText": "rgba(0, 0, 0, 0.87)",
-              "labelText": "rgba(0, 0, 0, 0.54)",
-            },
-            "line": Object {
-              "stepper": "#bdbdbd",
             },
             "primary": Object {
               "100": "#b3e5fc",
@@ -267,83 +252,14 @@ exports[`Provider API should be consistent 1`] = `
             },
             "text": Object {
               "disabled": "rgba(0, 0, 0, 0.38)",
-              "divider": "rgba(0, 0, 0, 0.12)",
               "hint": "rgba(0, 0, 0, 0.38)",
-              "icon": "rgba(0, 0, 0, 0.38)",
-              "lightDivider": "rgba(0, 0, 0, 0.075)",
               "primary": "rgba(0, 0, 0, 0.87)",
               "secondary": "rgba(0, 0, 0, 0.54)",
             },
+            "tonalOffset": 0.2,
             "type": "light",
-            "types": Object {
-              "dark": Object {
-                "action": Object {
-                  "active": "rgba(255, 255, 255, 1)",
-                  "disabled": "rgba(255, 255, 255, 0.3)",
-                },
-                "background": Object {
-                  "appBar": "#212121",
-                  "avatar": "#757575",
-                  "chip": "#616161",
-                  "contentFrame": "#212121",
-                  "default": "#303030",
-                  "paper": "#424242",
-                },
-                "input": Object {
-                  "bottomLine": "rgba(255, 255, 255, 0.7)",
-                  "disabled": "rgba(255, 255, 255, 0.5)",
-                  "helperText": "rgba(255, 255, 255, 0.7)",
-                  "inputText": "rgba(255, 255, 255, 1)",
-                  "labelText": "rgba(255, 255, 255, 0.7)",
-                },
-                "line": Object {
-                  "stepper": "#757575",
-                },
-                "text": Object {
-                  "disabled": "rgba(255, 255, 255, 0.5)",
-                  "divider": "rgba(255, 255, 255, 0.12)",
-                  "hint": "rgba(255, 255, 255, 0.5)",
-                  "icon": "rgba(255, 255, 255, 0.5)",
-                  "lightDivider": "rgba(255, 255, 255, 0.075)",
-                  "primary": "rgba(255, 255, 255, 1)",
-                  "secondary": "rgba(255, 255, 255, 0.7)",
-                },
-              },
-              "light": Object {
-                "action": Object {
-                  "active": "rgba(0, 0, 0, 0.54)",
-                  "disabled": "rgba(0, 0, 0, 0.26)",
-                },
-                "background": Object {
-                  "appBar": "#f5f5f5",
-                  "avatar": "#bdbdbd",
-                  "chip": "#e0e0e0",
-                  "contentFrame": "#eeeeee",
-                  "default": "#fafafa",
-                  "paper": "#fff",
-                },
-                "input": Object {
-                  "bottomLine": "rgba(0, 0, 0, 0.42)",
-                  "disabled": "rgba(0, 0, 0, 0.42)",
-                  "helperText": "rgba(0, 0, 0, 0.54)",
-                  "inputText": "rgba(0, 0, 0, 0.87)",
-                  "labelText": "rgba(0, 0, 0, 0.54)",
-                },
-                "line": Object {
-                  "stepper": "#bdbdbd",
-                },
-                "text": Object {
-                  "disabled": "rgba(0, 0, 0, 0.38)",
-                  "divider": "rgba(0, 0, 0, 0.12)",
-                  "hint": "rgba(0, 0, 0, 0.38)",
-                  "icon": "rgba(0, 0, 0, 0.38)",
-                  "lightDivider": "rgba(0, 0, 0, 0.075)",
-                  "primary": "rgba(0, 0, 0, 0.87)",
-                  "secondary": "rgba(0, 0, 0, 0.54)",
-                },
-              },
-            },
           },
+          "props": Object {},
           "shadows": Array [
             "none",
             "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
@@ -427,7 +343,6 @@ exports[`Provider API should be consistent 1`] = `
               "fontSize": "2.125rem",
               "fontWeight": 400,
               "lineHeight": "1.20588em",
-              "marginLeft": "-.04em",
             },
             "display2": Object {
               "color": "rgba(0, 0, 0, 0.54)",
@@ -435,7 +350,7 @@ exports[`Provider API should be consistent 1`] = `
               "fontSize": "2.8125rem",
               "fontWeight": 400,
               "lineHeight": "1.06667em",
-              "marginLeft": "-.04em",
+              "marginLeft": "-.02em",
             },
             "display3": Object {
               "color": "rgba(0, 0, 0, 0.54)",
@@ -444,7 +359,7 @@ exports[`Provider API should be consistent 1`] = `
               "fontWeight": 400,
               "letterSpacing": "-.02em",
               "lineHeight": "1.30357em",
-              "marginLeft": "-.04em",
+              "marginLeft": "-.02em",
             },
             "display4": Object {
               "color": "rgba(0, 0, 0, 0.54)",
@@ -453,7 +368,7 @@ exports[`Provider API should be consistent 1`] = `
               "fontWeight": 300,
               "letterSpacing": "-.04em",
               "lineHeight": "1.14286em",
-              "marginLeft": "-.06em",
+              "marginLeft": "-.04em",
             },
             "fontFamily": "proxima-nova, Roboto, sans-serif",
             "fontSize": 14,
@@ -539,33 +454,25 @@ Object {
       "minHeight": 56,
     },
   },
+  "overrides": Object {},
   "palette": Object {
     "action": Object {
       "active": "rgba(0, 0, 0, 0.54)",
       "disabled": "rgba(0, 0, 0, 0.26)",
+      "disabledBackground": "rgba(0, 0, 0, 0.12)",
+      "hover": "rgba(0, 0, 0, 0.08)",
+      "selected": "rgba(0, 0, 0, 0.14)",
     },
     "background": Object {
-      "appBar": "#f5f5f5",
-      "avatar": "#bdbdbd",
-      "chip": "#e0e0e0",
-      "contentFrame": "#eeeeee",
       "default": "#fafafa",
       "paper": "#fff",
     },
     "common": Object {
       "black": "#000",
-      "darkBlack": "rgba(0, 0, 0, 0.87)",
-      "darkWhite": "rgba(255, 255, 255, 0.87)",
-      "faintBlack": "rgba(0, 0, 0, 0.12)",
-      "fullBlack": "rgba(0, 0, 0, 1)",
-      "fullWhite": "rgba(255, 255, 255, 1)",
-      "lightBlack": "rgba(0, 0, 0, 0.54)",
-      "lightWhite": "rgba(255, 255, 255, 0.54)",
-      "minBlack": "rgba(0, 0, 0, 0.26)",
-      "transparent": "rgba(0, 0, 0, 0)",
       "white": "#fff",
     },
     "contrastThreshold": 3,
+    "divider": "rgba(0, 0, 0, 0.12)",
     "error": Object {
       "100": "#ffcdd2",
       "200": "#ef9a9a",
@@ -581,6 +488,9 @@ Object {
       "A200": "#ff5252",
       "A400": "#ff1744",
       "A700": "#d50000",
+      "contrastText": "#fff",
+      "dark": "#d32f2f",
+      "light": "#e57373",
       "main": "#f44336",
     },
     "getContrastText": [Function],
@@ -599,16 +509,6 @@ Object {
       "A200": "#aaaaaa",
       "A400": "#303030",
       "A700": "#616161",
-    },
-    "input": Object {
-      "bottomLine": "rgba(0, 0, 0, 0.42)",
-      "disabled": "rgba(0, 0, 0, 0.42)",
-      "helperText": "rgba(0, 0, 0, 0.54)",
-      "inputText": "rgba(0, 0, 0, 0.87)",
-      "labelText": "rgba(0, 0, 0, 0.54)",
-    },
-    "line": Object {
-      "stepper": "#bdbdbd",
     },
     "primary": Object {
       "100": "#b3e5fc",
@@ -652,83 +552,14 @@ Object {
     },
     "text": Object {
       "disabled": "rgba(0, 0, 0, 0.38)",
-      "divider": "rgba(0, 0, 0, 0.12)",
       "hint": "rgba(0, 0, 0, 0.38)",
-      "icon": "rgba(0, 0, 0, 0.38)",
-      "lightDivider": "rgba(0, 0, 0, 0.075)",
       "primary": "rgba(0, 0, 0, 0.87)",
       "secondary": "rgba(0, 0, 0, 0.54)",
     },
+    "tonalOffset": 0.2,
     "type": "light",
-    "types": Object {
-      "dark": Object {
-        "action": Object {
-          "active": "rgba(255, 255, 255, 1)",
-          "disabled": "rgba(255, 255, 255, 0.3)",
-        },
-        "background": Object {
-          "appBar": "#212121",
-          "avatar": "#757575",
-          "chip": "#616161",
-          "contentFrame": "#212121",
-          "default": "#303030",
-          "paper": "#424242",
-        },
-        "input": Object {
-          "bottomLine": "rgba(255, 255, 255, 0.7)",
-          "disabled": "rgba(255, 255, 255, 0.5)",
-          "helperText": "rgba(255, 255, 255, 0.7)",
-          "inputText": "rgba(255, 255, 255, 1)",
-          "labelText": "rgba(255, 255, 255, 0.7)",
-        },
-        "line": Object {
-          "stepper": "#757575",
-        },
-        "text": Object {
-          "disabled": "rgba(255, 255, 255, 0.5)",
-          "divider": "rgba(255, 255, 255, 0.12)",
-          "hint": "rgba(255, 255, 255, 0.5)",
-          "icon": "rgba(255, 255, 255, 0.5)",
-          "lightDivider": "rgba(255, 255, 255, 0.075)",
-          "primary": "rgba(255, 255, 255, 1)",
-          "secondary": "rgba(255, 255, 255, 0.7)",
-        },
-      },
-      "light": Object {
-        "action": Object {
-          "active": "rgba(0, 0, 0, 0.54)",
-          "disabled": "rgba(0, 0, 0, 0.26)",
-        },
-        "background": Object {
-          "appBar": "#f5f5f5",
-          "avatar": "#bdbdbd",
-          "chip": "#e0e0e0",
-          "contentFrame": "#eeeeee",
-          "default": "#fafafa",
-          "paper": "#fff",
-        },
-        "input": Object {
-          "bottomLine": "rgba(0, 0, 0, 0.42)",
-          "disabled": "rgba(0, 0, 0, 0.42)",
-          "helperText": "rgba(0, 0, 0, 0.54)",
-          "inputText": "rgba(0, 0, 0, 0.87)",
-          "labelText": "rgba(0, 0, 0, 0.54)",
-        },
-        "line": Object {
-          "stepper": "#bdbdbd",
-        },
-        "text": Object {
-          "disabled": "rgba(0, 0, 0, 0.38)",
-          "divider": "rgba(0, 0, 0, 0.12)",
-          "hint": "rgba(0, 0, 0, 0.38)",
-          "icon": "rgba(0, 0, 0, 0.38)",
-          "lightDivider": "rgba(0, 0, 0, 0.075)",
-          "primary": "rgba(0, 0, 0, 0.87)",
-          "secondary": "rgba(0, 0, 0, 0.54)",
-        },
-      },
-    },
   },
+  "props": Object {},
   "shadows": Array [
     "none",
     "0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12)",
@@ -812,7 +643,6 @@ Object {
       "fontSize": "2.125rem",
       "fontWeight": 400,
       "lineHeight": "1.20588em",
-      "marginLeft": "-.04em",
     },
     "display2": Object {
       "color": "rgba(0, 0, 0, 0.54)",
@@ -820,7 +650,7 @@ Object {
       "fontSize": "2.8125rem",
       "fontWeight": 400,
       "lineHeight": "1.06667em",
-      "marginLeft": "-.04em",
+      "marginLeft": "-.02em",
     },
     "display3": Object {
       "color": "rgba(0, 0, 0, 0.54)",
@@ -829,7 +659,7 @@ Object {
       "fontWeight": 400,
       "letterSpacing": "-.02em",
       "lineHeight": "1.30357em",
-      "marginLeft": "-.04em",
+      "marginLeft": "-.02em",
     },
     "display4": Object {
       "color": "rgba(0, 0, 0, 0.54)",
@@ -838,7 +668,7 @@ Object {
       "fontWeight": 300,
       "letterSpacing": "-.04em",
       "lineHeight": "1.14286em",
-      "marginLeft": "-.06em",
+      "marginLeft": "-.04em",
     },
     "fontFamily": "proxima-nova, Roboto, sans-serif",
     "fontSize": 14,

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CompanyIcon should match snapshot 1`] = `
-<CompanyIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -34,7 +34,6 @@ exports[`CompanyIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-building fa-w-14 "
-      data-fa-processed=""
       data-icon="building"
       data-prefix="fas"
       role="img"
@@ -49,7 +48,7 @@ exports[`CompanyIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</CompanyIcon>
+</Component>
 `;
 
 exports[`DashboardIcon should match snapshot 1`] = `
@@ -58,12 +57,11 @@ exports[`DashboardIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -89,7 +87,7 @@ exports[`DashboardIcon should match snapshot 1`] = `
 `;
 
 exports[`DesignIcon should match snapshot 1`] = `
-<DesignIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -122,7 +120,6 @@ exports[`DesignIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-image fa-w-16 "
-      data-fa-processed=""
       data-icon="image"
       data-prefix="fas"
       role="img"
@@ -137,7 +134,7 @@ exports[`DesignIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</DesignIcon>
+</Component>
 `;
 
 exports[`EqualizerIcon should match snapshot 1`] = `
@@ -146,12 +143,11 @@ exports[`EqualizerIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -203,12 +199,11 @@ exports[`GraphIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -239,12 +234,11 @@ exports[`GridIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -291,7 +285,7 @@ exports[`GridIcon should match snapshot 1`] = `
 `;
 
 exports[`InspirationIcon should match snapshot 1`] = `
-<InspirationIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -324,7 +318,6 @@ exports[`InspirationIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-lightbulb fa-w-12 "
-      data-fa-processed=""
       data-icon="lightbulb"
       data-prefix="fas"
       role="img"
@@ -339,11 +332,11 @@ exports[`InspirationIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</InspirationIcon>
+</Component>
 `;
 
 exports[`LabelIcon should match snapshot 1`] = `
-<LabelIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -376,7 +369,6 @@ exports[`LabelIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-folder fa-w-16 "
-      data-fa-processed=""
       data-icon="folder"
       data-prefix="fas"
       role="img"
@@ -391,7 +383,7 @@ exports[`LabelIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</LabelIcon>
+</Component>
 `;
 
 exports[`LabelRulesIcon should match snapshot 1`] = `
@@ -400,12 +392,11 @@ exports[`LabelRulesIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -457,12 +448,11 @@ exports[`LibraryIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -499,12 +489,11 @@ exports[`RangeIcon should match snapshot 1`] = `
     <SvgIcon
       classes={
         Object {
-          "colorAccent": "MuiSvgIcon-colorAccent-2",
-          "colorAction": "MuiSvgIcon-colorAction-3",
-          "colorContrast": "MuiSvgIcon-colorContrast-4",
+          "colorAction": "MuiSvgIcon-colorAction-4",
           "colorDisabled": "MuiSvgIcon-colorDisabled-5",
           "colorError": "MuiSvgIcon-colorError-6",
-          "colorPrimary": "MuiSvgIcon-colorPrimary-7",
+          "colorPrimary": "MuiSvgIcon-colorPrimary-2",
+          "colorSecondary": "MuiSvgIcon-colorSecondary-3",
           "root": "MuiSvgIcon-root-1",
         }
       }
@@ -551,7 +540,7 @@ exports[`RangeIcon should match snapshot 1`] = `
 `;
 
 exports[`SelectedIcon should match snapshot 1`] = `
-<SelectedIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -584,7 +573,6 @@ exports[`SelectedIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-caret-right fa-w-6 "
-      data-fa-processed=""
       data-icon="caret-right"
       data-prefix="fas"
       role="img"
@@ -599,11 +587,11 @@ exports[`SelectedIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</SelectedIcon>
+</Component>
 `;
 
 exports[`SlotIcon should match snapshot 1`] = `
-<SlotIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -636,7 +624,6 @@ exports[`SlotIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-file-alt fa-w-12 "
-      data-fa-processed=""
       data-icon="file-alt"
       data-prefix="fas"
       role="img"
@@ -651,11 +638,11 @@ exports[`SlotIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</SlotIcon>
+</Component>
 `;
 
 exports[`StyleIcon should match snapshot 1`] = `
-<StyleIcon>
+<Component>
   <FontAwesomeIcon$1
     border={false}
     className=""
@@ -688,7 +675,6 @@ exports[`StyleIcon should match snapshot 1`] = `
     <svg
       aria-hidden="true"
       className="svg-inline--fa fa-briefcase fa-w-16 "
-      data-fa-processed=""
       data-icon="briefcase"
       data-prefix="fas"
       role="img"
@@ -703,5 +689,5 @@ exports[`StyleIcon should match snapshot 1`] = `
       />
     </svg>
   </FontAwesomeIcon$1>
-</StyleIcon>
+</Component>
 `;
