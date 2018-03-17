@@ -10,7 +10,7 @@ import merge from "lodash/merge";
 const generateClassName = createGenerateClassName();
 const jss = create(jssPreset());
 
-export const createSATheme = (opts: {}) =>
+export const createSATheme = (opts?: {}) =>
   createMuiTheme(merge(defaultTheme, opts));
 
 export const SAThemeProvider = MuiThemeProvider;
