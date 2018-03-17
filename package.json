@@ -25,8 +25,14 @@
     "@storybook/addon-actions": "^3.2.12",
     "@storybook/addon-info": "^3.3.8",
     "@storybook/addon-links": "^3.2.12",
+    "@storybook/addon-storyshots": "^3.3.15",
     "@storybook/cli": "^3.2.12",
-    "@storybook/react": "^3.2.12",
+    "@storybook/react": "^3.3.15",
+    "@types/jest": "^22.2.0",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-test-renderer": "^16.0.1",
+    "@types/storybook__react": "^3.0.7",
+    "awesome-typescript-loader": "^4.0.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.1.0",
@@ -37,13 +43,15 @@
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
     "enzyme-to-json": "^3.1.2",
-    "jest": "^22.1.1",
+    "jest": "^22.4.2",
     "jest-enzyme": "^4.0.1",
     "prettier": "^1.10.2",
     "react": "16.2.0",
-    "react-dom": "16.2.0",
+    "react-dom": "^16.2.0",
     "react-jss": "^8.2.1",
-    "react-test-renderer": "^16.0.0"
+    "react-test-renderer": "^16.2.0",
+    "ts-jest": "^22.4.1",
+    "typescript": "^2.7.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.2",
@@ -64,11 +72,23 @@
       "./jest/setup.js"
     ],
     "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
     "testPathIgnorePatterns": [
       "/lib"
+    ],
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
     ]
   }
 }
