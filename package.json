@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.3.15",
-    "@storybook/addon-info": "^3.3.15",
     "@storybook/addon-links": "^3.3.15",
     "@storybook/addon-storyshots": "^3.3.15",
     "@storybook/cli": "^3.3.15",

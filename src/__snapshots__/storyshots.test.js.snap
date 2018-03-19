@@ -1,0 +1,2207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Flat Buttons 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root-16 MuiButton-root-1"
+    disabled={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Default
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </button>,
+  <button
+    className="MuiButtonBase-root-16 MuiButton-root-1 MuiButton-flatPrimary-3"
+    disabled={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Primary
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </button>,
+  <button
+    className="MuiButtonBase-root-16 MuiButton-root-1 MuiButton-flatSecondary-4"
+    disabled={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Accent
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </button>,
+  <button
+    className="MuiButtonBase-root-16 MuiButtonBase-disabled-17 MuiButton-root-1 MuiButton-disabled-10"
+    disabled={true}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="-1"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Disabled
+    </span>
+  </button>,
+  <a
+    className="MuiButtonBase-root-16 MuiButton-root-1"
+    href="#flat-buttons"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Link
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </a>,
+  <a
+    className="MuiButtonBase-root-16 MuiButtonBase-disabled-17 MuiButton-root-1 MuiButton-disabled-10"
+    href="/"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="-1"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Link disabled
+    </span>
+  </a>,
+  <button
+    className="MuiButtonBase-root-16 MuiButton-root-1"
+    dense={true}
+    disabled={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Dense
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </button>,
+  <button
+    className="MuiButtonBase-root-16 MuiButton-root-1"
+    data-something="here I am"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex="0"
+    type="button"
+  >
+    <span
+      className="MuiButton-label-2"
+    >
+      Triggers an action
+    </span>
+    <span
+      className="MuiTouchRipple-root-19"
+    />
+  </button>,
+]
+`;
+
+exports[`Storyshots Colors all 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "float": "left",
+        "margin": "6px",
+        "width": "150px",
+      }
+    }
+  >
+    <h3>
+      red
+    </h3>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffebee",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      50
+       
+      <small>
+         - 
+        #ffebee
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffcdd2",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      100
+       
+      <small>
+         - 
+        #ffcdd2
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ef9a9a",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      200
+       
+      <small>
+         - 
+        #ef9a9a
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#e57373",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      300
+       
+      <small>
+         - 
+        #e57373
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ef5350",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      400
+       
+      <small>
+         - 
+        #ef5350
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#f44336",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      500
+       
+      <small>
+         - 
+        #f44336
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#e53935",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      600
+       
+      <small>
+         - 
+        #e53935
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#d32f2f",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      700
+       
+      <small>
+         - 
+        #d32f2f
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#c62828",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      800
+       
+      <small>
+         - 
+        #c62828
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#b71c1c",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      900
+       
+      <small>
+         - 
+        #b71c1c
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff8a80",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A100
+       
+      <small>
+         - 
+        #ff8a80
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff5252",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A200
+       
+      <small>
+         - 
+        #ff5252
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff1744",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A400
+       
+      <small>
+         - 
+        #ff1744
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#d50000",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A700
+       
+      <small>
+         - 
+        #d50000
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#f44336",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      main
+       
+      <small>
+         - 
+        #f44336
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#e57373",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      light
+       
+      <small>
+         - 
+        #e57373
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#d32f2f",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      dark
+       
+      <small>
+         - 
+        #d32f2f
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      contrastText
+       
+      <small>
+         - 
+        #fff
+      </small>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "float": "left",
+        "margin": "6px",
+        "width": "150px",
+      }
+    }
+  >
+    <h3>
+      lightBlue
+    </h3>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#e1f5fe",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      50
+       
+      <small>
+         - 
+        #e1f5fe
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#b3e5fc",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      100
+       
+      <small>
+         - 
+        #b3e5fc
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#81d4fa",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      200
+       
+      <small>
+         - 
+        #81d4fa
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#4fc3f7",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      300
+       
+      <small>
+         - 
+        #4fc3f7
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#29b6f6",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      400
+       
+      <small>
+         - 
+        #29b6f6
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#03a9f4",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      500
+       
+      <small>
+         - 
+        #03a9f4
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#039be5",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      600
+       
+      <small>
+         - 
+        #039be5
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#0288d1",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      700
+       
+      <small>
+         - 
+        #0288d1
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#0277bd",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      800
+       
+      <small>
+         - 
+        #0277bd
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#01579b",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      900
+       
+      <small>
+         - 
+        #01579b
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#80d8ff",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A100
+       
+      <small>
+         - 
+        #80d8ff
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#40c4ff",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A200
+       
+      <small>
+         - 
+        #40c4ff
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#00b0ff",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A400
+       
+      <small>
+         - 
+        #00b0ff
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#0091ea",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A700
+       
+      <small>
+         - 
+        #0091ea
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#03a9f4",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      main
+       
+      <small>
+         - 
+        #03a9f4
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#4fc3f7",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      light
+       
+      <small>
+         - 
+        #4fc3f7
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#0288d1",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      dark
+       
+      <small>
+         - 
+        #0288d1
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.87)",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      contrastText
+       
+      <small>
+         - 
+        rgba(0, 0, 0, 0.87)
+      </small>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "float": "left",
+        "margin": "6px",
+        "width": "150px",
+      }
+    }
+  >
+    <h3>
+      blueGrey
+    </h3>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#eceff1",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      50
+       
+      <small>
+         - 
+        #eceff1
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#cfd8dc",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      100
+       
+      <small>
+         - 
+        #cfd8dc
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#b0bec5",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      200
+       
+      <small>
+         - 
+        #b0bec5
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#90a4ae",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      300
+       
+      <small>
+         - 
+        #90a4ae
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#78909c",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      400
+       
+      <small>
+         - 
+        #78909c
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#607d8b",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      500
+       
+      <small>
+         - 
+        #607d8b
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#546e7a",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      600
+       
+      <small>
+         - 
+        #546e7a
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#455a64",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      700
+       
+      <small>
+         - 
+        #455a64
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#37474f",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      800
+       
+      <small>
+         - 
+        #37474f
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#263238",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      900
+       
+      <small>
+         - 
+        #263238
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#cfd8dc",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A100
+       
+      <small>
+         - 
+        #cfd8dc
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#b0bec5",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A200
+       
+      <small>
+         - 
+        #b0bec5
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#78909c",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A400
+       
+      <small>
+         - 
+        #78909c
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#455a64",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A700
+       
+      <small>
+         - 
+        #455a64
+      </small>
+    </div>
+  </div>,
+  <div
+    style={
+      Object {
+        "float": "left",
+        "margin": "6px",
+        "width": "150px",
+      }
+    }
+  >
+    <h3>
+      orange
+    </h3>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff3e0",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      50
+       
+      <small>
+         - 
+        #fff3e0
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffe0b2",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      100
+       
+      <small>
+         - 
+        #ffe0b2
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffcc80",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      200
+       
+      <small>
+         - 
+        #ffcc80
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffb74d",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      300
+       
+      <small>
+         - 
+        #ffb74d
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffa726",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      400
+       
+      <small>
+         - 
+        #ffa726
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff9800",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      500
+       
+      <small>
+         - 
+        #ff9800
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fb8c00",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      600
+       
+      <small>
+         - 
+        #fb8c00
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#f57c00",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      700
+       
+      <small>
+         - 
+        #f57c00
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ef6c00",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      800
+       
+      <small>
+         - 
+        #ef6c00
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#e65100",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      900
+       
+      <small>
+         - 
+        #e65100
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffd180",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A100
+       
+      <small>
+         - 
+        #ffd180
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffab40",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A200
+       
+      <small>
+         - 
+        #ffab40
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff9100",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A400
+       
+      <small>
+         - 
+        #ff9100
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff6d00",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      A700
+       
+      <small>
+         - 
+        #ff6d00
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff9100",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      main
+       
+      <small>
+         - 
+        #ff9100
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ffab40",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      light
+       
+      <small>
+         - 
+        #ffab40
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#ff6d00",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      dark
+       
+      <small>
+         - 
+        #ff6d00
+      </small>
+    </div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.87)",
+          "display": "block",
+          "padding": "10px",
+        }
+      }
+    >
+      contrastText
+       
+      <small>
+         - 
+        rgba(0, 0, 0, 0.87)
+      </small>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Icons Entire List 1`] = `
+<div
+  className="Component-container-0-2-1"
+>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19.5 20h-19c-0.276 0-0.5-0.224-0.5-0.5v-19c0-0.232 0.159-0.433 0.385-0.487s0.458 0.056 0.562 0.263l1 2c0.123 0.247 0.023 0.547-0.224 0.671s-0.547 0.023-0.671-0.224l-0.053-0.106v16.382h16.382l-0.106-0.053c-0.247-0.123-0.347-0.424-0.224-0.671s0.424-0.347 0.671-0.224l2 1c0.207 0.104 0.316 0.336 0.263 0.562s-0.255 0.385-0.487 0.385z"
+      />
+      <path
+        d="M17 4.5c0-0.827-0.673-1.5-1.5-1.5s-1.5 0.673-1.5 1.5c0 0.48 0.227 0.908 0.579 1.182l-2.106 6.318c-0.28 0.005-0.541 0.087-0.764 0.226l-2.792-2.234c0.054-0.154 0.084-0.32 0.084-0.493 0-0.827-0.673-1.5-1.5-1.5s-1.5 0.673-1.5 1.5c0 0.404 0.161 0.77 0.421 1.040l-1.736 3.472c-0.061-0.008-0.122-0.012-0.185-0.012-0.827 0-1.5 0.673-1.5 1.5s0.673 1.5 1.5 1.5 1.5-0.673 1.5-1.5c0-0.404-0.161-0.77-0.421-1.040l1.736-3.472c0.061 0.008 0.122 0.012 0.185 0.012 0.29 0 0.562-0.083 0.791-0.227l2.792 2.234c-0.054 0.154-0.084 0.32-0.084 0.493 0 0.827 0.673 1.5 1.5 1.5s1.5-0.673 1.5-1.5c0-0.48-0.227-0.908-0.579-1.183l2.106-6.318c0.814-0.015 1.473-0.681 1.473-1.499zM15.5 4c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM7.5 9c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM4.5 16c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 14c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z"
+      />
+    </svg>
+    <code>
+      &lt;GraphIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19.5 20h-19c-0.276 0-0.5-0.224-0.5-0.5v-19c0-0.232 0.159-0.433 0.385-0.487s0.458 0.056 0.562 0.263l1 2c0.123 0.247 0.023 0.547-0.224 0.671s-0.547 0.023-0.671-0.224l-0.053-0.106v16.382h16.382l-0.106-0.053c-0.247-0.123-0.347-0.424-0.224-0.671s0.424-0.347 0.671-0.224l2 1c0.207 0.104 0.316 0.336 0.263 0.562s-0.255 0.385-0.487 0.385z"
+      />
+      <path
+        d="M17 4.5c0-0.827-0.673-1.5-1.5-1.5s-1.5 0.673-1.5 1.5c0 0.48 0.227 0.908 0.579 1.182l-2.106 6.318c-0.28 0.005-0.541 0.087-0.764 0.226l-2.792-2.234c0.054-0.154 0.084-0.32 0.084-0.493 0-0.827-0.673-1.5-1.5-1.5s-1.5 0.673-1.5 1.5c0 0.404 0.161 0.77 0.421 1.040l-1.736 3.472c-0.061-0.008-0.122-0.012-0.185-0.012-0.827 0-1.5 0.673-1.5 1.5s0.673 1.5 1.5 1.5 1.5-0.673 1.5-1.5c0-0.404-0.161-0.77-0.421-1.040l1.736-3.472c0.061 0.008 0.122 0.012 0.185 0.012 0.29 0 0.562-0.083 0.791-0.227l2.792 2.234c-0.054 0.154-0.084 0.32-0.084 0.493 0 0.827 0.673 1.5 1.5 1.5s1.5-0.673 1.5-1.5c0-0.48-0.227-0.908-0.579-1.183l2.106-6.318c0.814-0.015 1.473-0.681 1.473-1.499zM15.5 4c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM7.5 9c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5-0.5-0.224-0.5-0.5 0.224-0.5 0.5-0.5zM4.5 16c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5zM12.5 14c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5 0.5 0.224 0.5 0.5-0.224 0.5-0.5 0.5z"
+      />
+    </svg>
+    <code>
+      &lt;GraphIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M3.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M3.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M3.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+    </svg>
+    <code>
+      &lt;GridIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M3.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M3.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M3.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M10.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M17.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+      />
+    </svg>
+    <code>
+      &lt;GridIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M10.5 0h-2c-0.827 0-1.5 0.673-1.5 1.5v0.586c-0.157-0.056-0.325-0.086-0.5-0.086h-5c-0.827 0-1.5 0.673-1.5 1.5v15c0 0.827 0.673 1.5 1.5 1.5h5c0.384 0 0.734-0.145 1-0.383 0.266 0.238 0.616 0.383 1 0.383h2c0.827 0 1.5-0.673 1.5-1.5v-17c0-0.827-0.673-1.5-1.5-1.5zM6.5 19h-5c-0.276 0-0.5-0.224-0.5-0.5v-15c0-0.276 0.224-0.5 0.5-0.5h5c0.276 0 0.5 0.224 0.5 0.5v15c0 0.276-0.224 0.5-0.5 0.5zM11 18.5c0 0.276-0.224 0.5-0.5 0.5h-2c-0.276 0-0.5-0.224-0.5-0.5v-17c0-0.276 0.224-0.5 0.5-0.5h2c0.276 0 0.5 0.224 0.5 0.5v17z"
+      />
+      <path
+        d="M5.5 6h-2.859c-0.276 0-0.5-0.224-0.5-0.5s0.224-0.5 0.5-0.5h2.859c0.276 0 0.5 0.224 0.5 0.5s-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M18.61 19.623l-2.978 0.366c-0.821 0.101-1.571-0.485-1.672-1.306l-1.95-15.881c-0.101-0.821 0.485-1.571 1.306-1.672l2.978-0.366c0.821-0.101 1.571 0.485 1.672 1.306l1.95 15.881c0.101 0.821-0.485 1.571-1.306 1.672zM13.439 2.123c-0.274 0.034-0.469 0.284-0.435 0.557l1.95 15.881c0.034 0.274 0.284 0.469 0.557 0.435l2.978-0.366c0.274-0.034 0.469-0.284 0.435-0.557l-1.95-15.881c-0.034-0.274-0.284-0.469-0.557-0.435l-2.978 0.366z"
+      />
+      <path
+        d="M15.79 4.857l-0.993 0.122c-0.274 0.034-0.524-0.161-0.557-0.435s0.161-0.524 0.435-0.557l0.993-0.122c0.274-0.034 0.524 0.161 0.557 0.435s-0.161 0.524-0.435 0.557z"
+      />
+    </svg>
+    <code>
+      &lt;LibraryIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M2.5 20c-0.276 0-0.5-0.224-0.5-0.5v-8c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v8c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M2.5 6c-0.276 0-0.5-0.224-0.5-0.5v-5c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v5c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M3.5 10h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM1.5 8c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M9.5 20c-0.276 0-0.5-0.224-0.5-0.5v-4c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v4c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M9.5 10c-0.276 0-0.5-0.224-0.5-0.5v-9c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v9c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M10.5 14h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM8.5 12c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M16.5 20c-0.276 0-0.5-0.224-0.5-0.5v-10c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v10c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M16.5 4c-0.276 0-0.5-0.224-0.5-0.5v-3c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v3c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M17.5 8h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM15.5 6c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+    </svg>
+    <code>
+      &lt;GraphIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root-1 Component-icon-0-2-3"
+      color={undefined}
+      focusable="false"
+      size="2x"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M2.5 20c-0.276 0-0.5-0.224-0.5-0.5v-8c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v8c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M2.5 6c-0.276 0-0.5-0.224-0.5-0.5v-5c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v5c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M3.5 10h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM1.5 8c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M9.5 20c-0.276 0-0.5-0.224-0.5-0.5v-4c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v4c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M9.5 10c-0.276 0-0.5-0.224-0.5-0.5v-9c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v9c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M10.5 14h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM8.5 12c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+      <path
+        d="M16.5 20c-0.276 0-0.5-0.224-0.5-0.5v-10c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v10c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M16.5 4c-0.276 0-0.5-0.224-0.5-0.5v-3c0-0.276 0.224-0.5 0.5-0.5s0.5 0.224 0.5 0.5v3c0 0.276-0.224 0.5-0.5 0.5z"
+      />
+      <path
+        d="M17.5 8h-2c-0.827 0-1.5-0.673-1.5-1.5s0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5s-0.673 1.5-1.5 1.5zM15.5 6c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-2z"
+      />
+    </svg>
+    <code>
+      &lt;GraphIcon /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-lightbulb fa-w-12 fa-2x Component-icon-0-2-3"
+      data-icon="lightbulb"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 384 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M272 428v28c0 10.449-6.68 19.334-16 22.629V488c0 13.255-10.745 24-24 24h-80c-13.255 0-24-10.745-24-24v-9.371c-9.32-3.295-16-12.18-16-22.629v-28c0-6.627 5.373-12 12-12h136c6.627 0 12 5.373 12 12zm-143.107-44c-9.907 0-18.826-6.078-22.376-15.327C67.697 267.541 16 277.731 16 176 16 78.803 94.805 0 192 0s176 78.803 176 176c0 101.731-51.697 91.541-90.516 192.673-3.55 9.249-12.47 15.327-22.376 15.327H128.893zM112 176c0-44.112 35.888-80 80-80 8.837 0 16-7.164 16-16s-7.163-16-16-16c-61.757 0-112 50.243-112 112 0 8.836 7.164 16 16 16s16-7.164 16-16z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-file-alt fa-w-12 fa-2x Component-icon-0-2-3"
+      data-icon="file-alt"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 384 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-image fa-w-16 fa-2x Component-icon-0-2-3"
+      data-icon="image"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M464 448H48c-26.51 0-48-21.49-48-48V112c0-26.51 21.49-48 48-48h416c26.51 0 48 21.49 48 48v288c0 26.51-21.49 48-48 48zM112 120c-30.928 0-56 25.072-56 56s25.072 56 56 56 56-25.072 56-56-25.072-56-56-56zM64 384h384V272l-87.515-87.515c-4.686-4.686-12.284-4.686-16.971 0L208 320l-55.515-55.515c-4.686-4.686-12.284-4.686-16.971 0L64 336v48z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-briefcase fa-w-16 fa-2x Component-icon-0-2-3"
+      data-icon="briefcase"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M320 288h192v144c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V288h192v20c0 6.627 5.373 12 12 12h104c6.627 0 12-5.373 12-12v-20zm192-112v80H0v-80c0-26.51 21.49-48 48-48h80V80c0-26.51 21.49-48 48-48h160c26.51 0 48 21.49 48 48v48h80c26.51 0 48 21.49 48 48zM320 96H192v32h128V96z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-folder fa-w-16 fa-2x Component-icon-0-2-3"
+      data-icon="folder"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-building fa-w-14 fa-2x Component-icon-0-2-3"
+      data-icon="building"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M436 480h-20V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v456H12c-6.627 0-12 5.373-12 12v20h448v-20c0-6.627-5.373-12-12-12zM128 76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76zm0 96c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40zm52 148h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12zm76 160h-64v-84c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v84zm64-172c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+  <div
+    className="Component-item-0-2-2"
+  >
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-caret-right fa-w-6 fa-2x Component-icon-0-2-3"
+      data-icon="caret-right"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 192 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <code>
+      &lt;Component /&gt;
+    </code>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Logo 200x200 1`] = `
+<svg
+  className={undefined}
+  height={undefined}
+  viewBox="0 0 640 480"
+  width={200}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Style Atlas Logo
+  </title>
+  <g
+    data-name="Layer 2"
+    id="Layer_2"
+  >
+    <path
+      d="M366.28,209.57a35.14,35.14,0,0,1-1.7,11.44,26.81,26.81,0,0,1-4.4,8.27,18.91,18.91,0,0,1-6,5,14.64,14.64,0,0,1-6.72,1.7,17.27,17.27,0,0,1-9.74-2.86,27,27,0,0,1-7-6.42,14,14,0,0,0-2.16,4.33,30,30,0,0,0-1.24,4.79h-1.39v-40.5h1.39q.31,5.1,1.16,11.82a62.94,62.94,0,0,0,2.94,12.75,28.51,28.51,0,0,0,6,10.2,13.06,13.06,0,0,0,10,4.17,10.4,10.4,0,0,0,8.27-4.25q3.48-4.25,3.48-14.61A30.68,30.68,0,0,0,356.69,203a62.76,62.76,0,0,0-6.11-10.82,120.6,120.6,0,0,0-7.88-10q-4.25-4.87-7.88-10a61.12,61.12,0,0,1-6.1-10.67,29.71,29.71,0,0,1-2.47-12.21,35.6,35.6,0,0,1,1.39-10.12,28.75,28.75,0,0,1,3.71-8.11,18,18,0,0,1,5.49-5.33,12.7,12.7,0,0,1,6.72-1.93,14.6,14.6,0,0,1,7.65,2.09,21,21,0,0,1,6,5.33,13.36,13.36,0,0,0,2.24-3.09,33.4,33.4,0,0,0,1.78-3.86h1.08v36.63h-1.55a80.77,80.77,0,0,0-1.31-12.52,51.42,51.42,0,0,0-3.4-11.44,28.74,28.74,0,0,0-5.33-8.35,9.56,9.56,0,0,0-7.11-3.25,8.29,8.29,0,0,0-4.64,1.31,11,11,0,0,0-3.32,3.4,16.91,16.91,0,0,0-2,4.71,20.46,20.46,0,0,0-.7,5.26,28.27,28.27,0,0,0,2.47,11.9,60.79,60.79,0,0,0,6.18,10.51q3.71,5.1,8,10.2a115.72,115.72,0,0,1,8,10.67,61.32,61.32,0,0,1,6.18,12A39.48,39.48,0,0,1,366.28,209.57Z"
+    />
+    <path
+      d="M416.51,160.88a85.45,85.45,0,0,0-.85-11.9,57.53,57.53,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.9,8.9,0,0,0-6.8-3h-2.94V232.91h7.73v1.55h-25.5v-1.55h7.73V127.18h-2.94a8.88,8.88,0,0,0-6.72,3.09,22.44,22.44,0,0,0-4.56,8,57.25,57.25,0,0,0-2.55,10.82,83.42,83.42,0,0,0-.85,11.82h-1.7V125.32h48.69v35.55Z"
+    />
+    <path
+      d="M468.6,127.18,453.3,183v49.93h7.11v1.55H436.3v-1.55h7.26V184.84l-16.38-57.66h-6.34v-1.85H444v1.85h-6.18l14.22,53.17,14.22-53.17h-6.8v-1.85h15.77v1.85Z"
+    />
+    <path
+      d="M476.79,234.45v-1.55h7V127.18h-7v-1.85h24.11v1.85h-6.8V232.91h5.1q9.43,0,14.76-8.73t5.33-25.58h1.39v35.86Z"
+    />
+    <path
+      d="M567.84,160.88h-1.7a85.45,85.45,0,0,0-.85-11.9,57.53,57.53,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.9,8.9,0,0,0-6.8-3h-10.2v50.24h2.94a7.94,7.94,0,0,0,5-1.62,11.75,11.75,0,0,0,3.4-4.48,26,26,0,0,0,1.93-6.65,50.67,50.67,0,0,0,.62-8.11h1.55v44.83h-1.55a54.14,54.14,0,0,0-.62-8.19,31.3,31.3,0,0,0-1.93-7.19,14.31,14.31,0,0,0-3.4-5.1,7.14,7.14,0,0,0-5-1.93h-2.94v53.95h7.26a18.21,18.21,0,0,0,8.12-1.78,15.26,15.26,0,0,0,6.18-5.87,34.56,34.56,0,0,0,4-11,83.59,83.59,0,0,0,1.47-17.08H570v37.25H524.4v-1.55H531V127.18H524.4v-1.85h43.43Z"
+    />
+    <path
+      d="M354.68,354.68v-1.55H361l-6.65-32.92H334l-6.65,32.92h7.42v1.55H318.82v-1.55h6.49l22.26-110.52h1.08l23.19,110.52h6.34v1.55Zm-10-87.49-10.36,51.32h19.63Z"
+    />
+    <path
+      d="M419.76,281.1a85.45,85.45,0,0,0-.85-11.9,57.43,57.43,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.91,8.91,0,0,0-6.8-3h-2.94V353.13h7.73v1.55h-25.5v-1.55h7.73V247.4h-2.94a8.88,8.88,0,0,0-6.72,3.09,22.42,22.42,0,0,0-4.56,8,57.25,57.25,0,0,0-2.55,10.82,83.42,83.42,0,0,0-.85,11.82h-1.7V245.55h48.69V281.1Z"
+    />
+    <path
+      d="M426.1,354.68v-1.55h7V247.4h-7v-1.86h24.11v1.86h-6.8V353.13h5.1q9.43,0,14.76-8.73t5.33-25.58H470v35.86Z"
+    />
+    <path
+      d="M503.38,354.68v-1.55h6.34l-6.65-32.92h-20.4L476,353.13h7.42v1.55H467.52v-1.55H474l22.26-110.52h1.08l23.19,110.52h6.34v1.55Zm-10-87.49L483,318.51h19.63Z"
+    />
+    <path
+      d="M569.38,329.79a35.14,35.14,0,0,1-1.7,11.44,26.8,26.8,0,0,1-4.4,8.27,18.91,18.91,0,0,1-6,5,14.64,14.64,0,0,1-6.72,1.7,17.27,17.27,0,0,1-9.74-2.86,27,27,0,0,1-7-6.41,14,14,0,0,0-2.16,4.33,30,30,0,0,0-1.24,4.79H529v-40.5h1.39q.31,5.1,1.16,11.82a62.94,62.94,0,0,0,2.94,12.75,28.51,28.51,0,0,0,6,10.2,13.06,13.06,0,0,0,10,4.17,10.4,10.4,0,0,0,8.27-4.25q3.48-4.25,3.48-14.61a30.68,30.68,0,0,0-2.47-12.44,62.77,62.77,0,0,0-6.11-10.82,120.53,120.53,0,0,0-7.88-10q-4.25-4.87-7.88-10a61.12,61.12,0,0,1-6.1-10.67,29.71,29.71,0,0,1-2.47-12.21,35.6,35.6,0,0,1,1.39-10.12,28.75,28.75,0,0,1,3.71-8.12,18,18,0,0,1,5.49-5.33,12.7,12.7,0,0,1,6.72-1.93,14.6,14.6,0,0,1,7.65,2.09,21,21,0,0,1,6,5.33,13.36,13.36,0,0,0,2.24-3.09,33.45,33.45,0,0,0,1.78-3.86h1.08V281.1h-1.55a80.79,80.79,0,0,0-1.31-12.52,51.43,51.43,0,0,0-3.4-11.44,28.73,28.73,0,0,0-5.33-8.35,9.56,9.56,0,0,0-7.11-3.25,8.29,8.29,0,0,0-4.64,1.31,11,11,0,0,0-3.32,3.4,16.9,16.9,0,0,0-2,4.71,20.46,20.46,0,0,0-.7,5.26,28.27,28.27,0,0,0,2.47,11.9,60.77,60.77,0,0,0,6.18,10.51q3.71,5.1,8,10.2a115.72,115.72,0,0,1,8,10.67,61.3,61.3,0,0,1,6.18,12A39.48,39.48,0,0,1,569.38,329.79Z"
+    />
+    <path
+      d="M185.31,124.8A115.31,115.31,0,1,0,300.62,240.11,115.44,115.44,0,0,0,185.31,124.8Zm86.06,62.51c4.94,8.05,4.74,19-.56,31.52a.63.63,0,0,1-.58.38h-.11a.63.63,0,0,1-.52-.58,111.1,111.1,0,0,0-7.32-34.07c-.7-1.79-1.51-3.64-2.54-5.82a.63.63,0,0,1,.85-.83A25.45,25.45,0,0,1,271.37,187.31Zm-22.24,63.11a.63.63,0,0,1-.46.2l-.15,0a.63.63,0,0,1-.46-.44,205.14,205.14,0,0,0-13.47-34.51A199,199,0,0,0,210.47,178a.63.63,0,0,1,.33-1,110.86,110.86,0,0,1,26.76-3.62,62,62,0,0,1,15.34,1.78.63.63,0,0,1,.39.3,91.14,91.14,0,0,1,5,10.68,109.33,109.33,0,0,1,7.22,42.82.63.63,0,0,1-.09.31l-.32.54c-.22.37-.44.74-.68,1.12A127.74,127.74,0,0,1,249.13,250.42Zm15-5.36a135.07,135.07,0,0,1-3.73,17.06,133,133,0,0,1-5.67,15.76.63.63,0,0,1-.58.38H254a.63.63,0,0,1-.53-.56,151.94,151.94,0,0,0-3.12-18.56.63.63,0,0,1,.17-.59,151.84,151.84,0,0,0,12.43-14,.63.63,0,0,1,1.12.48ZM121.48,229.8a.63.63,0,0,1,1.06.26A204.92,204.92,0,0,0,136,264.56a198.86,198.86,0,0,0,24.13,37.69.63.63,0,0,1-.33,1,110.8,110.8,0,0,1-26.76,3.62A61.61,61.61,0,0,1,117.33,305a.63.63,0,0,1-.39-.31c-8.29-15.32-12.37-33.82-11.8-53.5a.64.64,0,0,1,.09-.31l.33-.56c.2-.33.4-.66.61-1A127.78,127.78,0,0,1,121.48,229.8ZM106.64,235A131.67,131.67,0,0,1,116,202.89a.64.64,0,0,1,.67-.37.63.63,0,0,1,.53.55,152.46,152.46,0,0,0,3.07,18,.63.63,0,0,1-.17.59,152,152,0,0,0-12.29,13.8.63.63,0,0,1-1.12-.49Zm16.5-44.71c0-.29,0-.57,0-.84v-.56a.63.63,0,0,1,.09-.31,113.82,113.82,0,0,1,21.8-26.94,93.4,93.4,0,0,1,17.32-12.35.63.63,0,0,1,.5,0c10.88,3.58,22.73,11.83,34.27,23.86a.63.63,0,0,1-.25,1,199.83,199.83,0,0,0-40.36,19.1,205,205,0,0,0-29.74,22.08.63.63,0,0,1-1-.35A127.8,127.8,0,0,1,123.15,190.27ZM142,261.58a195.27,195.27,0,0,1-14.21-37.68.63.63,0,0,1,.18-.61A195.29,195.29,0,0,1,160,198.92a193.32,193.32,0,0,1,42.31-19.55.63.63,0,0,1,.67.19,192.48,192.48,0,0,1,25.59,39.08,195.4,195.4,0,0,1,14.21,37.68.63.63,0,0,1-.18.61,195.23,195.23,0,0,1-32.05,24.37,193.4,193.4,0,0,1-42.3,19.56l-.19,0a.63.63,0,0,1-.48-.22A192.51,192.51,0,0,1,142,261.58Zm31.29,45a.63.63,0,0,1,.41-.45A199.86,199.86,0,0,0,214.08,287a205.17,205.17,0,0,0,29.74-22.08.63.63,0,0,1,1,.35A127.66,127.66,0,0,1,247.47,290c0,.5,0,1,0,1.48v.63a.63.63,0,0,1-.09.31,113.79,113.79,0,0,1-21.79,26.92A93.79,93.79,0,0,1,209,331.2a.63.63,0,0,1-.31.08l-.19,0c-11.11-3.44-23.23-11.78-35.06-24.11A.63.63,0,0,1,173.31,306.56ZM240,151.21a.63.63,0,0,1,.84-.16,105.4,105.4,0,0,1,23.33,19.82.63.63,0,0,1-.75,1,47,47,0,0,0-9-3.25.63.63,0,0,1-.37-.27,76.6,76.6,0,0,0-13.93-16.27A.63.63,0,0,1,240,151.21Zm-26.33-8.94c13.18,3.81,24.83,12.08,33.68,23.92a.63.63,0,0,1-.58,1,76.74,76.74,0,0,0-9.2-.55,121,121,0,0,0-32.21,4.86l-.17,0a.63.63,0,0,1-.46-.2c-10.54-11.56-21.79-20.38-32.51-25.51a.63.63,0,0,1,0-1.15C186.28,139.24,200.49,138.46,213.66,142.27Zm-58.36-2.74a105,105,0,0,1,30-4.36h1.18a.63.63,0,0,1,.09,1.25,77.53,77.53,0,0,0-21,6.46.63.63,0,0,1-.27.06.62.62,0,0,1-.2,0,46.65,46.65,0,0,0-9.66-2.16.63.63,0,0,1-.11-1.23Zm-14.87,10.14a24.37,24.37,0,0,1,10.93-2.45,31.71,31.71,0,0,1,3.53.22.63.63,0,0,1,.27,1.16,99.9,99.9,0,0,0-12.95,9.86,114.86,114.86,0,0,0-17,19.23.63.63,0,0,1-1.14-.46C126.21,163.45,131.86,153.92,140.44,149.66ZM88.5,279.37h-.11a.63.63,0,0,1-.58-.4,105.18,105.18,0,0,1,4.27-87.09,105.91,105.91,0,0,1,31.24-36.46.63.63,0,0,1,.91.83c-5.17,8.61-7.79,20.05-7.79,34,0,.3,0,.61,0,.92s0,.42,0,.63a.63.63,0,0,1-.07.3,136.27,136.27,0,0,0-15.16,52.34.63.63,0,0,1-.1.29l-.31.47-.35.54c-7.43,11.84-11.29,22.95-11.47,33A.63.63,0,0,1,88.5,279.37Zm10.75,13.54c-4.94-8.05-4.74-19,.57-31.54a.63.63,0,0,1,1.21.21,109.25,109.25,0,0,0,9.52,39.74.63.63,0,0,1-.86.82A25.3,25.3,0,0,1,99.25,292.91Zm29.22,34.75a.63.63,0,0,1-.84.13,105.5,105.5,0,0,1-21.17-18.43.63.63,0,0,1,.75-1,46.94,46.94,0,0,0,8.63,3.15.63.63,0,0,1,.37.27,78.83,78.83,0,0,0,12.2,15A.63.63,0,0,1,128.46,327.65ZM173.85,341a61,61,0,0,1-16.9-2.38c-13.41-3.87-25.23-12.4-34.18-24.66a.63.63,0,0,1,.59-1,76.17,76.17,0,0,0,9.69.6,121,121,0,0,0,32.21-4.86.63.63,0,0,1,.63.18c10.8,11.84,22.32,20.78,33.3,25.87a.63.63,0,0,1,0,1.15A68.25,68.25,0,0,1,173.85,341Zm41.45-.32A105,105,0,0,1,188.06,345h0a.63.63,0,0,1-.13-1.24,79.28,79.28,0,0,0,18-6.16.63.63,0,0,1,.46,0,45.91,45.91,0,0,0,8.84,1.89.63.63,0,0,1,.11,1.23Zm14.87-10.14A24.37,24.37,0,0,1,219.24,333c-.8,0-1.66,0-2.64-.12a.63.63,0,0,1-.29-1.15,100.39,100.39,0,0,0,12.08-9.28,114.94,114.94,0,0,0,16.87-19,.63.63,0,0,1,1.13.47C244.18,317.16,238.57,326.39,230.17,330.56Zm17.12-5.77a.63.63,0,0,1-.91-.83c5.17-8.61,7.79-20.05,7.78-34,0-.16,0-.31,0-.47s0-.29,0-.43a.63.63,0,0,1,.07-.3,136.51,136.51,0,0,0,15.22-53.11.63.63,0,0,1,.1-.29l.26-.4.32-.49c7.44-11.85,11.3-23,11.47-33a.63.63,0,0,1,1.21-.22,105.19,105.19,0,0,1-4.27,87.1A105.89,105.89,0,0,1,247.3,324.79Z"
+    />
+    <path
+      d="M261.81,133.42v8.27h-1.19v-8.27H258v-1.11h6.48v1.11Zm12.11,8.27v-7.76l-3.2,7.76h-.34l-3.2-7.76v7.76H266v-9.38h1.83l2.73,6.82,2.73-6.82h1.83v9.38Z"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Storyshots Logo 800x800 1`] = `
+<svg
+  className={undefined}
+  height={undefined}
+  viewBox="0 0 640 480"
+  width={800}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>
+    Style Atlas Logo
+  </title>
+  <g
+    data-name="Layer 2"
+    id="Layer_2"
+  >
+    <path
+      d="M366.28,209.57a35.14,35.14,0,0,1-1.7,11.44,26.81,26.81,0,0,1-4.4,8.27,18.91,18.91,0,0,1-6,5,14.64,14.64,0,0,1-6.72,1.7,17.27,17.27,0,0,1-9.74-2.86,27,27,0,0,1-7-6.42,14,14,0,0,0-2.16,4.33,30,30,0,0,0-1.24,4.79h-1.39v-40.5h1.39q.31,5.1,1.16,11.82a62.94,62.94,0,0,0,2.94,12.75,28.51,28.51,0,0,0,6,10.2,13.06,13.06,0,0,0,10,4.17,10.4,10.4,0,0,0,8.27-4.25q3.48-4.25,3.48-14.61A30.68,30.68,0,0,0,356.69,203a62.76,62.76,0,0,0-6.11-10.82,120.6,120.6,0,0,0-7.88-10q-4.25-4.87-7.88-10a61.12,61.12,0,0,1-6.1-10.67,29.71,29.71,0,0,1-2.47-12.21,35.6,35.6,0,0,1,1.39-10.12,28.75,28.75,0,0,1,3.71-8.11,18,18,0,0,1,5.49-5.33,12.7,12.7,0,0,1,6.72-1.93,14.6,14.6,0,0,1,7.65,2.09,21,21,0,0,1,6,5.33,13.36,13.36,0,0,0,2.24-3.09,33.4,33.4,0,0,0,1.78-3.86h1.08v36.63h-1.55a80.77,80.77,0,0,0-1.31-12.52,51.42,51.42,0,0,0-3.4-11.44,28.74,28.74,0,0,0-5.33-8.35,9.56,9.56,0,0,0-7.11-3.25,8.29,8.29,0,0,0-4.64,1.31,11,11,0,0,0-3.32,3.4,16.91,16.91,0,0,0-2,4.71,20.46,20.46,0,0,0-.7,5.26,28.27,28.27,0,0,0,2.47,11.9,60.79,60.79,0,0,0,6.18,10.51q3.71,5.1,8,10.2a115.72,115.72,0,0,1,8,10.67,61.32,61.32,0,0,1,6.18,12A39.48,39.48,0,0,1,366.28,209.57Z"
+    />
+    <path
+      d="M416.51,160.88a85.45,85.45,0,0,0-.85-11.9,57.53,57.53,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.9,8.9,0,0,0-6.8-3h-2.94V232.91h7.73v1.55h-25.5v-1.55h7.73V127.18h-2.94a8.88,8.88,0,0,0-6.72,3.09,22.44,22.44,0,0,0-4.56,8,57.25,57.25,0,0,0-2.55,10.82,83.42,83.42,0,0,0-.85,11.82h-1.7V125.32h48.69v35.55Z"
+    />
+    <path
+      d="M468.6,127.18,453.3,183v49.93h7.11v1.55H436.3v-1.55h7.26V184.84l-16.38-57.66h-6.34v-1.85H444v1.85h-6.18l14.22,53.17,14.22-53.17h-6.8v-1.85h15.77v1.85Z"
+    />
+    <path
+      d="M476.79,234.45v-1.55h7V127.18h-7v-1.85h24.11v1.85h-6.8V232.91h5.1q9.43,0,14.76-8.73t5.33-25.58h1.39v35.86Z"
+    />
+    <path
+      d="M567.84,160.88h-1.7a85.45,85.45,0,0,0-.85-11.9,57.53,57.53,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.9,8.9,0,0,0-6.8-3h-10.2v50.24h2.94a7.94,7.94,0,0,0,5-1.62,11.75,11.75,0,0,0,3.4-4.48,26,26,0,0,0,1.93-6.65,50.67,50.67,0,0,0,.62-8.11h1.55v44.83h-1.55a54.14,54.14,0,0,0-.62-8.19,31.3,31.3,0,0,0-1.93-7.19,14.31,14.31,0,0,0-3.4-5.1,7.14,7.14,0,0,0-5-1.93h-2.94v53.95h7.26a18.21,18.21,0,0,0,8.12-1.78,15.26,15.26,0,0,0,6.18-5.87,34.56,34.56,0,0,0,4-11,83.59,83.59,0,0,0,1.47-17.08H570v37.25H524.4v-1.55H531V127.18H524.4v-1.85h43.43Z"
+    />
+    <path
+      d="M354.68,354.68v-1.55H361l-6.65-32.92H334l-6.65,32.92h7.42v1.55H318.82v-1.55h6.49l22.26-110.52h1.08l23.19,110.52h6.34v1.55Zm-10-87.49-10.36,51.32h19.63Z"
+    />
+    <path
+      d="M419.76,281.1a85.45,85.45,0,0,0-.85-11.9,57.43,57.43,0,0,0-2.55-10.9,22.31,22.31,0,0,0-4.48-7.88,8.91,8.91,0,0,0-6.8-3h-2.94V353.13h7.73v1.55h-25.5v-1.55h7.73V247.4h-2.94a8.88,8.88,0,0,0-6.72,3.09,22.42,22.42,0,0,0-4.56,8,57.25,57.25,0,0,0-2.55,10.82,83.42,83.42,0,0,0-.85,11.82h-1.7V245.55h48.69V281.1Z"
+    />
+    <path
+      d="M426.1,354.68v-1.55h7V247.4h-7v-1.86h24.11v1.86h-6.8V353.13h5.1q9.43,0,14.76-8.73t5.33-25.58H470v35.86Z"
+    />
+    <path
+      d="M503.38,354.68v-1.55h6.34l-6.65-32.92h-20.4L476,353.13h7.42v1.55H467.52v-1.55H474l22.26-110.52h1.08l23.19,110.52h6.34v1.55Zm-10-87.49L483,318.51h19.63Z"
+    />
+    <path
+      d="M569.38,329.79a35.14,35.14,0,0,1-1.7,11.44,26.8,26.8,0,0,1-4.4,8.27,18.91,18.91,0,0,1-6,5,14.64,14.64,0,0,1-6.72,1.7,17.27,17.27,0,0,1-9.74-2.86,27,27,0,0,1-7-6.41,14,14,0,0,0-2.16,4.33,30,30,0,0,0-1.24,4.79H529v-40.5h1.39q.31,5.1,1.16,11.82a62.94,62.94,0,0,0,2.94,12.75,28.51,28.51,0,0,0,6,10.2,13.06,13.06,0,0,0,10,4.17,10.4,10.4,0,0,0,8.27-4.25q3.48-4.25,3.48-14.61a30.68,30.68,0,0,0-2.47-12.44,62.77,62.77,0,0,0-6.11-10.82,120.53,120.53,0,0,0-7.88-10q-4.25-4.87-7.88-10a61.12,61.12,0,0,1-6.1-10.67,29.71,29.71,0,0,1-2.47-12.21,35.6,35.6,0,0,1,1.39-10.12,28.75,28.75,0,0,1,3.71-8.12,18,18,0,0,1,5.49-5.33,12.7,12.7,0,0,1,6.72-1.93,14.6,14.6,0,0,1,7.65,2.09,21,21,0,0,1,6,5.33,13.36,13.36,0,0,0,2.24-3.09,33.45,33.45,0,0,0,1.78-3.86h1.08V281.1h-1.55a80.79,80.79,0,0,0-1.31-12.52,51.43,51.43,0,0,0-3.4-11.44,28.73,28.73,0,0,0-5.33-8.35,9.56,9.56,0,0,0-7.11-3.25,8.29,8.29,0,0,0-4.64,1.31,11,11,0,0,0-3.32,3.4,16.9,16.9,0,0,0-2,4.71,20.46,20.46,0,0,0-.7,5.26,28.27,28.27,0,0,0,2.47,11.9,60.77,60.77,0,0,0,6.18,10.51q3.71,5.1,8,10.2a115.72,115.72,0,0,1,8,10.67,61.3,61.3,0,0,1,6.18,12A39.48,39.48,0,0,1,569.38,329.79Z"
+    />
+    <path
+      d="M185.31,124.8A115.31,115.31,0,1,0,300.62,240.11,115.44,115.44,0,0,0,185.31,124.8Zm86.06,62.51c4.94,8.05,4.74,19-.56,31.52a.63.63,0,0,1-.58.38h-.11a.63.63,0,0,1-.52-.58,111.1,111.1,0,0,0-7.32-34.07c-.7-1.79-1.51-3.64-2.54-5.82a.63.63,0,0,1,.85-.83A25.45,25.45,0,0,1,271.37,187.31Zm-22.24,63.11a.63.63,0,0,1-.46.2l-.15,0a.63.63,0,0,1-.46-.44,205.14,205.14,0,0,0-13.47-34.51A199,199,0,0,0,210.47,178a.63.63,0,0,1,.33-1,110.86,110.86,0,0,1,26.76-3.62,62,62,0,0,1,15.34,1.78.63.63,0,0,1,.39.3,91.14,91.14,0,0,1,5,10.68,109.33,109.33,0,0,1,7.22,42.82.63.63,0,0,1-.09.31l-.32.54c-.22.37-.44.74-.68,1.12A127.74,127.74,0,0,1,249.13,250.42Zm15-5.36a135.07,135.07,0,0,1-3.73,17.06,133,133,0,0,1-5.67,15.76.63.63,0,0,1-.58.38H254a.63.63,0,0,1-.53-.56,151.94,151.94,0,0,0-3.12-18.56.63.63,0,0,1,.17-.59,151.84,151.84,0,0,0,12.43-14,.63.63,0,0,1,1.12.48ZM121.48,229.8a.63.63,0,0,1,1.06.26A204.92,204.92,0,0,0,136,264.56a198.86,198.86,0,0,0,24.13,37.69.63.63,0,0,1-.33,1,110.8,110.8,0,0,1-26.76,3.62A61.61,61.61,0,0,1,117.33,305a.63.63,0,0,1-.39-.31c-8.29-15.32-12.37-33.82-11.8-53.5a.64.64,0,0,1,.09-.31l.33-.56c.2-.33.4-.66.61-1A127.78,127.78,0,0,1,121.48,229.8ZM106.64,235A131.67,131.67,0,0,1,116,202.89a.64.64,0,0,1,.67-.37.63.63,0,0,1,.53.55,152.46,152.46,0,0,0,3.07,18,.63.63,0,0,1-.17.59,152,152,0,0,0-12.29,13.8.63.63,0,0,1-1.12-.49Zm16.5-44.71c0-.29,0-.57,0-.84v-.56a.63.63,0,0,1,.09-.31,113.82,113.82,0,0,1,21.8-26.94,93.4,93.4,0,0,1,17.32-12.35.63.63,0,0,1,.5,0c10.88,3.58,22.73,11.83,34.27,23.86a.63.63,0,0,1-.25,1,199.83,199.83,0,0,0-40.36,19.1,205,205,0,0,0-29.74,22.08.63.63,0,0,1-1-.35A127.8,127.8,0,0,1,123.15,190.27ZM142,261.58a195.27,195.27,0,0,1-14.21-37.68.63.63,0,0,1,.18-.61A195.29,195.29,0,0,1,160,198.92a193.32,193.32,0,0,1,42.31-19.55.63.63,0,0,1,.67.19,192.48,192.48,0,0,1,25.59,39.08,195.4,195.4,0,0,1,14.21,37.68.63.63,0,0,1-.18.61,195.23,195.23,0,0,1-32.05,24.37,193.4,193.4,0,0,1-42.3,19.56l-.19,0a.63.63,0,0,1-.48-.22A192.51,192.51,0,0,1,142,261.58Zm31.29,45a.63.63,0,0,1,.41-.45A199.86,199.86,0,0,0,214.08,287a205.17,205.17,0,0,0,29.74-22.08.63.63,0,0,1,1,.35A127.66,127.66,0,0,1,247.47,290c0,.5,0,1,0,1.48v.63a.63.63,0,0,1-.09.31,113.79,113.79,0,0,1-21.79,26.92A93.79,93.79,0,0,1,209,331.2a.63.63,0,0,1-.31.08l-.19,0c-11.11-3.44-23.23-11.78-35.06-24.11A.63.63,0,0,1,173.31,306.56ZM240,151.21a.63.63,0,0,1,.84-.16,105.4,105.4,0,0,1,23.33,19.82.63.63,0,0,1-.75,1,47,47,0,0,0-9-3.25.63.63,0,0,1-.37-.27,76.6,76.6,0,0,0-13.93-16.27A.63.63,0,0,1,240,151.21Zm-26.33-8.94c13.18,3.81,24.83,12.08,33.68,23.92a.63.63,0,0,1-.58,1,76.74,76.74,0,0,0-9.2-.55,121,121,0,0,0-32.21,4.86l-.17,0a.63.63,0,0,1-.46-.2c-10.54-11.56-21.79-20.38-32.51-25.51a.63.63,0,0,1,0-1.15C186.28,139.24,200.49,138.46,213.66,142.27Zm-58.36-2.74a105,105,0,0,1,30-4.36h1.18a.63.63,0,0,1,.09,1.25,77.53,77.53,0,0,0-21,6.46.63.63,0,0,1-.27.06.62.62,0,0,1-.2,0,46.65,46.65,0,0,0-9.66-2.16.63.63,0,0,1-.11-1.23Zm-14.87,10.14a24.37,24.37,0,0,1,10.93-2.45,31.71,31.71,0,0,1,3.53.22.63.63,0,0,1,.27,1.16,99.9,99.9,0,0,0-12.95,9.86,114.86,114.86,0,0,0-17,19.23.63.63,0,0,1-1.14-.46C126.21,163.45,131.86,153.92,140.44,149.66ZM88.5,279.37h-.11a.63.63,0,0,1-.58-.4,105.18,105.18,0,0,1,4.27-87.09,105.91,105.91,0,0,1,31.24-36.46.63.63,0,0,1,.91.83c-5.17,8.61-7.79,20.05-7.79,34,0,.3,0,.61,0,.92s0,.42,0,.63a.63.63,0,0,1-.07.3,136.27,136.27,0,0,0-15.16,52.34.63.63,0,0,1-.1.29l-.31.47-.35.54c-7.43,11.84-11.29,22.95-11.47,33A.63.63,0,0,1,88.5,279.37Zm10.75,13.54c-4.94-8.05-4.74-19,.57-31.54a.63.63,0,0,1,1.21.21,109.25,109.25,0,0,0,9.52,39.74.63.63,0,0,1-.86.82A25.3,25.3,0,0,1,99.25,292.91Zm29.22,34.75a.63.63,0,0,1-.84.13,105.5,105.5,0,0,1-21.17-18.43.63.63,0,0,1,.75-1,46.94,46.94,0,0,0,8.63,3.15.63.63,0,0,1,.37.27,78.83,78.83,0,0,0,12.2,15A.63.63,0,0,1,128.46,327.65ZM173.85,341a61,61,0,0,1-16.9-2.38c-13.41-3.87-25.23-12.4-34.18-24.66a.63.63,0,0,1,.59-1,76.17,76.17,0,0,0,9.69.6,121,121,0,0,0,32.21-4.86.63.63,0,0,1,.63.18c10.8,11.84,22.32,20.78,33.3,25.87a.63.63,0,0,1,0,1.15A68.25,68.25,0,0,1,173.85,341Zm41.45-.32A105,105,0,0,1,188.06,345h0a.63.63,0,0,1-.13-1.24,79.28,79.28,0,0,0,18-6.16.63.63,0,0,1,.46,0,45.91,45.91,0,0,0,8.84,1.89.63.63,0,0,1,.11,1.23Zm14.87-10.14A24.37,24.37,0,0,1,219.24,333c-.8,0-1.66,0-2.64-.12a.63.63,0,0,1-.29-1.15,100.39,100.39,0,0,0,12.08-9.28,114.94,114.94,0,0,0,16.87-19,.63.63,0,0,1,1.13.47C244.18,317.16,238.57,326.39,230.17,330.56Zm17.12-5.77a.63.63,0,0,1-.91-.83c5.17-8.61,7.79-20.05,7.78-34,0-.16,0-.31,0-.47s0-.29,0-.43a.63.63,0,0,1,.07-.3,136.51,136.51,0,0,0,15.22-53.11.63.63,0,0,1,.1-.29l.26-.4.32-.49c7.44-11.85,11.3-23,11.47-33a.63.63,0,0,1,1.21-.22,105.19,105.19,0,0,1-4.27,87.1A105.89,105.89,0,0,1,247.3,324.79Z"
+    />
+    <path
+      d="M261.81,133.42v8.27h-1.19v-8.27H258v-1.11h6.48v1.11Zm12.11,8.27v-7.76l-3.2,7.76h-.34l-3.2-7.76v7.76H266v-9.38h1.83l2.73,6.82,2.73-6.82h1.83v9.38Z"
+    />
+  </g>
+</svg>
+`;
+
+exports[`Storyshots Sidebar Default 1`] = `
+<ul
+  className="MuiList-root-11 Component-sidebarRoot-8 MuiList-padding-12"
+>
+  <div>
+    <div
+      className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-folder fa-w-16 MuiListItemIcon-root-32 Component-sidebarIcon-18"
+        data-icon="folder"
+        data-prefix="fas"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M464 128H272l-64-64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <div
+        className="MuiListItemText-root-33"
+      >
+        <h3
+          className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-15"
+        >
+          All Saints
+        </h3>
+      </div>
+      <span
+        className="MuiTouchRipple-root-63"
+      />
+    </div>
+    <hr
+      className="MuiDivider-root-70 Component-divider-17"
+    />
+  </div>
+  <div>
+    <div
+      className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root-74 MuiListItemIcon-root-32 Component-sidebarIcon-18"
+        color={undefined}
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M3.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M10.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M17.5 19h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 15c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M3.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M10.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M17.5 12h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 8c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M3.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM1.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M10.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM8.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+        <path
+          d="M17.5 5h-2c-0.827 0-1.5-0.673-1.5-1.5v-2c0-0.827 0.673-1.5 1.5-1.5h2c0.827 0 1.5 0.673 1.5 1.5v2c0 0.827-0.673 1.5-1.5 1.5zM15.5 1c-0.276 0-0.5 0.224-0.5 0.5v2c0 0.276 0.224 0.5 0.5 0.5h2c0.276 0 0.5-0.224 0.5-0.5v-2c0-0.276-0.224-0.5-0.5-0.5h-2z"
+        />
+      </svg>
+      <div
+        className="MuiListItemText-root-33"
+      >
+        <h3
+          className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-15"
+        >
+          Winter 2019
+        </h3>
+      </div>
+      <span
+        className="MuiTouchRipple-root-63"
+      />
+    </div>
+    <hr
+      className="MuiDivider-root-70 Component-divider-17"
+    />
+  </div>
+  <div>
+    <div
+      className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-file-alt fa-w-12 MuiListItemIcon-root-32 Component-sidebarIcon-18"
+        data-icon="file-alt"
+        data-prefix="fas"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 384 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm64 236c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-64c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12v8zm0-72v8c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-8c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm96-114.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+      <div
+        className="MuiListItemText-root-33"
+      >
+        <h3
+          className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-15"
+        >
+          #8jf0m302
+        </h3>
+      </div>
+      <span
+        className="MuiTouchRipple-root-63"
+      />
+    </div>
+    <hr
+      className="MuiDivider-root-70 Component-divider-17"
+    />
+  </div>
+  <div
+    className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="MuiListItemText-root-33"
+    >
+      <h3
+        className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-80"
+      >
+        Details
+      </h3>
+    </div>
+    <span
+      className="MuiTouchRipple-root-63"
+    />
+  </div>
+  <div
+    className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="MuiListItemText-root-33"
+    >
+      <h3
+        className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-80"
+      >
+        Designs
+      </h3>
+    </div>
+    <svg
+      aria-hidden="true"
+      className="svg-inline--fa fa-caret-right fa-w-6 Component-sidebarIcon-83"
+      data-icon="caret-right"
+      data-prefix="fas"
+      role="img"
+      style={Object {}}
+      viewBox="0 0 192 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+        fill="currentColor"
+        style={Object {}}
+      />
+    </svg>
+    <span
+      className="MuiTouchRipple-root-63"
+    />
+  </div>
+  <div
+    className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="MuiListItemText-root-33"
+    >
+      <h3
+        className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-80"
+      >
+        Construction
+      </h3>
+    </div>
+    <span
+      className="MuiTouchRipple-root-63"
+    />
+  </div>
+  <div
+    className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="MuiListItemText-root-33"
+    >
+      <h3
+        className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-80"
+      >
+        Materials
+      </h3>
+    </div>
+    <span
+      className="MuiTouchRipple-root-63"
+    />
+  </div>
+  <div
+    className="MuiButtonBase-root-29 MuiListItem-root-19 MuiListItem-default-22 MuiListItem-gutters-26 MuiListItem-button-27"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <div
+      className="MuiListItemText-root-33"
+    >
+      <h3
+        className="MuiTypography-root-39 MuiTypography-subheading-46 MuiListItemText-primary-36 Component-sidebarText-80"
+      >
+        Discussion
+      </h3>
+    </div>
+    <span
+      className="MuiTouchRipple-root-63"
+    />
+  </div>
+</ul>
+`;

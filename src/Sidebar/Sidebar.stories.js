@@ -3,7 +3,6 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 import { linkTo } from "@storybook/addon-links";
-import { withInfo } from "@storybook/addon-info";
 
 import { RangeIcon, SlotIcon, LabelIcon, SelectedIcon } from "../Icon";
 
@@ -13,7 +12,7 @@ const handleItemClick = action("Sidebar item clicked");
 
 storiesOf("Sidebar", module).add(
   "Default",
-  withInfo("")(() => (
+  () => (
     <Sidebar>
       <SidebarSegment
         icon={<LabelIcon />}
@@ -36,5 +35,5 @@ storiesOf("Sidebar", module).add(
       <SidebarItem text="Materials" onClick={handleItemClick} />
       <SidebarItem text="Discussion" onClick={handleItemClick} />
     </Sidebar>
-  ))
+  )
 );

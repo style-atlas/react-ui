@@ -13,8 +13,7 @@ storiesOf("Button", module).add("Flat Buttons", () => (
   <UIProvider>
     <Button>Default</Button>
     <Button color="primary">Primary</Button>
-    <Button color="accent">Accent</Button>
-    <Button color="contrast">Contrast</Button>
+    <Button color="secondary">Accent</Button>
     <Button disabled>Disabled</Button>
     <Button href="#flat-buttons">Link</Button>
     <Button disabled href="/">
@@ -22,7 +21,7 @@ storiesOf("Button", module).add("Flat Buttons", () => (
     </Button>
     <Button dense>Dense</Button>
     <Button onClick={doSomething} data-something="here I am">
-      Does something
+      Triggers an action
     </Button>
   </UIProvider>
 ));
