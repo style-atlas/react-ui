@@ -1347,6 +1347,35 @@ Array [
 ]
 `;
 
+exports[`Storyshots Grid Beautiful 1`] = `
+Array [
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+  <span>
+    Wow
+  </span>,
+]
+`;
+
 exports[`Storyshots Icons Entire List 1`] = `
 <div
   className="Component-container-0-2-1"
